@@ -1,0 +1,12 @@
+[INFO ] Loading ROM from extract/ger/config.yaml
+[INFO ] Function at 0x0200e4ac was adjusted to include pre-code constant pool at 0x0200e498
+[WARN ] Local function call from 0x02002744 in ARM9 main to 0x02024b58 goes to middle of function 'func_02024b48' at 0x02024b48, adding an external label symbol
+[WARN ] Local function call from 0x02002854 in ARM9 main to 0x02024b58 goes to middle of function 'func_02024b48' at 0x02024b48, adding an external label symbol
+[WARN ] Local function call from 0x020028c8 in ARM9 main to 0x02024b58 goes to middle of function 'func_02024b48' at 0x02024b48, adding an external label symbol
+[WARN ] Local function call from 0x02002918 in ARM9 main to 0x02024b58 goes to middle of function 'func_02024b48' at 0x02024b48, adding an external label symbol
+[WARN ] Local function call from 0x02018614 in ARM9 main to 0x02024d14 goes to middle of function 'func_02024d08' at 0x02024d08, adding an external label symbol
+[WARN ] Local function call from 0x0201c6b8 in ARM9 main to 0x02024d14 goes to middle of function 'func_02024d08' at 0x02024d08, adding an external label symbol
+[WARN ] Local function call from 0x020215e8 in ARM9 main to 0x02024d14 goes to middle of function 'func_02024d08' at 0x02024d08, adding an external label symbol
+[WARN ] Local function call from 0x02024d38 in ARM9 main to 0x02024f84 goes to middle of function 'func_02024f7c' at 0x02024f7c, adding an external label symbol
+[INFO ] Function at 0x021fa908 was adjusted to include pre-code constant pool at 0x021fa8f8
+[INFO ] Function at 0x021fa908 was adjusted to include pre-code constant pool at 0x021fa8f8
