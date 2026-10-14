@@ -1,0 +1,19 @@
+#include "m2c.h"
+
+M2C_UNK func_02009978(void *, M2C_UNK, s32);        /* extern */
+s32 func_0204757c();                                /* extern */
+void *func_0204cb64(M2C_UNK, s32);                  /* extern */
+extern M2C_UNK data_0210e648;
+
+s32 func_020478a0(s32 arg0, s32 arg1) {
+    void *temp_r0;
+
+    M2C_FIELD(&data_0210e648, void **, 4) = func_0204cb64(1, func_0204757c());
+    temp_r0 = func_0204cb64(1, 0x794);
+    M2C_FIELD(&data_0210e648, void **, 0) = temp_r0;
+    func_02009978(temp_r0, 0, 0x794);
+    M2C_FIELD(M2C_FIELD(&data_0210e648, void **, 0), s32 *, 0) = arg0;
+    M2C_FIELD(M2C_FIELD(&data_0210e648, void **, 0), s32 *, 0x790) = arg1;
+    M2C_FIELD(&data_0210e648, s32 *, 8) = 0;
+    return 1;
+}
