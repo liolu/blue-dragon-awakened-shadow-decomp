@@ -10,7 +10,8 @@ s32 func_020a67d8(void) {
     if (func_020a6770() == 0) {
         return 1;
     }
-    if ((func_ov000_021d8058(data_ov000_021f6260, 0) != 0) && (func_ov000_021d8058(data_ov000_021f6260, 1) == 0) && (func_ov000_021d8058(data_ov000_021f6260, 2) == 0)) {
+    if ((func_ov000_021d8058(data_ov000_021f6260, 0) != 0) && (func_ov000_021d8058(data_ov000_021f6260, 1) == 0) &&
+        (func_ov000_021d8058(data_ov000_021f6260, 2) == 0)) {
         return 1;
     }
     func_ov000_021d2228();

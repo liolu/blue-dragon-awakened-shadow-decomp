@@ -7,8 +7,8 @@ s32 func_02046bec(s32 arg0) {
     u32 var_r3;
 
     temp_r1 = 0x20 - arg0;
-    var_r3 = -1U;
-    var_r0 = 0;
+    var_r3  = -1U;
+    var_r0  = 0;
     if (temp_r1 > 0) {
         do {
             var_r0 += 1;

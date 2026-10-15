@@ -11,8 +11,8 @@ s32 *func_020acdb4(s32 *arg0) {
 
     func_020ace00();
     func_0207d4cc(*arg0);
-    *arg0 = 0;
-    temp_r1 = data_0216633c - 1;
+    *arg0         = 0;
+    temp_r1       = data_0216633c - 1;
     data_0216633c = temp_r1;
     if (temp_r1 <= 0) {
         func_0207cea4(&data_0216634c);

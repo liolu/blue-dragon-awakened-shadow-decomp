@@ -12,7 +12,7 @@ void func_0208c834(void *arg0) {
     } else {
         var_r1 = M2C_FIELD(var_r2, void **, 4);
         if (var_r1 != NULL) {
-loop_3:
+        loop_3:
             if (var_r1 == arg0) {
                 M2C_FIELD(var_r2, void **, 4) = (void *) M2C_FIELD(arg0, void **, 4);
             } else {
@@ -24,6 +24,6 @@ loop_3:
             }
         }
     }
-    M2C_FIELD(arg0, void **, 4) = NULL;
+    M2C_FIELD(arg0, void **, 4)  = NULL;
     M2C_FIELD(arg0, s32 *, 0x18) = 0;
 }

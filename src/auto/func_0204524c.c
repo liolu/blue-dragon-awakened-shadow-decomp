@@ -11,12 +11,12 @@ s32 func_0204524c(void) {
     var_r4 = func_02044a60();
     func_020449a8(0x10);
     switch (var_r4) {                               /* irregular */
-    case 7:
-        var_r4 = func_02045290();
-        break;
-    case 8:
-        var_r4 = func_02045388();
-        break;
+        case 7:
+            var_r4 = func_02045290();
+            break;
+        case 8:
+            var_r4 = func_02045388();
+            break;
     }
     return var_r4;
 }

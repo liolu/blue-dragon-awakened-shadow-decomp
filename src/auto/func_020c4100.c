@@ -14,5 +14,5 @@ void func_020c4100(s32 arg0) {
         return;
     }
     temp_r3 = arg0 * 0xC;
-    func_020d2e48(arg0, *((M2C_UNK *)((s8 *)&data_02101050 + temp_r3)), *((M2C_UNK *)((s8 *)&data_02101054 + temp_r3)));
+    func_020d2e48(arg0, *((M2C_UNK *) ((s8 *) &data_02101050 + temp_r3)), *((M2C_UNK *) ((s8 *) &data_02101054 + temp_r3)));
 }

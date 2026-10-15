@@ -13,6 +13,6 @@ void func_02099acc(void *arg0) {
         var_r4 += 1;
         var_r5 += 0x38;
     } while (var_r4 < 2);
-    M2C_FIELD(arg0, s32 *, 0) = 0;
+    M2C_FIELD(arg0, s32 *, 0)    = 0;
     M2C_FIELD(arg0, s16 *, 0x74) = -1;
 }

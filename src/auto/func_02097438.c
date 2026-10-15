@@ -8,7 +8,7 @@ void func_02097438(void *arg0, s32 arg1) {
     void *temp_r2;
 
     temp_ip = M2C_FIELD(arg0, s8 *, 0xAA);
-    var_r3 = 0;
+    var_r3  = 0;
     if ((s32) temp_ip <= 0) {
         return;
     }

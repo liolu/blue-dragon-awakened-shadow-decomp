@@ -1,5 +1,5 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 void func_0204a640(M2C_UNK);
 
@@ -14,7 +14,7 @@ void func_02048cb8(void) {
         return;
     }
     temp_r0 = M2C_FIELD(M2C_FIELD(&data_0210e654, void **, 8), s32 *, 0x1314);
-    temp_r4 = M2C_FIELD(M2C_FIELD(&data_0210e654, void **, 8), M2C_UNK (**)(M2C_UNK *, void *, M2C_UNK), 0x1210);
+    temp_r4 = M2C_FIELD(M2C_FIELD(&data_0210e654, void **, 8), M2C_UNK(**)(M2C_UNK *, void *, M2C_UNK), 0x1210);
     if (temp_r0 != 0) {
         func_0204a640(temp_r0);
     }

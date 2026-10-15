@@ -22,7 +22,7 @@ s32 func_020a385c(s32 arg0) {
     do {
         var_r7 = 0;
         var_r9 = var_r8;
-loop_2:
+    loop_2:
         func_0209e41c(var_r9);
         var_r7 += 1;
         var_r9 += 0x14;
@@ -37,7 +37,7 @@ loop_2:
     do {
         var_r7_2 = 0;
         var_r9_2 = var_r8_2;
-loop_6:
+    loop_6:
         func_0209e41c(var_r9_2);
         var_r7_2 += 1;
         var_r9_2 += 0x14;

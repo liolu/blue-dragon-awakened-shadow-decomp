@@ -14,7 +14,7 @@ void func_020918d0(void *arg0) {
         return;
     }
     temp_r0 = M2C_FIELD(arg0, void **, 0x68);
-    var_r5 = M2C_FIELD(data_ov000_021ed664, s32 *, 0x70);
+    var_r5  = M2C_FIELD(data_ov000_021ed664, s32 *, 0x70);
     if (temp_r0 != NULL) {
         var_r5 -= func_02091838(M2C_FIELD(temp_r0, s32 *, 0x334));
     }
@@ -29,9 +29,9 @@ void func_020918d0(void *arg0) {
             var_r2 -= 0x168;
         } while (var_r2 > 0x168);
     }
-    var_r1 = 0;
+    var_r1                        = 0;
     M2C_FIELD(arg0, s32 *, 0x1DC) = 0;
-    var_r0 = 0x2D;
+    var_r0                        = 0x2D;
 loop_9:
     if (var_r0 > (s32) (var_r2 * 8)) {
         M2C_FIELD(arg0, s32 *, 0x1DC) = var_r1;

@@ -12,7 +12,7 @@ void *func_020cad40(void *arg0) {
     s32 temp_r4;
 
     M2C_FIELD(arg0, M2C_UNK **, 0) = &data_02101228;
-    temp_r4 = M2C_FIELD(arg0, s32 *, 8);
+    temp_r4                        = M2C_FIELD(arg0, s32 *, 8);
     func_020afbac(&data_02166810, temp_r4);
     func_020afc28(&data_02166c54, temp_r4);
     func_020da214(arg0 + 0x168);

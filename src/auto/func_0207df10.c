@@ -1,7 +1,7 @@
 #include "m2c.h"
 
 s32 func_0207df10(void) {
-    if (((s32) (*(u16 *)0x027FFFA8 & 0x8000) >> 0xF) != 0) {
+    if (((s32) (*(u16 *) 0x027FFFA8 & 0x8000) >> 0xF) != 0) {
         return 1;
     }
     return 0;

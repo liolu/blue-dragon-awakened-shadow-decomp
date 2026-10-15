@@ -16,5 +16,7 @@ void func_0208d308(void *arg0) {
     if (((s32) (temp_r2 & 0x10) <= 0) && (M2C_FIELD(data_ov000_021f6270, u8 *, 0x34) != 0)) {
         return;
     }
-    func_ov000_021bac94(arg0 + 0x28, M2C_FIELD(arg0, s16 *, 0x1C) + M2C_FIELD(arg0, s16 *, 0x4AC), M2C_FIELD(arg0, s16 *, 0x1E) + M2C_FIELD(arg0, s16 *, 0x4B0), (u8) ((s32) (M2C_FIELD(arg0, u8 *, 0x27) & 0x30) >> 4), 0, 0);
+    func_ov000_021bac94(arg0 + 0x28, M2C_FIELD(arg0, s16 *, 0x1C) + M2C_FIELD(arg0, s16 *, 0x4AC),
+                        M2C_FIELD(arg0, s16 *, 0x1E) + M2C_FIELD(arg0, s16 *, 0x4B0),
+                        (u8) ((s32) (M2C_FIELD(arg0, u8 *, 0x27) & 0x30) >> 4), 0, 0);
 }

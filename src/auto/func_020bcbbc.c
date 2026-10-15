@@ -6,7 +6,7 @@ void func_020bcbbc(void *arg0, s32 arg1) {
     s32 temp_r0;
     s32 var_r4;
 
-    var_r4 = arg1;
+    var_r4  = arg1;
     temp_r0 = func_020bcce8();
     if (temp_r0 < var_r4) {
         M2C_FIELD(arg0, s32 *, 0xC) = temp_r0;

@@ -19,35 +19,35 @@ s32 func_02092d28(void *arg0, s32 arg1) {
     if (temp_r0 == arg1) {
         return 0;
     }
-    var_r4 = 0;
+    var_r4                        = 0;
     M2C_FIELD(arg0, s32 *, 0x204) = arg1;
     switch (arg1) {
-    default:
-        break;
-    case 1:
-        func_02091c7c(arg0);
-        var_r4 = *((M2C_UNK *)((s8 *)&data_020fde68 + (M2C_FIELD(arg0, s32 *, 0x6C) * 4)));
-        M2C_FIELD(arg0, s32 *, 0x20C) = 0;
-        break;
-    case 2:
-        var_r4 = *((M2C_UNK *)((s8 *)&data_020fde68 + (M2C_FIELD(arg0, s32 *, 0x6C) * 4)));
-        M2C_FIELD(arg0, s32 *, 0x20C) = 0;
-        break;
-    case 3:
-        var_r4 = *((M2C_UNK *)((s8 *)&data_020fde38 + (M2C_FIELD(arg0, s32 *, 0x6C) * 4)));
-        M2C_FIELD(arg0, s32 *, 0x20C) = 1;
-        break;
-    case 4:
-        var_r4 = *((M2C_UNK *)((s8 *)&data_020fde50 + (M2C_FIELD(arg0, s32 *, 0x6C) * 4)));
-        M2C_FIELD(arg0, s32 *, 0x20C) = 2;
-        break;
-    case 5:
-        if (temp_r0 == 0) {
-            M2C_FIELD(arg0, s32 *, 0x204) = 0;
-        } else {
-            func_02091ec8(arg0);
-        }
-        break;
+        default:
+            break;
+        case 1:
+            func_02091c7c(arg0);
+            var_r4                        = *((M2C_UNK *) ((s8 *) &data_020fde68 + (M2C_FIELD(arg0, s32 *, 0x6C) * 4)));
+            M2C_FIELD(arg0, s32 *, 0x20C) = 0;
+            break;
+        case 2:
+            var_r4                        = *((M2C_UNK *) ((s8 *) &data_020fde68 + (M2C_FIELD(arg0, s32 *, 0x6C) * 4)));
+            M2C_FIELD(arg0, s32 *, 0x20C) = 0;
+            break;
+        case 3:
+            var_r4                        = *((M2C_UNK *) ((s8 *) &data_020fde38 + (M2C_FIELD(arg0, s32 *, 0x6C) * 4)));
+            M2C_FIELD(arg0, s32 *, 0x20C) = 1;
+            break;
+        case 4:
+            var_r4                        = *((M2C_UNK *) ((s8 *) &data_020fde50 + (M2C_FIELD(arg0, s32 *, 0x6C) * 4)));
+            M2C_FIELD(arg0, s32 *, 0x20C) = 2;
+            break;
+        case 5:
+            if (temp_r0 == 0) {
+                M2C_FIELD(arg0, s32 *, 0x204) = 0;
+            } else {
+                func_02091ec8(arg0);
+            }
+            break;
     }
     if (M2C_FIELD(arg0, u8 *, 0x21C) == 0) {
         if ((var_r4 != 0) && (M2C_FIELD(arg0, s32 *, 0x208) != var_r4)) {

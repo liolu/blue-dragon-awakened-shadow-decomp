@@ -10,7 +10,7 @@ void func_020bf684(void *arg0, M2C_UNK arg1) {
     void *temp_r2;
 
     func_020bebb4(arg0, 0, 0, arg1, 1, 2);
-    temp_r2 = M2C_FIELD(arg0, void **, 0x10);
+    temp_r2                       = M2C_FIELD(arg0, void **, 0x10);
     M2C_FIELD(temp_r2, u8 *, 0xC) = (u8) (M2C_FIELD(temp_r2, u8 *, 0xC) & ~4);
     if (func_020bf738(arg0) == 0) {
         return;

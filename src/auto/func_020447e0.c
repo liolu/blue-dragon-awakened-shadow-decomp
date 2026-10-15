@@ -12,5 +12,5 @@ s32 func_020447e0(s32 arg0, M2C_UNK arg1) {
         return 0;
     }
     M2C_FIELD(temp_r0, u8 *, 8) = (u8) (temp_r1 | arg0);
-    return M2C_FIELD(temp_r0, s32 (**)(s32, M2C_UNK), 0)(arg0, arg1);
+    return M2C_FIELD(temp_r0, s32(**)(s32, M2C_UNK), 0)(arg0, arg1);
 }

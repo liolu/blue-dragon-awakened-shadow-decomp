@@ -12,7 +12,7 @@ s32 func_0209825c(void *arg0) {
         func_ov000_021c09a0(&data_ov000_021f4d24);
         M2C_FIELD(arg0, s32 *, 0xC) = -1;
     }
-    temp_r0 = func_ov000_021c0650(&data_ov000_021f4d24, func_ov000_021aff58(arg0), 0);
+    temp_r0                     = func_ov000_021c0650(&data_ov000_021f4d24, func_ov000_021aff58(arg0), 0);
     M2C_FIELD(arg0, s32 *, 0xC) = temp_r0;
     if (temp_r0 != -1) {
         return 1;

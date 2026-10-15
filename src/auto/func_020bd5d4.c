@@ -10,7 +10,7 @@ void func_020bd5d4(s32 *arg0) {
         return;
     }
     temp_r0 = *arg0 - func_ov000_021bec20(&data_ov000_021f4924);
-    *arg0 = temp_r0;
+    *arg0   = temp_r0;
     if (temp_r0 < 0) {
         *arg0 = 0;
     }

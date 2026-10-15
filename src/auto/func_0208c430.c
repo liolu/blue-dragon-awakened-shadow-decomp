@@ -12,7 +12,7 @@ loop_1:
     var_ip = 0;
     var_lr = M2C_FIELD(&data_02164ee4, void **, 4);
     if (M2C_FIELD(&data_02164ee4, void **, 4) != NULL) {
-loop_2:
+    loop_2:
         if (var_r0 == M2C_FIELD(var_lr, s16 *, 0x14)) {
             var_r0 += 1;
             if ((s32) var_r0 >= 0xC8) {

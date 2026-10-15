@@ -26,7 +26,8 @@ void func_020ada74(void *arg0) {
         }
         M2C_FIELD(arg0, s32 *, 4) = var_r0;
     }
-    if (func_ov000_021bb1ec(M2C_FIELD(arg0, s32 *, 4), *((M2C_UNK *)((s8 *)&data_020feab4 + (M2C_FIELD(arg0, s32 *, 0) * 4)))) == 0) {
+    if (func_ov000_021bb1ec(M2C_FIELD(arg0, s32 *, 4),
+                            *((M2C_UNK *) ((s8 *) &data_020feab4 + (M2C_FIELD(arg0, s32 *, 0) * 4)))) == 0) {
         return;
     }
     M2C_FIELD(arg0, s32 *, 8) = func_0207d4e4(func_ov000_021bb268(M2C_FIELD(arg0, s32 *, 4)), 8, 0);

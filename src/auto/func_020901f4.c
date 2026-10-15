@@ -16,7 +16,7 @@ void *func_020901f4(void *arg0) {
     M2C_FIELD(arg0, M2C_UNK **, 0x24) = &data_ov000_021eb568;
     func_02077f14(arg0 + 0x140);
     func_02077f14(arg0 + 0x160);
-    M2C_FIELD(arg0, s8 *, 0x188) = 0;
+    M2C_FIELD(arg0, s8 *, 0x188)  = 0;
     M2C_FIELD(arg0, s32 *, 0x180) = 0;
     M2C_FIELD(arg0, s32 *, 0x184) = 0;
     func_02090934(arg0 + 0x18C);
@@ -24,9 +24,9 @@ void *func_020901f4(void *arg0) {
     if (var_r0 != 0) {
         var_r0 = func_ov000_021ba440();
     }
-    M2C_FIELD(arg0, s32 *, 0) = var_r0;
+    M2C_FIELD(arg0, s32 *, 0)    = var_r0;
     M2C_FIELD(arg0, s8 *, 0x1B4) = 0;
-    data_02164f00 = arg0;
+    data_02164f00                = arg0;
     M2C_FIELD(arg0, s8 *, 0x1B6) = 1;
     return arg0;
 }

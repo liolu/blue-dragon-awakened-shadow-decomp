@@ -14,7 +14,7 @@ void func_0204e870(s32 arg0, s32 arg1) {
     } else {
         func_0204e5fc(0);
     }
-    temp_r3 = M2C_FIELD(data_0210e738, M2C_UNK (**)(s32, s32, s32), 0x70);
+    temp_r3 = M2C_FIELD(data_0210e738, M2C_UNK(**)(s32, s32, s32), 0x70);
     if (temp_r3 == NULL) {
         return;
     }

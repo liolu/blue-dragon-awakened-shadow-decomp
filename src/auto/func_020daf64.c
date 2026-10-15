@@ -14,7 +14,7 @@ void func_020daf64(void *arg0) {
         func_ov000_021ba82c(temp_r4);
         func_0207d4cc(temp_r4);
     }
-    M2C_FIELD(arg0, s32 *, 0) = 0;
-    M2C_FIELD(arg0, s32 *, 8) = 0;
+    M2C_FIELD(arg0, s32 *, 0)   = 0;
+    M2C_FIELD(arg0, s32 *, 8)   = 0;
     M2C_FIELD(arg0, s8 *, 0x44) = 0;
 }

@@ -12,9 +12,9 @@ void func_020d1194(void *arg0, s32 arg1, s32 arg2) {
     }
     if (arg2 != 0) {
         M2C_FIELD(arg0, s32 *, 0) = (s32) (M2C_FIELD(arg0, s32 *, 0) | (1 << arg1));
-        var_r2 = 1 << arg1;
+        var_r2                    = 1 << arg1;
     } else {
-        var_r2 = 1 << arg1;
+        var_r2                    = 1 << arg1;
         M2C_FIELD(arg0, s32 *, 0) = (s32) (M2C_FIELD(arg0, s32 *, 0) & ~(1 << arg1));
     }
     M2C_FIELD(arg0, s32 *, 4) = (s32) (M2C_FIELD(arg0, s32 *, 4) | var_r2);

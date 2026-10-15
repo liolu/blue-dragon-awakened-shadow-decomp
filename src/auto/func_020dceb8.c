@@ -19,6 +19,6 @@ void func_020dceb8(void) {
     if (var_r0 != NULL) {
         var_r0 = func_020dcf20();
     }
-    data_021672c8 = var_r0;
+    data_021672c8                 = var_r0;
     M2C_FIELD(var_r0, s8 *, 0x20) = 1;
 }

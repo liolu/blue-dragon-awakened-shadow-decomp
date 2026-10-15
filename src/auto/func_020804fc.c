@@ -11,14 +11,14 @@ void func_020804fc(void *arg0) {
     s32 var_r3;
     void *var_r0;
 
-    var_r0 = arg0;
-    M2C_FIELD(var_r0, s8 *, 0) = -1;
-    var_r3 = 0;
-    M2C_FIELD(var_r0, s32 *, 4) = -1;
-    M2C_FIELD(var_r0, s8 *, 8) = 0;
+    var_r0                         = arg0;
+    M2C_FIELD(var_r0, s8 *, 0)     = -1;
+    var_r3                         = 0;
+    M2C_FIELD(var_r0, s32 *, 4)    = -1;
+    M2C_FIELD(var_r0, s8 *, 8)     = 0;
     M2C_FIELD(var_r0, s8 *, 0x1FC) = -1;
     do {
-        M2C_FIELD(var_r0, s8 *, 0xC) = -1;
+        M2C_FIELD(var_r0, s8 *, 0xC)   = -1;
         M2C_FIELD(var_r0, s32 *, 0x10) = -1;
         var_r3 += 1;
         M2C_FIELD(var_r0, s8 *, 0x14) = 0;

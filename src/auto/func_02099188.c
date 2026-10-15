@@ -15,6 +15,6 @@ void func_02099188(void *arg0) {
         var_r4 += 1;
         var_r5 += 0x2C;
     } while (var_r4 < 4);
-    M2C_FIELD(arg0, s32 *, 0) = 0;
+    M2C_FIELD(arg0, s32 *, 0)    = 0;
     M2C_FIELD(arg0, s16 *, 0xB4) = -1;
 }

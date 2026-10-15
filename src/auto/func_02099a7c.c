@@ -15,6 +15,6 @@ void func_02099a7c(void *arg0, s32 arg1) {
         M2C_FIELD(var_r3, s8 *, 0x38) = 0;
         var_r3 += 0x38;
     } while (var_r2 < 2);
-    M2C_FIELD(arg0, s32 *, 0) = arg1;
+    M2C_FIELD(arg0, s32 *, 0)    = arg1;
     M2C_FIELD(arg0, s16 *, 0x74) = -1;
 }

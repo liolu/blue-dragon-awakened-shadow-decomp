@@ -8,7 +8,7 @@ void func_020b1920(s32 arg0) {
     var_r0 = arg0;
     if (var_r0 > 0) {
         var_r1 = 0;
-loop_2:
+    loop_2:
         if (var_r0 < 0x168000) {
             return;
         }

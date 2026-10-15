@@ -10,7 +10,7 @@ s32 func_020d9b14(void *arg0) {
     }
     temp_r0_2 = M2C_FIELD(temp_r0, void ***, 0x18);
     if (temp_r0_2 != NULL) {
-        M2C_FIELD(*temp_r0_2, M2C_UNK (**)(void **, s32), 0x138)(temp_r0_2, M2C_FIELD(arg0, s32 *, 4));
+        M2C_FIELD(*temp_r0_2, M2C_UNK(**)(void **, s32), 0x138)(temp_r0_2, M2C_FIELD(arg0, s32 *, 4));
     }
     return 1;
 }

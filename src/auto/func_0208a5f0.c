@@ -18,8 +18,8 @@ void func_0208a5f0(void) {
     if (M2C_FIELD(&data_0216636c, s8 *, 0xA4) != M2C_FIELD(&data_0216636c, s8 *, 0xA7)) {
         func_020826a0(data_02164e04, M2C_FIELD(&data_0216636c, s32 *, 0xA0), 0x1F4);
         M2C_FIELD(&data_0216636c, s32 *, 0xA0) = 0;
-        M2C_FIELD(&data_0216636c, s8 *, 0xA7) = 0;
-        M2C_FIELD(&data_0216636c, s8 *, 0xA4) = 0;
+        M2C_FIELD(&data_0216636c, s8 *, 0xA7)  = 0;
+        M2C_FIELD(&data_0216636c, s8 *, 0xA4)  = 0;
         func_020afe04(&data_02166c54);
         func_020b050c(&data_021667d0);
     }

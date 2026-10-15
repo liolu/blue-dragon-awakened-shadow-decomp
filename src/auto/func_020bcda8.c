@@ -1,5 +1,3 @@
 #include "m2c.h"
 
-void func_020bcda8(void) {
-
-}
+void func_020bcda8(void) {}

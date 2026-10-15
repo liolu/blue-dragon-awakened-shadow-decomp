@@ -3,5 +3,6 @@
 extern M2C_UNK data_021654bc;
 
 void func_02093374(M2C_UNK arg0) {
-    M2C_FIELD(*M2C_FIELD(&data_021654bc, void ***, 8), M2C_UNK (**)(void **, M2C_UNK), 0x40)(M2C_FIELD(&data_021654bc, void ***, 8), arg0);
+    M2C_FIELD(*M2C_FIELD(&data_021654bc, void ***, 8), M2C_UNK(**)(void **, M2C_UNK),
+              0x40)(M2C_FIELD(&data_021654bc, void ***, 8), arg0);
 }

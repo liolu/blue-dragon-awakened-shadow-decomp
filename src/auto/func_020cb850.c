@@ -1,5 +1,5 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 M2C_UNK func_020c53c8(M2C_UNK, M2C_UNK);
 M2C_UNK func_020c56d8(M2C_UNK);
@@ -22,7 +22,7 @@ s32 func_020cb850(s32 arg0) {
     M2C_FIELD(arg0, s16 *, 0x100) = 0;
     M2C_FIELD(arg0, s16 *, 0x14C) = 0;
     M2C_FIELD(arg0, s16 *, 0x14E) = 0;
-    M2C_FIELD(arg0, s8 *, 0x148) = 0;
+    M2C_FIELD(arg0, s8 *, 0x148)  = 0;
     M2C_FIELD(arg0, s32 *, 0x130) = 1;
     M2C_FIELD(arg0, s32 *, 0x13C) = 0;
     M2C_FIELD(arg0, s32 *, 0x110) = 0;

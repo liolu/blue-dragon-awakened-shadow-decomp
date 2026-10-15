@@ -17,7 +17,7 @@ void func_020dc89c(void) {
         return;
     }
     M2C_FIELD(temp_r0, s16 *, 0) = 0;
-    temp_r5 = M2C_FIELD(temp_r0, void **, 4);
+    temp_r5                      = M2C_FIELD(temp_r0, void **, 4);
     if (temp_r5 != NULL) {
         if (temp_r5 != NULL) {
             func_ov000_021bb274(temp_r5);

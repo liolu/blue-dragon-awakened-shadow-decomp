@@ -14,7 +14,7 @@ void func_02092004(void *arg0) {
     void *temp_r1;
 
     if ((s32) M2C_FIELD(arg0, s32 *, 0x1FC) > 0) {
-        temp_r0 = M2C_FIELD(arg0, s32 *, 0x1FC) - func_ov000_021bec20(&data_ov000_021f4924);
+        temp_r0                       = M2C_FIELD(arg0, s32 *, 0x1FC) - func_ov000_021bec20(&data_ov000_021f4924);
         M2C_FIELD(arg0, s32 *, 0x1FC) = temp_r0;
         if (temp_r0 <= 0) {
             func_02092d28(arg0, 2);

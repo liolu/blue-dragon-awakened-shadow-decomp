@@ -22,7 +22,7 @@ void func_020a3484(void *arg0) {
     do {
         var_r7 = 0;
         var_r9 = var_r8;
-loop_2:
+    loop_2:
         func_0209e41c(var_r9);
         var_r7 += 1;
         var_r9 += 0x14;
@@ -37,7 +37,7 @@ loop_2:
     do {
         var_r7_2 = 0;
         var_r9_2 = var_r8_2;
-loop_6:
+    loop_6:
         func_0209e41c(var_r9_2);
         var_r7_2 += 1;
         var_r9_2 += 0x14;
@@ -50,15 +50,15 @@ loop_6:
     func_020a3264(arg0 + 0x32F4);
     func_020a32d4(arg0 + 0x3674);
     M2C_FIELD(arg0, s32 *, 0x3228) = 1;
-    M2C_FIELD(arg0, s8 *, 0x322C) = 0;
-    M2C_FIELD(arg0, s8 *, 0x322D) = 0;
-    M2C_FIELD(arg0, s8 *, 0x322E) = 0;
-    M2C_FIELD(arg0, s8 *, 0x322F) = 0;
-    M2C_FIELD(arg0, s8 *, 0x3230) = 0;
+    M2C_FIELD(arg0, s8 *, 0x322C)  = 0;
+    M2C_FIELD(arg0, s8 *, 0x322D)  = 0;
+    M2C_FIELD(arg0, s8 *, 0x322E)  = 0;
+    M2C_FIELD(arg0, s8 *, 0x322F)  = 0;
+    M2C_FIELD(arg0, s8 *, 0x3230)  = 0;
     M2C_FIELD(arg0, s16 *, 0x3232) = 0;
     M2C_FIELD(arg0, s16 *, 0x3234) = 0;
     M2C_FIELD(arg0, s32 *, 0x3238) = 0;
     M2C_FIELD(arg0, s16 *, 0x323C) = 0;
-    M2C_FIELD(arg0, s8 *, 0x3F0D) = 0;
-    M2C_FIELD(arg0, s8 *, 0x3F0C) = 0;
+    M2C_FIELD(arg0, s8 *, 0x3F0D)  = 0;
+    M2C_FIELD(arg0, s8 *, 0x3F0C)  = 0;
 }

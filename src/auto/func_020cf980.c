@@ -12,7 +12,7 @@ s32 func_020cf980(void *arg0) {
     }
     func_02078404(arg0 + 0x48, M2C_FIELD(&data_021012a8, s32 *, 4), 0, 0, 0x10, 0);
     M2C_FIELD(arg0, s32 *, 0x28) = func_ov000_021c0650(&data_ov000_021f4d24, M2C_FIELD(arg0, s32 *, 0x54), 0);
-    M2C_FIELD(arg0, u8 *, 0x2C) = 1U;
+    M2C_FIELD(arg0, u8 *, 0x2C)  = 1U;
     M2C_FIELD(arg0, s32 *, 0x30) = 2;
     M2C_FIELD(arg0, s32 *, 0x34) = 3;
     M2C_FIELD(arg0, s32 *, 0x38) = 0;

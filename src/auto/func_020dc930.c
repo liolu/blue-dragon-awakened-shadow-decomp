@@ -12,11 +12,11 @@ void func_020dc930(void *arg0) {
     void *temp_r9;
     void *var_r10;
 
-    var_r8 = 0;
+    var_r8  = 0;
     var_r10 = arg0;
     do {
         M2C_FIELD(var_r10, s16 *, 0) = 0;
-        temp_r9 = M2C_FIELD(var_r10, void **, 4);
+        temp_r9                      = M2C_FIELD(var_r10, void **, 4);
         if (temp_r9 != NULL) {
             if (temp_r9 != NULL) {
                 func_ov000_021bb274(temp_r9);

@@ -7,7 +7,7 @@ extern M2C_UNK data_020fd770;
 
 void *func_02081778(void *arg0) {
     M2C_FIELD(arg0, M2C_UNK **, 0) = &data_020fd770;
-    M2C_FIELD(arg0, s8 *, 0x20) = 0;
+    M2C_FIELD(arg0, s8 *, 0x20)    = 0;
     M2C_FIELD(arg0, M2C_UNK **, 0) = &data_020fd2dc;
     func_0207e1d0(arg0);
     func_0207d4cc(arg0);

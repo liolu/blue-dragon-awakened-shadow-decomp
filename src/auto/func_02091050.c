@@ -14,7 +14,7 @@ void func_02091050(void *arg0) {
     }
     func_02090ca4(arg0);
     M2C_FIELD(arg0, s32 *, 0x208) = 0;
-    M2C_FIELD(arg0, s8 *, 0x217) = 0;
-    M2C_FIELD(arg0, u8 *, 0x21B) = 1U;
-    M2C_FIELD(arg0, s8 *, 0x21A) = 0;
+    M2C_FIELD(arg0, s8 *, 0x217)  = 0;
+    M2C_FIELD(arg0, u8 *, 0x21B)  = 1U;
+    M2C_FIELD(arg0, s8 *, 0x21A)  = 0;
 }

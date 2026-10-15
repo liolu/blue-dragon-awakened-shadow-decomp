@@ -13,7 +13,7 @@ s32 func_0208eda0(void *arg0) {
         } else {
             var_r1 = 0;
         }
-        M2C_FIELD(*temp_r0, M2C_UNK (**)(void **, M2C_UNK), 0x10)(temp_r0, var_r1);
+        M2C_FIELD(*temp_r0, M2C_UNK(**)(void **, M2C_UNK), 0x10)(temp_r0, var_r1);
     }
     return 0;
 }

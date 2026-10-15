@@ -4,7 +4,7 @@ void func_0208da38(void *arg0, s8 arg1) {
     s32 var_r2;
 
     M2C_FIELD(arg0, s8 *, 0x7AA) = arg1;
-    var_r2 = 0x12 - M2C_FIELD(arg0, s16 *, 0x4AE);
+    var_r2                       = 0x12 - M2C_FIELD(arg0, s16 *, 0x4AE);
     if (var_r2 < 0) {
         var_r2 = 0;
     }

@@ -22,10 +22,10 @@ s32 func_020d06b8(s32 arg0, s8 arg1) {
     if ((s32) (temp_r0_3 + arg1) > 0x40) {
         return -1;
     }
-    temp_r2 = arg0 + (temp_r0 * 8);
-    M2C_FIELD(temp_r2, s8 *, 0xF01) = arg1;
-    M2C_FIELD(temp_r2, s8 *, 0xF02) = (s8) temp_r0_2;
-    M2C_FIELD(temp_r2, s8 *, 0xF00) = temp_r0_3;
+    temp_r2                          = arg0 + (temp_r0 * 8);
+    M2C_FIELD(temp_r2, s8 *, 0xF01)  = arg1;
+    M2C_FIELD(temp_r2, s8 *, 0xF02)  = (s8) temp_r0_2;
+    M2C_FIELD(temp_r2, s8 *, 0xF00)  = temp_r0_3;
     M2C_FIELD(temp_r2, s32 *, 0xF04) = 0;
     return temp_r0;
 }

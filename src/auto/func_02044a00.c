@@ -7,8 +7,8 @@ void func_02044a00(u8 arg0) {
     void *temp_r4;
     void *temp_r5;
 
-    temp_r5 = func_020449a8(1);
-    temp_r4 = func_020449a8(0x10);
+    temp_r5                     = func_020449a8(1);
+    temp_r4                     = func_020449a8(0x10);
     M2C_FIELD(temp_r5, u8 *, 9) = arg0;
     if ((u32) arg0 >= 0x10U) {
         return;

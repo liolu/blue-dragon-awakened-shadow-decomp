@@ -10,6 +10,6 @@ void func_020d1010(void) {
         return;
     }
     M2C_FIELD(temp_r0, s32 *, 0x14) = 0;
-    M2C_FIELD(temp_r0, s32 *, 0xC) = 0;
+    M2C_FIELD(temp_r0, s32 *, 0xC)  = 0;
     M2C_FIELD(temp_r0, s32 *, 0x10) = 0;
 }
