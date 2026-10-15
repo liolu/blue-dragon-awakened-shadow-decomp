@@ -1,19 +1,19 @@
 #include "m2c.h"
 
-void *func_0205cb20(M2C_UNK);                       /* extern */
+void *gsimalloc(M2C_UNK);                       /* extern */
 M2C_UNK func_02073bc4(void *, s32, s32, s32, M2C_UNK *, void *); /* extern */
 M2C_UNK func_02075cd4(void *, M2C_UNK, M2C_UNK, M2C_UNK, s32, s32, M2C_UNK *, void *); /* extern */
-extern s32 data_0210f118;
+extern s32 __GSIACResult;
 extern M2C_UNK func_02074d30;
 extern M2C_UNK func_02074f28;
 
 void *func_02074fe4(M2C_UNK arg0, M2C_UNK arg1, M2C_UNK arg2, s32 arg3, s32 arg4, s32 arg5, s32 arg6, s32 arg7, s32 arg8) {
     void *temp_r0;
 
-    if ((arg6 == 0) && (data_0210f118 != 1)) {
+    if ((arg6 == 0) && (__GSIACResult != 1)) {
         return NULL;
     }
-    temp_r0 = func_0205cb20(0x840);
+    temp_r0 = gsimalloc(0x840);
     if (temp_r0 == NULL) {
         return NULL;
     }

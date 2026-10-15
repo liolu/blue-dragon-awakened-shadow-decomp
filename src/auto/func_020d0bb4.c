@@ -1,7 +1,7 @@
 #include "m2c.h"
 
-M2C_UNK func_02000d08(void *);                      /* extern */
-M2C_UNK func_0200990c(void *, void *);              /* extern */
+M2C_UNK MTX_Identity33_(void *);                      /* extern */
+M2C_UNK MI_Copy36B(void *, void *);              /* extern */
 
 void func_020d0bb4(s32 arg0, void *arg1, void *arg2) {
     if (M2C_FIELD(arg1, s32 *, 0) & 4) {
@@ -14,9 +14,9 @@ void func_020d0bb4(s32 arg0, void *arg1, void *arg2) {
         M2C_FIELD(arg2, s32 *, 0x38) = (s32) M2C_FIELD(arg1, s32 *, 0x54);
     }
     if (M2C_FIELD(arg1, s32 *, 0) & 2) {
-        func_02000d08(arg2);
+        MTX_Identity33_(arg2);
     } else {
-        func_0200990c(arg1 + 0x28, arg2);
+        MI_Copy36B(arg1 + 0x28, arg2);
     }
     if (M2C_FIELD(arg1, s32 *, 0) & 1) {
         M2C_FIELD(arg2, s32 *, 0x2C) = 0x1000;

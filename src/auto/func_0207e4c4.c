@@ -1,18 +1,18 @@
 #include "m2c.h"
 
-M2C_UNK func_02008fc4();                            /* extern */
-M2C_UNK func_0200ea28();                            /* extern */
-s32 func_0200eaa0(M2C_UNK *);                       /* extern */
-M2C_UNK func_0200eb34(M2C_UNK *);                   /* extern */
+M2C_UNK OS_Terminate();                            /* extern */
+M2C_UNK TP_Init();                            /* extern */
+s32 TP_GetUserInfo(M2C_UNK *);                       /* extern */
+M2C_UNK TP_SetCalibrateParam(M2C_UNK *);                   /* extern */
 
 void func_0207e4c4(void *arg0) {
     u8 sp0[8];
 
-    func_0200ea28();
-    if (func_0200eaa0(sp0) == 0) {
-        func_02008fc4();
+    TP_Init();
+    if (TP_GetUserInfo(sp0) == 0) {
+        OS_Terminate();
     } else {
-        func_0200eb34(sp0);
+        TP_SetCalibrateParam(sp0);
     }
     M2C_FIELD(arg0, s8 *, 0x20) = 1;
 }

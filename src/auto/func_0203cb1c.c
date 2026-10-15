@@ -1,13 +1,13 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
-void func_02007204(M2C_UNK, M2C_UNK);
+void OS_SetThreadPriority(M2C_UNK, M2C_UNK);
 
-extern M2C_UNK data_021019a4;
+extern M2C_UNK OSi_ThreadInfo;
 
 void func_0203cb1c(s32 arg0) {
     if ((u32) arg0 >= 0x20U) {
         return;
     }
-    func_02007204(M2C_FIELD(&data_021019a4, s32 *, 4), arg0);
+    OS_SetThreadPriority(M2C_FIELD(&OSi_ThreadInfo, s32 *, 4), arg0);
 }

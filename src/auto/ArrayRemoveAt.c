@@ -1,0 +1,16 @@
+#include "m2c.h"
+
+M2C_UNK memmove();               /* extern */
+s32 ArrayNth();                     /* extern */
+
+void ArrayRemoveAt(void *arg0, s32 arg1) {
+    s32 temp_r5;
+    s32 temp_r6;
+
+    temp_r6 = M2C_FIELD(arg0, s32 *, 0) - 1;
+    if (arg1 < temp_r6) {
+        temp_r5 = ArrayNth(arg0);
+        memmove(temp_r5, ArrayNth(arg0, arg1 + 1), M2C_FIELD(arg0, s32 *, 8) * (temp_r6 - arg1));
+    }
+    M2C_FIELD(arg0, s32 *, 0) = (s32) (M2C_FIELD(arg0, s32 *, 0) - 1);
+}

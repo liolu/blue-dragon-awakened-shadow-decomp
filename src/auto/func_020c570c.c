@@ -1,7 +1,7 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
-M2C_UNK func_02024d70(M2C_UNK, M2C_UNK);
+M2C_UNK _s32_div_f(M2C_UNK, M2C_UNK);
 M2C_UNK func_020bcce8(M2C_UNK);
 
 s32 func_020c570c(s32 arg0) {
@@ -13,5 +13,5 @@ s32 func_020c570c(s32 arg0) {
         return 0;
     }
     temp_r4 = M2C_FIELD(temp_r0, s32 *, 0xC);
-    return (s32) (u8) func_02024d70(temp_r4 * 0x64, func_020bcce8((s32) temp_r0));
+    return (s32) (u8) _s32_div_f(temp_r4 * 0x64, func_020bcce8((s32) temp_r0));
 }

@@ -1,9 +1,9 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 void func_020bd0c4(M2C_UNK, M2C_UNK);
 void func_020bd0f0(M2C_UNK, M2C_UNK);
-void func_020c036c(M2C_UNK);
+void ACSSBADX_DestroyAdxt(M2C_UNK);
 void func_020c0610(M2C_UNK, M2C_UNK);
 void func_020c0794(M2C_UNK, M2C_UNK);
 void func_020c0884(M2C_UNK, M2C_UNK);
@@ -87,10 +87,11 @@ void func_020c01a0(s32 arg0) {
             func_020c370c((s32) M2C_FIELD(arg0, void **, 0xC), 0);
         }
         if (M2C_FIELD(M2C_FIELD(arg0, void **, 4), s32 *, 0x30) & 0x40000) {
-            temp_r0_2 = (void *) func_020c3558((s32) M2C_FIELD(arg0, void **, 0xC));
+            temp_r0_2                          = (void *) func_020c3558((s32) M2C_FIELD(arg0, void **, 0xC));
             M2C_FIELD(temp_r0_2, u16 *, 0x438) = (u16) (M2C_FIELD(temp_r0_2, u16 *, 0x438) & ~8);
         }
-        M2C_FIELD(arg0, s32 *, 0x78) = (s32) (M2C_FIELD(arg0, s32 *, 0x78) | M2C_FIELD(M2C_FIELD(arg0, void **, 4), s32 *, 0x30));
+        M2C_FIELD(arg0, s32 *, 0x78) =
+            (s32) (M2C_FIELD(arg0, s32 *, 0x78) | M2C_FIELD(M2C_FIELD(arg0, void **, 4), s32 *, 0x30));
     }
-    func_020c036c(arg0);
+    ACSSBADX_DestroyAdxt(arg0);
 }

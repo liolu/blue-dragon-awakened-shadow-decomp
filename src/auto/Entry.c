@@ -2,15 +2,15 @@
 
 /* Uses instructions the compiler never generates: written in assembly. */
 extern void func_02000954();
-extern void func_02000970();
+extern void MIi_UncompressBackward();
 extern void func_02000a1c();
-extern void func_02000ab0();
+extern void init_cp15();
 extern void func_02000b98();
 extern void func_020256bc();
-extern void func_02026be0();
+extern void __call_static_initializers();
 extern char BuildInfo[];
-extern char data_027e0000[];
-extern char func_01ff8000[];
+extern char SDK_AUTOLOAD_DTCM_START[];
+extern char OS_IrqHandler[];
 extern char main[];
 // clang-format off
 asm void Entry(void) {
@@ -20,15 +20,15 @@ L_02000808:
     ldrh r0, [ip, #0x6]
     cmp r0, #0x0
     bne L_02000808
-    bl func_02000ab0
+    bl init_cp15
     mov r0, #0x13
     msr cpsr_c, r0
-    ldr r0, =data_027e0000
+    ldr r0, =SDK_AUTOLOAD_DTCM_START
     add r0, r0, #0x3fc0
     mov sp, r0
     mov r0, #0x12
     msr cpsr_c, r0
-    ldr r0, =data_027e0000
+    ldr r0, =SDK_AUTOLOAD_DTCM_START
     add r0, r0, #0x3fc0
     sub r0, r0, #0x40
     sub sp, r0, #0x4
@@ -44,7 +44,7 @@ L_02000854:
     msr cpsr_fsxc, r0
     sub sp, r1, #0x4
     mov r0, #0x0
-    ldr r1, =data_027e0000
+    ldr r1, =SDK_AUTOLOAD_DTCM_START
     mov r2, #0x4000
     bl func_02000954
     mov r0, #0x0
@@ -57,7 +57,7 @@ L_02000854:
     bl func_02000954
     ldr r1, =BuildInfo
     ldr r0, [r1, #0x14]
-    bl func_02000970
+    bl MIi_UncompressBackward
     bl func_02000a1c
     ldr r0, =BuildInfo
     ldr r1, [r0, #0xc]
@@ -82,14 +82,14 @@ L_020008d4:
     blt L_020008d4
     ldr r1, =0x27fff9c
     str r0, [r1, #0x0]
-    ldr r1, =data_027e0000
+    ldr r1, =SDK_AUTOLOAD_DTCM_START
     add r1, r1, #0x3fc0
     add r1, r1, #0x3c
-    ldr r0, =func_01ff8000
+    ldr r0, =OS_IrqHandler
     str r0, [r1, #0x0]
     bl func_020256bc
     bl func_02000b98
-    bl func_02026be0
+    bl __call_static_initializers
     ldr r1, =main
     ldr lr, =0xffff0000
     tst sp, #0x4

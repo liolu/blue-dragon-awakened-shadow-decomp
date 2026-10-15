@@ -1,7 +1,7 @@
 #include "m2c.h"
 
-s32 func_02008ae0();                                /* extern */
-M2C_UNK func_02008af4();                         /* extern */
+s32 OS_DisableInterrupts();                                /* extern */
+M2C_UNK OS_RestoreInterrupts();                         /* extern */
 M2C_UNK func_02044a00();                         /* extern */
 u32 func_02044a60();                                /* extern */
 M2C_UNK func_02044b6c();                            /* extern */
@@ -22,10 +22,10 @@ s32 func_02044498(void) {
     if (var_r5 == 1) {
         var_r5 = func_02046784();
     } else if (var_r5 < 7U) {
-        temp_r4_2 = func_02008ae0();
-        var_r5 = func_02045fb4();
+        temp_r4_2 = OS_DisableInterrupts();
+        var_r5    = func_02045fb4();
         func_02044a00();
-        func_02008af4(temp_r4_2);
+        OS_RestoreInterrupts(temp_r4_2);
     } else if (var_r5 < 9U) {
         var_r5 = func_0204524c();
     } else if (var_r5 < 0xAU) {

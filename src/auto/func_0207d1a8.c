@@ -1,10 +1,10 @@
 #include "m2c.h"
 
-M2C_UNK func_020077e8(M2C_UNK *);                   /* extern */
-M2C_UNK func_0200786c(M2C_UNK *);                   /* extern */
-s32 func_02008ae0();                                /* extern */
-M2C_UNK func_02008af4(s32);                         /* extern */
-M2C_UNK func_02027aac(s32, s32);                    /* extern */
+M2C_UNK OS_LockMutex(M2C_UNK *);                   /* extern */
+M2C_UNK OS_UnlockMutex(M2C_UNK *);                   /* extern */
+s32 OS_DisableInterrupts();                                /* extern */
+M2C_UNK OS_RestoreInterrupts(s32);                         /* extern */
+M2C_UNK NNS_FndFreeToExpHeap(s32, s32);                    /* extern */
 u32 func_02027bac(s32);                             /* extern */
 extern M2C_UNK data_020fd37c;
 extern M2C_UNK data_02110288;
@@ -21,15 +21,16 @@ void func_0207d1a8(void *arg0, s32 arg1) {
         M2C_FIELD(&data_02110288, s32 *, 0x10) = (s32) (M2C_FIELD(&data_02110288, s32 *, 0x10) + 1);
     }
     temp_r0 = func_02027bac(arg1);
-    if ((temp_r0 >= (u32) (M2C_FIELD(&data_020fd37c, s32 *, 0) - 4)) && (temp_r0 < (u32) (M2C_FIELD(&data_020fd37c, s32 *, 0) + 4))) {
+    if ((temp_r0 >= (u32) (M2C_FIELD(&data_020fd37c, s32 *, 0) - 4)) &&
+        (temp_r0 < (u32) (M2C_FIELD(&data_020fd37c, s32 *, 0) + 4))) {
         M2C_FIELD(&data_02110288, s32 *, 0x10) = (s32) (M2C_FIELD(&data_02110288, s32 *, 0x10) + 1);
     }
     if (M2C_FIELD(arg0, u8 *, 0x19) != 0) {
         func_02027bac(arg1);
     }
-    func_020077e8(&data_021102d0);
-    temp_r6 = func_02008ae0();
-    func_02027aac(M2C_FIELD(arg0, s32 *, 0x1C), arg1);
-    func_0200786c(&data_021102d0);
-    func_02008af4(temp_r6);
+    OS_LockMutex(&data_021102d0);
+    temp_r6 = OS_DisableInterrupts();
+    NNS_FndFreeToExpHeap(M2C_FIELD(arg0, s32 *, 0x1C), arg1);
+    OS_UnlockMutex(&data_021102d0);
+    OS_RestoreInterrupts(temp_r6);
 }

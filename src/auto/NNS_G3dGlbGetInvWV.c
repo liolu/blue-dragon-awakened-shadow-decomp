@@ -1,0 +1,13 @@
+#include "m2c.h"
+
+M2C_UNK calcSrtCameraMtx_();                            /* extern */
+extern M2C_UNK NNS_G3dGlb;
+extern M2C_UNK data_02105b54;
+
+M2C_UNK *NNS_G3dGlbGetInvWV(void) {
+    if (!(M2C_FIELD(&NNS_G3dGlb, s32 *, 0xFC) & 0x80)) {
+        calcSrtCameraMtx_();
+        M2C_FIELD(&NNS_G3dGlb, s32 *, 0xFC) = (s32) (M2C_FIELD(&NNS_G3dGlb, s32 *, 0xFC) | 0x80);
+    }
+    return &data_02105b54;
+}

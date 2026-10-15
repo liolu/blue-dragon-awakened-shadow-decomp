@@ -1,7 +1,107 @@
 # Source files built with another compiler than tools/configure.py MWCC_VERSION
 # <source path> <mwccarm version> [extra flags]
-src/auto/func_02004f18.c 1.2/sp2p3
-src/auto/func_02004f54.c 1.2/sp2p3
-src/auto/func_02004f90.c 1.2/sp2p3
+src/auto/G3_RotX.c 1.2/sp2p3
+src/auto/G3_RotY.c 1.2/sp2p3
+src/auto/G3_RotZ.c 1.2/sp2p3
 src/auto/func_02046bec.c 1.2/sp2p3
 src/auto/func_02098790.c 1.2/sp2p3
+src/donor/MTX_Identity33_.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/MTX_ScaleApply33.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/MTX_RotAxis33.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02000f94.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02001284.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/MTX_MultVec33.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/MTX_Identity43_.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/MTX_Copy43To44_.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_0200157c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_020015a8.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/MTX_ScaleApply43.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/MTX_Concat43.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/MTX_MultVec43.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02001df8.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/MTX_Identity44_.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/MTX_Copy44To43_.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02001f60.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/MTX_Concat44.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/FX_DivFx64c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/FX_InvFx64c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02002a64.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02002a88.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02002ac0.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02002af0.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02002b80.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/VEC_DotProduct.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/VEC_CrossProduct.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/VEC_Mag.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/VEC_Normalize.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/VEC_Distance.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02002ed8.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02002fac.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_0200302c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02003178.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_020031e8.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02003230.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/GX_VRAMCNT_SetLCDC_.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/GX_SetBankForBG.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/GX_SetBankForOBJ.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/GX_SetBankForBGExtPltt.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/GX_SetBankForOBJExtPltt.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02003980.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02003b58.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02003c40.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02003d74.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/GX_SetBankForSubBG.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/GX_SetBankForSubOBJ.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/GX_SetBankForSubBGExtPltt.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/GX_SetBankForSubOBJExtPltt.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/disableBankForX_.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02004464.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/G2_GetBG2ScrPtr.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/G2S_GetBG2ScrPtr.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/G2_GetBG3ScrPtr.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/G2S_GetBG3ScrPtr.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_020046fc.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/G2_GetBG2CharPtr.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/G2S_GetBG2CharPtr.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/G2_GetBG3CharPtr.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/G2S_GetBG3CharPtr.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/G2x_SetBlendBrightness_.c 2.0/sp1p5
+src/donor/G3X_Reset.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/G3X_ClearFifo.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/G3X_InitMtxStack.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/G3X_ResetMtxStack.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/G3X_SetFog.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/G3X_GetClipMtx.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/G3X_GetVectorMtx.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/G3X_InitTable.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/G3X_GetMtxStackLevelPV.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/G3X_GetMtxStackLevelPJ.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/GXi_NopClearFifo128_.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/GX_LoadOBJ.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/GXS_LoadOBJ.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/GX_BeginLoadBGExtPltt.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/GX_LoadBGExtPltt.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/GX_LoadOBJExtPltt.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/GXS_LoadBGExtPltt.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/GXS_LoadOBJExtPltt.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/GX_BeginLoadTex.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/GX_LoadTex.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/GX_BeginLoadTexPltt.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/GX_LoadTexPltt.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/GX_BeginLoadClearImage.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/GX_LoadClearImageColor.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/GX_LoadClearImageDepth.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/GX_SendFifo48B.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/OSi_EnterDmaCallback.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/OSi_EnterTimerCallback.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/OS_SetIrqMask.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/OS_EnableIrqMask.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/OS_DisableIrqMask.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/OS_ResetRequestIrqMask.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/OSi_DoUnlockByWord.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/OSi_DoTryLockByWord.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02006744.c 2.0/sp1p5
+src/donor/func_020068c0.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/DWCi_BACKUPlConvMaskAddr.c 1.2/sp2p3
+src/auto/func_020997ec.c 1.2/sp2p3
+src/auto/func_02099ea4.c 1.2/sp2p3

@@ -1,9 +1,9 @@
 #include "m2c.h"
 
-M2C_UNK func_02004188(M2C_UNK *);                   /* extern */
+M2C_UNK disableBankForX_(M2C_UNK *);                   /* extern */
 extern M2C_UNK data_021018d4;
 
 void func_020042b4(void) {
-    *(s32 *)0x04000000 &= ~0x80000000;
-    func_02004188(&data_021018d4);
+    *(s32 *) 0x04000000 &= ~0x80000000;
+    disableBankForX_(&data_021018d4);
 }

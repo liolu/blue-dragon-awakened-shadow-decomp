@@ -1,6 +1,6 @@
 #include "m2c.h"
 
-M2C_UNK func_0204cba8(M2C_UNK, s32, M2C_UNK);       /* extern */
+M2C_UNK DWC_Free(M2C_UNK, s32, M2C_UNK);       /* extern */
 M2C_UNK func_020515ec();                            /* extern */
 M2C_UNK func_02057794();                            /* extern */
 void *func_02059234();                              /* extern */
@@ -23,7 +23,7 @@ void func_02053a28(void) {
     func_020515ec();
     func_02059244(0);
     if (M2C_FIELD(&data_0210e8e0, s32 *, 8) != 0) {
-        func_0204cba8(4, M2C_FIELD(&data_0210e8e0, s32 *, 8), 0);
+        DWC_Free(4, M2C_FIELD(&data_0210e8e0, s32 *, 8), 0);
         M2C_FIELD(&data_0210e8e0, s32 *, 8) = 0;
     }
     func_02057794();

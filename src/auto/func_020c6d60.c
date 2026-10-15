@@ -1,6 +1,6 @@
 #include "m2c.h"
 
-s32 func_02024d70(s32, s32);                        /* extern */
+s32 _s32_div_f(s32, s32);                        /* extern */
 s32 func_020bcca8();                                /* extern */
 
 s32 func_020c6d60(void *arg0) {
@@ -12,5 +12,5 @@ s32 func_020c6d60(void *arg0) {
         return 0;
     }
     temp_r4 = M2C_FIELD(temp_r0, s32 *, 8);
-    return func_02024d70(temp_r4 * 0x64, func_020bcca8());
+    return _s32_div_f(temp_r4 * 0x64, func_020bcca8());
 }

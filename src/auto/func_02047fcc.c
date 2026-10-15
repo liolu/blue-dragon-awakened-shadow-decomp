@@ -1,8 +1,8 @@
 #include "m2c.h"
 
-s32 func_02047e94();                                /* extern */
-M2C_UNK func_02047f64(M2C_UNK, s32);                /* extern */
+s32 DWCi_Acc_GetFlags();                                /* extern */
+M2C_UNK DWCi_Acc_SetFlags(M2C_UNK, s32);                /* extern */
 
 void func_02047fcc(M2C_UNK arg0) {
-    func_02047f64(arg0, func_02047e94() & ~0x3C);
+    DWCi_Acc_SetFlags(arg0, DWCi_Acc_GetFlags() & ~0x3C);
 }

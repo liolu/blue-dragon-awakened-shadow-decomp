@@ -1,6 +1,6 @@
 #include "m2c.h"
 
-s32 func_020029b8(M2C_UNK, s32);                    /* extern */
+s32 FX_Div(M2C_UNK, s32);                    /* extern */
 void *func_020d09c4();                              /* extern */
 
 void func_020d0fdc(s32 arg0, s32 arg1, s32 arg2) {
@@ -10,7 +10,7 @@ void func_020d0fdc(s32 arg0, s32 arg1, s32 arg2) {
     if (temp_r0 == NULL) {
         return;
     }
-    M2C_FIELD(temp_r0, s32 *, 0x14) = func_020029b8(0x1000, arg2 << 0xC);
-    M2C_FIELD(temp_r0, s32 *, 0xC) = arg2;
+    M2C_FIELD(temp_r0, s32 *, 0x14) = FX_Div(0x1000, arg2 << 0xC);
+    M2C_FIELD(temp_r0, s32 *, 0xC)  = arg2;
     M2C_FIELD(temp_r0, s32 *, 0x10) = 0;
 }

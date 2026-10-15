@@ -1,5 +1,0 @@
-#include "m2c.h"
-
-s32 func_020312ac(void *arg0) {
-    return M2C_FIELD(arg0, s32 *, 0) + (M2C_FIELD(arg0, u16 *, 0xA) * 0x10);
-}

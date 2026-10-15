@@ -1,7 +1,7 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
-M2C_UNK func_02009978(M2C_UNK, M2C_UNK, M2C_UNK);
+M2C_UNK MI_CpuFill8(M2C_UNK, M2C_UNK, M2C_UNK);
 
 extern M2C_UNK data_0210e8cc;
 
@@ -11,8 +11,8 @@ void func_020508d4(s32 arg0, s32 arg1, s32 arg2) {
     if (M2C_FIELD(&data_0210e8cc, void **, 0xC) == NULL) {
         return;
     }
-    func_02009978((arg1 * 0xC) + arg0, 0, 0xC);
-    temp_r3 = M2C_FIELD(M2C_FIELD(&data_0210e8cc, void **, 0xC), M2C_UNK (**)(s32, s32, s32), 0x3C);
+    MI_CpuFill8((arg1 * 0xC) + arg0, 0, 0xC);
+    temp_r3 = M2C_FIELD(M2C_FIELD(&data_0210e8cc, void **, 0xC), M2C_UNK(**)(s32, s32, s32), 0x3C);
     if (temp_r3 == NULL) {
         return;
     }

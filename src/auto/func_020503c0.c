@@ -1,7 +1,7 @@
 #include "m2c.h"
 
 s32 func_0204fa58();                                /* extern */
-s32 func_0205e958(void **, s32, s32, s32);          /* extern */
+s32 gpSetStatusA(void **, s32, s32, s32);          /* extern */
 extern M2C_UNK data_0210e8cc;
 
 s32 func_020503c0(s32 arg0, s32 arg1, s32 arg2) {
@@ -24,5 +24,5 @@ s32 func_020503c0(s32 arg0, s32 arg1, s32 arg2) {
     if (var_r4 == 0) {
         var_r4 = *M2C_FIELD(M2C_FIELD(&data_0210e8cc, void **, 0xC), void ***, 4) + 0x4B8;
     }
-    return func_0205e958(M2C_FIELD(M2C_FIELD(&data_0210e8cc, void **, 0xC), void ***, 4), var_r6, var_r5, var_r4);
+    return gpSetStatusA(M2C_FIELD(M2C_FIELD(&data_0210e8cc, void **, 0xC), void ***, 4), var_r6, var_r5, var_r4);
 }

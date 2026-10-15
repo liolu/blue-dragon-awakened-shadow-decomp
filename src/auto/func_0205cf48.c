@@ -1,7 +1,0 @@
-#include "m2c.h"
-
-M2C_UNK func_02017be0(M2C_UNK, M2C_UNK, M2C_UNK);   /* extern */
-
-void func_0205cf48(M2C_UNK arg0, M2C_UNK arg1) {
-    func_02017be0(arg0, arg1, 0x10);
-}

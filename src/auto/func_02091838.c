@@ -1,10 +1,10 @@
-#include "m2c.h"
 #include "engine.h"
+#include "m2c.h"
 
 M2C_UNK func_020238bc(M2C_UNK, M2C_UNK);
-M2C_UNK func_020244fc(M2C_UNK);
-M2C_UNK func_02024570(M2C_UNK);
-M2C_UNK func_020248d0(M2C_UNK, M2C_UNK);
+M2C_UNK _ffix(M2C_UNK);
+M2C_UNK _fflt(M2C_UNK);
+M2C_UNK _fsub(M2C_UNK, M2C_UNK);
 
 s32 func_02091838(s32 arg0) {
     s32 temp_r0;
@@ -40,13 +40,13 @@ loop_5:
             goto loop_5;
         }
     }
-    temp_r1 = var_r2 * 0x168;
-    temp_r0 = (s32) (temp_r1 + ((u32) (temp_r1 >> 2) >> 0x1D)) >> 3;
+    temp_r1   = var_r2 * 0x168;
+    temp_r0   = (s32) (temp_r1 + ((u32) (temp_r1 >> 2) >> 0x1D)) >> 3;
     temp_r0_2 = temp_r0 << 0xC;
     if (temp_r0 > 0) {
-        var_r0 = func_020238bc(0x3F000000, func_02024570(temp_r0_2));
+        var_r0 = func_020238bc(0x3F000000, _fflt(temp_r0_2));
     } else {
-        var_r0 = func_020248d0(func_02024570(temp_r0_2), 0x3F000000);
+        var_r0 = _fsub(_fflt(temp_r0_2), 0x3F000000);
     }
-    return func_020244fc(var_r0);
+    return _ffix(var_r0);
 }

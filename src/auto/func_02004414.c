@@ -1,7 +1,7 @@
 #include "m2c.h"
 
-extern u16 data_021018c4;
+extern u16 gGXState;
 
 u16 func_02004414(void) {
-    return data_021018c4;
+    return gGXState;
 }

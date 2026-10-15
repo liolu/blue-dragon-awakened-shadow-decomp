@@ -1,7 +1,7 @@
 #include "m2c.h"
 
-M2C_UNK func_0201740c();                            /* extern */
+M2C_UNK abort();                            /* extern */
 
 void func_02026e70(void) {
-    func_0201740c();
+    abort();
 }
