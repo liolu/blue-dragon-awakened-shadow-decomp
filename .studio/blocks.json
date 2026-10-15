@@ -1,533 +1,24 @@
 {
- "generation": 3,
- "created": 1792060237.6846726,
+ "generation": 4,
+ "created": 1792102912.6399195,
  "block_size": 50,
  "blocks": [
   {
-   "id": "L0-03001",
+   "id": "L0-04001",
    "level": 0,
    "functions": [
-    "MTX_Inverse43",
     "func_02002664",
-    "MTX_OrthoW",
-    "OS_WaitIrq",
-    "OSi_IrqCallback",
-    "OS_SetIrqFunction",
-    "OS_GetIrqFunction",
-    "OS_SetIrqStackChecker",
-    "OS_SNPrintf",
-    "OSi_InsertLinkToQueue",
-    "OSi_RemoveSpecifiedLinkFromQueue",
-    "OSi_InsertThreadToList",
-    "OSi_RemoveThreadFromList",
-    "OSi_RescheduleThread",
-    "OS_InitThread",
-    "OS_CreateThread",
-    "OSi_ExitThread",
-    "OS_DestroyThread",
-    "OS_WakeupThread",
-    "OS_SelectThread",
-    "OS_YieldThread",
-    "OS_SetThreadPriority",
-    "OS_Sleep",
-    "OS_SetSwitchThreadCallback",
-    "OSi_IdleThreadProc",
-    "OS_DisableScheduler",
-    "OS_EnableScheduler",
-    "OS_SendMessage",
-    "OS_ReceiveMessage",
-    "OS_JamMessage",
-    "OS_ReadMessage",
-    "OS_UnlockMutex",
-    "OS_TryLockMutex",
-    "DC_InvalidateAll",
-    "DC_WaitWriteBufferEmpty",
-    "IC_InvalidateAll",
-    "OSi_WaitVCount0",
-    "OS_GetInitArenaHi",
-    "OS_GetInitArenaLo",
-    "OS_AllocFromArenaLo",
-    "DLInsert",
-    "OS_AllocFromHeap",
-    "OS_FreeToHeap",
-    "OS_InitAlloc",
-    "OS_EnableProtectionUnit",
-    "OS_DisableProtectionUnit",
-    "OS_SetDPermissionsForProtectionRegion",
-    "OS_InitException",
-    "OSi_GetAndDisplayContext",
-    "OSi_CountUpTick"
-   ],
-   "bytes": 6900,
-   "addr": [
-    33560312,
-    33588568
-   ]
-  },
-  {
-   "id": "L0-03002",
-   "level": 0,
-   "functions": [
-    "OS_GetTick",
-    "OSi_SetTimer",
-    "OSi_InsertAlarm",
-    "OS_SetAlarm",
-    "OS_SetPeriodicAlarm",
-    "OS_CancelAlarm",
-    "OSi_AlarmHandler",
-    "OSi_ArrangeTimer",
-    "OS_SpinWait",
-    "OS_WaitInterrupt",
-    "OS_ResetSystem",
-    "OS_GetOwnerInfo",
-    "OSi_InitVramExclusive",
-    "OSi_UnlockVram",
-    "OS_GetLowEntropyData",
-    "OS_Terminate",
-    "OS_Halt",
-    "MI_DmaFill32",
-    "MI_DmaCopy32",
-    "MI_DmaCopy16",
-    "MI_DmaFill32Async",
-    "MI_WaitDma",
-    "MI_StopDma",
-    "MIi_CheckAnotherAutoDMA",
-    "MI_SendGXCommandAsync",
-    "MIi_FIFOCallback",
-    "MIi_DMACallback",
-    "MIi_DMAFastCallback",
     "func_020098f0",
-    "MI_Copy36B",
-    "MI_Copy48B",
-    "MI_Copy64B",
-    "MIi_CardDmaCopy32",
-    "SND_PauseSeq",
-    "SND_StopTimer",
-    "SND_SetupCapture",
-    "SND_LockChannel",
-    "SND_UnlockChannel",
-    "SND_SetupChannelPcm",
-    "SND_InvalidateSeqData",
-    "SND_InvalidateBankData",
-    "SND_InvalidateWaveData",
-    "SND_CommandInit",
-    "SND_RecvCommandReply",
-    "SND_PushCommand",
-    "SND_FlushCommand",
-    "IsCommandAvailable",
-    "SND_AlarmInit",
-    "SNDi_SetAlarmHandler",
-    "SND_ReadPlayerInfo"
-   ],
-   "bytes": 5596,
-   "addr": [
-    33588568,
-    33598456
-   ]
-  },
-  {
-   "id": "L0-03003",
-   "level": 0,
-   "functions": [
-    "SNDi_InitSharedWork",
-    "SND_CalcChannelVolume",
-    "SND_AssignWaveArc",
-    "SND_DestroyBank",
-    "SND_GetFirstInstDataPos",
-    "SND_GetNextInstData",
-    "SND_GetWaveDataAddress",
-    "PXI_InitFifo",
-    "PXI_SetFifoRecvCallback",
-    "PXI_IsCallbackReady",
-    "PXI_SendWordByFifo",
-    "PXIi_HandlerRecvFifoNotEmpty",
-    "FSi_ReleaseCommand",
-    "FSi_TranslateCommand",
-    "FSi_StrNICmp",
-    "FSi_ReadTable",
-    "FSi_ReadFileCommand",
-    "FSi_WriteFileCommand",
-    "FSi_SeekDirCommand",
-    "FSi_ReadDirCommand",
-    "FSi_FindPathCommand",
-    "FSi_GetPathCommand",
-    "FSi_OpenFileFastCommand",
-    "FSi_GetPackedName",
-    "FSi_NextCommand",
-    "FSi_SendCommand",
-    "FS_FindArchive",
-    "FS_LoadArchive",
-    "FS_UnloadArchive",
-    "FS_LoadArchiveTables",
-    "FS_ResumeArchive",
-    "FS_NotifyArchiveAsyncEnd",
-    "FSi_FindPath",
-    "FSi_ReadFileCore",
-    "FS_OpenFileFast",
-    "FS_OpenFile",
-    "FS_SeekFile",
-    "FS_ChangeDir",
-    "FSi_ReadRomCallback",
-    "FSi_InitRom",
-    "FSi_GetOverlayBinarySize",
-    "FS_GetOverlayFileID",
-    "FSi_LoadOverlayInfoCore",
-    "FS_LoadOverlayInfo",
-    "FS_LoadOverlayImageAsync",
-    "FS_LoadOverlayImage",
-    "FSi_CompareDigest",
-    "FS_StartOverlay",
-    "FS_EndOverlay",
-    "DGT_Hash2GetDigest"
-   ],
-   "bytes": 9920,
-   "addr": [
-    33598496,
-    33612364
-   ]
-  },
-  {
-   "id": "L0-03004",
-   "level": 0,
-   "functions": [
-    "MATH_CalcHMACSHA1",
-    "HmacCalc",
-    "DGTi_Hash2ProcessBlock",
-    "CP_SaveContext",
-    "CPi_RestoreContext",
-    "TPi_TpCallback",
-    "TP_GetUserInfo",
-    "TP_SetCalibrateParam",
-    "TP_GetCalibratedResult",
-    "TP_RequestAutoSamplingStartAsync",
-    "TP_CalcCalibrateParam",
-    "TP_GetCalibratedPoint",
-    "PMi_SendSleepStart",
-    "PM_SetBackLightAsync",
-    "PMi_SetAmp",
-    "RtcCommonCallback",
-    "RtcWaitBusy",
-    "RTC_ConvertDateTimeToSecond",
-    "RTC_GetDayOfWeek",
-    "CARDi_SetTask",
-    "CARDi_LockResource",
-    "CARDi_UnlockResource",
-    "CARDi_InitCommon",
-    "CARDi_WaitAsync",
-    "CARDi_IdentifyBackupCore2",
-    "CARDi_RequestStreamCommandCore",
-    "CARDi_ReadFromCache",
-    "CARDi_SetRomOp",
-    "CARDi_SetCardDma",
-    "CARDi_OnReadCard",
-    "CARDi_ReadCard",
-    "CARDi_ReadRomIDCore",
-    "CARDi_ReadRomSyncCore",
-    "CARDi_ReadRom",
-    "CARD_Init",
-    "CARDi_OnFifoRecv",
-    "CARDi_TaskThread",
-    "CARDi_CheckPulledOutCore",
-    "WM_Init",
-    "WmInitCore",
-    "WMi_SendCommand",
-    "WMi_CheckStateEx",
-    "WmReceiveFifo",
-    "WM_SetPortCallback",
-    "WM_GetMPReceiveBufferSize",
-    "WM_ReadMPData",
-    "WM_GetLinkLevel",
-    "WM_GetDispersionBeaconPeriod",
-    "WM_GetDispersionScanPeriod",
-    "WM_GetOtherElements"
-   ],
-   "bytes": 12420,
-   "addr": [
-    33612364,
-    33632696
-   ]
-  },
-  {
-   "id": "L0-03005",
-   "level": 0,
-   "functions": [
-    "WM_GetNextTgid",
-    "WM_InitializeForListening",
-    "WM_SetParentParameter",
-    "WM_StartScan",
-    "WM_StartScanEx",
-    "WM_StartConnectEx",
-    "WM_Disconnect",
-    "WMi_StartMP",
-    "WM_StartMPEx",
-    "WM_StartMP",
-    "WM_SetDCFData",
-    "WM_StartDataSharing",
-    "WM_StepDataSharing",
-    "WmDataSharingSetDataCallback",
-    "WmDataSharingReceiveCallback_Parent",
-    "WmDataSharingReceiveCallback_Child",
-    "WmDataSharingReceiveData",
-    "WmDataSharingSendDataSet",
-    "WM_GetSharedDataAddress",
-    "WM_MeasureChannel",
-    "CTRDGi_IsAgbCartridgeAtInit",
-    "CTRDG_IsExisting",
-    "CTRDGi_RestoreAccessCycle",
-    "CTRDGi_TaskThread",
-    "MATHi_CRC8InitTable",
-    "MATHi_CRC8Update",
-    "MATHi_CRC16InitTableRev",
-    "MATHi_CRC16UpdateRev",
-    "MATHi_CRC32InitTableRev",
-    "MATHi_CRC32UpdateRev",
-    "MATH_CalcChecksum16",
-    "CTRDGi_IsAgbCartridge",
-    "STD_TSScanf",
-    "STDi_FillBitset",
-    "string_put_string",
-    "STD_ConvertStringSjisToUnicode",
-    "STD_ConvertStringUnicodeToSjis",
-    "__exit",
-    "__flush_all",
-    "__flush_buffer",
-    "fflush",
-    "StrNCaseCmp",
-    "func_020179b0",
-    "wcstombs",
-    "memcpy",
-    "memchr",
-    "memcmp",
-    "__fill_mem",
-    "parse_format",
-    "long2str"
-   ],
-   "bytes": 11212,
-   "addr": [
-    33632696,
-    33653932
-   ]
-  },
-  {
-   "id": "L0-03006",
-   "level": 0,
-   "functions": [
-    "longlong2str",
-    "double2hex",
-    "round_decimal",
-    "float2str",
-    "__pformatter",
-    "vsnprintf",
-    "sprintf",
-    "func_02019fb0",
-    "raise",
-    "strcpy",
-    "strncpy",
-    "strcat",
-    "strcmp",
-    "strncmp",
-    "strchr",
-    "__strtold",
-    "__strtoul",
-    "strtoul",
-    "strtol",
-    "wmemchr",
     "func_0201c300",
     "func_0201c550",
-    "func_0201cbe8",
-    "__wStringWrite",
-    "func_0201dc88",
-    "func_0201dd3c",
-    "wcschr",
-    "__ieee754_pow",
-    "copysign",
-    "fabs",
-    "frexp",
-    "ldexp",
-    "__must_round",
-    "__ull2dec",
-    "__timesdec",
-    "__str2dec",
     "func_02022064",
-    "__num2dec",
-    "func_020228b0",
-    "func_02022944",
-    "__fpclassifyd",
-    "scalbn",
-    "func_02022d98",
-    "_dfix",
-    "_dflt",
-    "_dfltu",
-    "_dmul",
-    "sqrt",
-    "_f2d",
-    "_ffix"
-   ],
-   "bytes": 24484,
-   "addr": [
-    33653932,
-    33703216
-   ]
-  },
-  {
-   "id": "L0-03007",
-   "level": 0,
-   "functions": [
-    "_ffixu",
-    "_fflt",
-    "_ffltu",
-    "_fmul",
-    "_fsub",
-    "_ll_mul",
-    "_s32_div_f",
-    "_u32_div_f",
-    "sys_WriteChar",
-    "sys_ReadChar",
-    "func_020256e8",
-    "__read_console",
-    "__write_console",
-    "func_02025784",
-    "func_02025810",
-    "func_0202589c",
-    "func_02025900",
-    "func_02025a08",
-    "func_02026a70",
-    "__destroy_global_chain",
-    "func_02027070",
     "__FindExceptionTable",
-    "__rethrow",
-    "SetFirstObject",
-    "NNS_FndAppendListObject",
-    "NNS_FndPrependListObject",
-    "NNS_FndInsertListObject",
-    "NNS_FndRemoveListObject",
-    "NNS_FndGetPrevListObject",
-    "NNSi_FndInitHeapHead",
-    "InitMBlock",
-    "InitExpHeap",
-    "AllocUsedBlockFromFreeBlock",
-    "AllocFromHead",
-    "AllocFromTail",
-    "RecycleRegion",
-    "NNS_FndCreateExpHeapEx",
-    "NNS_FndAllocFromExpHeapEx",
-    "NNS_FndGetAllocatableSizeForExpHeapEx",
     "func_02027c08",
     "func_02027c64",
-    "NNS_FndCreateFrmHeapEx",
-    "NNS_FndAllocFromUnitHeap",
-    "AllocatorAllocForUnitHeap",
-    "NNS_FndAllocFromAllocator",
-    "NNS_G3dAnmObjCalcSizeRequired",
-    "NNS_G3dAnmObjInit",
-    "addLink_",
-    "updateHintVec_",
-    "removeLink_"
-   ],
-   "bytes": 6516,
-   "addr": [
-    33703216,
-    33719028
-   ]
-  },
-  {
-   "id": "L0-03008",
-   "level": 0,
-   "functions": [
-    "bindMdlTex_Internal_",
-    "releaseMdlTex_Internal_",
-    "NNS_G3dBindMdlTex",
-    "NNS_G3dReleaseMdlTex",
-    "bindMdlPltt_Internal_",
-    "NNS_G3dBindMdlPltt",
-    "NNS_G3dReleaseMdlPltt",
-    "NNS_G3dBindMdlSet",
-    "NNS_G3dReleaseMdlSet",
-    "NNS_G3dGlbFlushP",
-    "mtx_inverse44",
-    "NNSi_G3dAnmBlendJnt",
-    "NNSi_G3dAnmBlendVis",
-    "G3dDrawInternal_Loop_",
-    "G3dDrawInternal_",
     "func_02029988",
-    "NNSi_G3dFuncSbc_NODE",
-    "NNSi_G3dFuncSbc_MAT_InternalDefault",
-    "NNSi_G3dFuncSbc_MAT",
-    "NNSi_G3dFuncSbc_SHP",
-    "NNSi_G3dFuncSbc_BB",
-    "NNSi_G3dFuncSbc_BBY",
-    "NNSi_G3dFuncSbc_NODEMIX",
-    "NNSi_G3dFuncSbc_POSSCALE",
-    "NNSi_G3dFuncSbc_ENVMAP",
-    "NNSi_G3dFuncSbc_PRJMAP",
-    "NNS_G3dDraw1Mat1Shp",
-    "NNS_G3dGeFlushBuffer",
-    "NNS_G3dGeBufferOP_N",
-    "NNS_G3dResDefaultRelease",
-    "NNS_G3dWorldPosToScrPos",
-    "NNS_G3dScrPosToWorldLine",
-    "NNS_G3dMdlSetMdlDiff",
-    "NNS_G3dMdlSetMdlAmb",
-    "NNS_G3dMdlSetMdlSpec",
-    "NNS_G3dMdlSetMdlEmi",
-    "NNS_G3dMdlSetMdlPolygonID",
-    "NNS_G3dMdlSetMdlAlpha",
-    "NNS_G3dMdlGetMdlDiff",
-    "NNS_G3dMdlGetMdlAmb",
-    "NNS_G3dMdlGetMdlSpec",
-    "NNS_G3dMdlGetMdlEmi",
-    "NNS_G3dGetResDataByName",
-    "NNS_G3dGetResDictIdxByName",
-    "NNS_G3dGetMdlSet",
-    "NNS_G3dGetAnmByIdx",
-    "NNSi_G3dGetTexPatAnmFV",
-    "NNSi_G3dGetTexPatAnmDataByIdx",
-    "NNSi_G3dAnmObjInitNsBca",
-    "getMdlTrans_"
-   ],
-   "bytes": 16408,
-   "addr": [
-    33719580,
-    33739896
-   ]
-  },
-  {
-   "id": "L0-03009",
-   "level": 0,
-   "functions": [
-    "getMdlScale_",
-    "getJntSRTAnmResult_",
-    "getTransData_",
-    "getTransDataEx_",
-    "getScaleData_",
-    "getScaleDataEx_",
-    "getRotData_",
-    "getRotDataEx_",
-    "getRotDataByIdx_",
-    "GetMatColAnmValue_",
-    "GetMatColAnmuAlphaValue_",
     "func_0202eb9c",
-    "NNSi_G3dAnmCalcNsBma",
-    "GetTexSRTAnmVectorVal_",
-    "GetTexSRTAnmSinCosVal_",
-    "GetTexSRTAnm_",
     "func_0202f06c",
-    "NNSi_G3dAnmObjInitNsBtp",
-    "SetTexParamaters_",
-    "SetPlttParamaters_",
-    "NNSi_G3dAnmCalcNsBtp",
-    "NNSi_G3dAnmObjInitNsBva",
-    "NNSi_G3dGetJointScaleMaya",
-    "texmtxCalc_flag_",
-    "texmtxCalc_flagS_",
-    "texmtxCalc_flagR_",
-    "texmtxCalc_flagT_",
-    "texmtxCalc_flagTS_",
-    "texmtxCalc_flagTR_",
     "func_0202fc04",
-    "NNSi_G3dSendJointSRTSi3d",
-    "NNSi_G3dGetJointScaleSi3d",
-    "NNSi_G3dSendTexSRTSi3d",
     "func_02030260",
     "func_02030368",
     "func_02030450",
@@ -539,593 +30,68 @@
     "func_02030ad8",
     "func_02030b5c",
     "func_02030bb0",
-    "NNSi_G3dSendTexSRTXsi",
-    "NNS_GfdInitVramTransferManager",
-    "NNS_GfdDoVramTransfer",
-    "NNS_GfdRegisterNewVramTransferTask",
-    "TryToMergeBlockRegion_",
-    "NNSi_GfdInitLnkVramBlockPool"
-   ],
-   "bytes": 14084,
-   "addr": [
-    33739896,
-    33756448
-   ]
-  },
-  {
-   "id": "L0-03010",
-   "level": 0,
-   "functions": [
-    "NNSi_GfdAllocLnkVram",
-    "NNSi_GfdAllocLnkVramAligned",
-    "NNSi_GfdMergeAllFreeBlocks",
-    "NNSi_GfdFreeLnkVram",
-    "NNS_GfdAllocLnkTexVram",
-    "NNS_GfdFreeLnkTexVram",
-    "NNS_GfdResetLnkTexVramState",
-    "NNS_GfdAllocLnkPlttVram",
-    "NNS_GfdResetLnkPlttVramState",
-    "NNS_SndUpdateDriverInfo",
-    "NNS_SndAllocAlarm",
-    "NNS_SndPlayerCreateHeap",
-    "NNS_SndHandleReleaseSeq",
     "func_020321ec",
-    "NNS_SndPlayerSetInitialVolume",
-    "NNS_SndPlayerMoveVolume",
-    "NNS_SndPlayerSetChannelPriority",
     "func_02032260",
-    "NNS_SndPlayerSetTrackVolume",
     "func_020322b0",
-    "NNS_SndPlayerSetTrackPan",
-    "NNS_SndPlayerSetSeqNo",
-    "NNS_SndPlayerSetSeqArcNo",
-    "NNS_SndPlayerWriteVariable",
-    "NNS_SndPlayerReadDriverPlayerInfo",
-    "NNSi_SndPlayerInit",
-    "NNSi_SndPlayerMain",
-    "NNSi_SndPlayerStartSeq",
-    "AllocSeqPlayer",
-    "ShutdownPlayer",
-    "NNS_SndStrmSetVolume",
-    "NNS_SndCaptureStartReverb",
-    "NNS_SndCaptureSetReverbVolume",
-    "NNS_SndCaptureStopReverb",
-    "NNSi_SndCaptureMain",
-    "NNSi_SndCaptureStart",
-    "NNSi_SndCaptureStop",
-    "NNSi_SndCaptureBeginSleep",
-    "NNSi_SndCaptureEndSleep",
-    "NNS_SndArcInit",
-    "NNS_SndArcSetup",
-    "NNS_SndArcInitOnMemory",
-    "NNS_SndArcGetSeqInfo",
-    "NNS_SndArcGetSeqArcInfo",
-    "NNS_SndArcGetBankInfo",
-    "NNS_SndArcGetWaveArcInfo",
-    "NNS_SndArcGetPlayerInfo",
-    "NNS_SndArcGetGroupInfo",
-    "NNS_SndArcReadFile",
-    "NNSi_SndArcLoadGroup"
-   ],
-   "bytes": 7192,
-   "addr": [
-    33756540,
-    33767296
-   ]
-  },
-  {
-   "id": "L0-03011",
-   "level": 0,
-   "functions": [
-    "NNSi_SndArcLoadSeq",
-    "NNSi_SndArcLoadBank",
-    "NNSi_SndArcLoadWaveArc",
-    "LoadWaveArcTable",
-    "LoadSingleWave",
-    "LoadSingleWaves",
-    "NNS_SndArcPlayerSetup",
-    "StartSeq",
-    "StartSeqArc",
-    "NNSi_SndArcStrmMain",
-    "FreePlayer",
-    "RemoveCommandByPlayer",
-    "NNSi_SndSeqArcGetSeqInfo",
-    "reset_network_vars",
-    "CPS_Startup",
-    "CPS_CalmDown",
-    "calc_checksum_do",
-    "calc_checksum",
-    "check_tcpudpsum",
-    "ip_isme",
-    "CPSi_RecvCallbackFunc",
-    "receive_packet",
-    "throw_packet",
-    "inq_arpcache",
-    "send_arprequest",
-    "reg_arpcache",
-    "send_ether",
-    "send_ip_frag",
-    "send_ip",
-    "send_ping",
-    "send_udp",
-    "send_tcp",
-    "reply_arp",
-    "dispatch_arp",
-    "reply_icmp",
-    "process_icmp_reply",
-    "dispatch_icmp",
-    "check_listener",
-    "check_socket",
-    "find_socket",
-    "parse_mss",
-    "tcp_send_handshake",
-    "tcp_send_rst",
-    "dt_syn_listen",
-    "dt_syn",
-    "dt_synack",
-    "dt_ack",
-    "dispatch_tcp",
-    "dispatch_udp",
-    "dispatch_ip"
-   ],
-   "bytes": 11920,
-   "addr": [
-    33767296,
-    33783296
-   ]
-  },
-  {
-   "id": "L0-03012",
-   "level": 0,
-   "functions": [
-    "tcpip",
-    "CPS_SocGetEport",
-    "get_seqno",
-    "CPSi_TcpConnectRaw",
-    "CPS_TcpConnect",
-    "CPS_TcpClose",
-    "udp_read_raw",
-    "CPSi_TcpReadRaw",
-    "CPS_SocRead",
-    "CPSi_SocConsumeRaw",
-    "CPS_SocConsume",
-    "tcp_write_do",
-    "CPSi_TcpWrite2Raw",
-    "CPSi_SocWrite2",
-    "CPS_SocGetLength",
-    "set_fixed_ip",
-    "scavenger",
-    "dhcp_setcommon",
-    "dhcp_send_discover",
-    "dhcp_send_request",
-    "dhcp_analyze_response",
-    "dhcp_release_server",
-    "dns_skipname",
-    "resolve_common",
-    "rawip",
-    "resolve_sub",
-    "CPS_Resolve",
-    "SOCLi_StartupCPS",
-    "SOCLi_StartupCommandPacketQueue",
-    "SOCLi_ExecCommandPacket",
-    "SOCLi_CreateSocketCallBack",
-    "SOCLi_GetSizeSocket",
-    "SOCLi_InitSocket",
-    "SOCL_Bind",
-    "SOCL_Connect",
-    "SOCLi_ExecBindCommand",
-    "SOCLi_BindCallBack",
-    "SOCL_ReadFrom",
-    "SOCLi_ReadAndConsumeBuffer",
-    "SOCLi_ReadBuffer",
-    "SOCLi_CopyCPSBuffer",
-    "SOCLi_ReadCPSBuffer",
-    "SOCLi_ExecReadCommand",
-    "SOCLi_ReadCallBack",
-    "SOCLi_ConsumeBuffer",
-    "SOCLi_ConsumeCPSBuffer",
-    "SOCLi_ReadUdpBuffer",
-    "SOCLi_UdpRecvCallback",
-    "SOCL_WriteTo",
-    "SOCLi_WriteBuffer"
-   ],
-   "bytes": 10756,
-   "addr": [
-    33783296,
-    33796448
-   ]
-  },
-  {
-   "id": "L0-03013",
-   "level": 0,
-   "functions": [
-    "SOCLi_AllocWriteBuffer",
-    "SOCLi_GetWriteBufferFreeSize",
-    "SOCLi_ExecWriteCommand",
-    "SOCLi_WriteCallBack",
-    "SOCLi_GetOptimumSendBufLen",
-    "SOCL_Shutdown",
-    "SOCL_Close",
-    "SOCLi_CleanupSocket",
-    "SOCL_CloseAll",
-    "SOCL_Resolve",
-    "SOCL_GetStatus",
-    "SOCLi_GetReadBufferOccpiedSize",
-    "SOCLi_SocketGetNextPtr",
-    "SOCL_SocketIsInvalid",
-    "SOC_RecvFrom",
-    "SOC_SendTo",
-    "SOC_GetHostByName",
-    "SOC_GetSockName",
-    "SOC_InetNtoA",
-    "SOC_InetNtoP",
-    "SOC_Poll",
-    "WCM_Finish",
-    "WCM_StartupAsync",
-    "WCM_CleanupAsync",
-    "WCM_SearchAsync",
-    "WCM_BeginSearchAsync",
-    "WCM_EndSearchAsync",
-    "WCM_ConnectAsync",
-    "WCM_DisconnectAsync",
-    "WCM_TerminateAsync",
-    "WCM_UpdateOption",
-    "WcmEditScanExParam",
-    "WcmGetNextScanChannel",
-    "WcmNotifyEx",
-    "WcmSetPhase",
-    "WcmWmReset",
-    "WcmWmcbIndication",
-    "WcmWmcbCommon",
-    "WcmWmcbScanEx",
-    "WcmWmcbEndScan",
-    "WcmWmcbConnect",
-    "WcmWmcbDisconnect",
-    "WcmWmcbStartDCF",
-    "WcmWmcbEndDCF",
-    "WcmWmcbReset",
-    "WCM_LockApList",
-    "WCM_PointApList",
-    "WcmAllocApList",
-    "WcmSearchIndexedApList",
-    "WcmAppendApList"
-   ],
-   "bytes": 11664,
-   "addr": [
-    33796448,
-    33832288
-   ]
-  },
-  {
-   "id": "L0-03014",
-   "level": 0,
-   "functions": [
-    "WCM_GetApEssid",
-    "WCM_SendDCFDataEx",
-    "WcmCpsifUnlockMutexInIRQ",
-    "WCM_CompareBssID",
-    "WCMi_GetRssiAverage",
-    "WCMi_ShelterRssi",
-    "DWCi_Acc_GetUserId",
-    "DWCi_Acc_GetFriendKey",
-    "DWCi_Acc_SetFlag_DataType",
-    "DWCi_SetBuddyFriendData",
-    "DWC_StringToFriendKey",
-    "DWCi_Acc_U64ToString32",
-    "DWCi_Acc_LoginIdToUserName",
-    "DWCi_Acc_CreateTempLoginId",
-    "DWCi_Acc_CheckConsoleUserId",
-    "DWC_CheckUserData",
-    "DWC_CheckValidConsole",
-    "DWCi_Acc_SetLoginIdToUserData",
-    "DWC_GetFriendKey",
-    "DWC_CreateExchangeToken",
-    "DWC_LoginIdToUserName",
-    "DWC_IsEqualFriendData",
-    "DWC_ReportFriendData",
-    "DWC_AllocEx",
-    "DWC_Realloc",
-    "DWC_ReallocEx",
-    "DWC_ConnectInetAsync",
-    "DWC_SetCommonKeyValueString",
-    "DWC_GetCommonValueString",
-    "DWCi_WStrLen",
-    "DWCi_BM_GetWiFiInfo",
-    "DWCi_BM_SetWiFiInfo",
-    "DWCi_BACKUPlWritePage",
-    "DWCi_BACKUPlWriteAll",
-    "DWCi_BACKUPlConvMaskCidr",
-    "DWC_BACKUPlCheckSsid",
-    "Callback_NVRAM",
-    "DWCi_BACKUPlConvWifiInfo",
-    "DWC_BM_Init",
-    "init",
-    "initPage",
-    "DWCi_Util_WiFiId_scrambleUid",
-    "DWCi_AUTH_GetNewWiFiInfo",
-    "DWCi_AUTH_UpDateWiFiID",
-    "DWCi_AUTH_RemakeWiFiID",
-    "DWC_Auth_GetId",
-    "DWC_Auth_CheckWiFiIDNeedCreate",
-    "FreeElement",
-    "ArrayGrow",
-    "ArraySearch"
-   ],
-   "bytes": 6932,
-   "addr": [
-    33832584,
-    33930060
-   ]
-  },
-  {
-   "id": "L0-03015",
-   "level": 0,
-   "functions": [
-    "ArrayMapBackwards2",
-    "mylsearch",
-    "mybsearch",
     "func_0205bf70",
-    "MD5Print",
-    "IsPrivateIP",
-    "_strlwr",
-    "current_time",
-    "nextlongrand",
-    "Util_RandInt",
-    "QuartToTrip",
-    "TripToQuart",
-    "B64Decode",
-    "B64Encode",
-    "gsUdpSocketError",
-    "gsUdpClosedRoutingCB",
-    "gsUdpConnectedRoutingCB",
-    "gsUdpPingRoutingCB",
-    "gsUdpEngineGetPeerState",
-    "gsUdpEngineNoApp",
-    "gsUdpEngineGetPeerOutBufferFreeSpace",
-    "gpProcess",
-    "gpSetCallback",
     "func_0205e350",
-    "gpSendBuddyRequestA",
     "func_0205e514",
-    "gpDenyBuddyRequest",
-    "gpGetNumBuddies",
-    "gpGetBuddyIndex",
-    "gpIsBuddy",
-    "gpDeleteBuddy",
-    "gpSetStatusA",
-    "gpSendBuddyMessageA",
-    "gpiSendBuddyMessage",
-    "gpiBuddyHandleKeyReply",
-    "gpiSendData",
-    "gpiReadMessageFromBuffer",
-    "gpiClipBufferToPosition",
-    "randomString",
-    "gpiConnect",
-    "gpiIsValidDate",
-    "gpiGetInfo",
-    "gpiSetInfoCache",
-    "gpiStatusInfoKeysInit",
-    "gpiStatusInfoAddKey",
-    "gpiStatusInfoSetKey",
-    "gpiStatusInfoCheckKey",
-    "gpiOperationsAreBlocking",
-    "gpiPeerSendMessages",
-    "gpiCheckTimedOutPeerOperations"
-   ],
-   "bytes": 10048,
-   "addr": [
-    33930120,
-    33975740
-   ]
-  },
-  {
-   "id": "L0-03016",
-   "level": 0,
-   "functions": [
-    "gpiPeerStartConnect",
-    "gpiPeerStartTransferMessage",
-    "gpiPeerRemoveOp",
-    "gpiProfilesTableHash",
-    "gpiProcessDeleteProfle",
-    "gpiFindProfileByUser",
-    "gpiProfileMap",
     "func_02067db4",
     "func_0206a7a4",
     "func_0206a8a8",
-    "gpiCheckSocketConnect",
-    "gpiEncodeString",
-    "BucketAdd",
-    "BucketSub",
-    "BucketMult",
-    "BucketDiv",
-    "BucketAvg",
-    "stripchars",
-    "DoSet",
-    "xcode_buf",
-    "value_for_key",
-    "FindFinal",
-    "ProcessGetData",
-    "ProcessSetData",
-    "ProcessInBuffer",
     "func_0206bf34",
     "func_0206c04c",
-    "gti2VerifyChallenge",
-    "gti2GetResponse",
-    "gti2CheckResponse",
-    "gti2NewOutgoingConnection",
-    "gti2NewIncomingConnection",
-    "gti2StartConnectionAttempt",
-    "gti2AcceptConnection",
-    "gti2RejectConnection",
-    "gti2CheckTimeout",
-    "gti2SendRetries",
-    "gti2CheckPendingAck",
-    "gti2ConnectionClosed",
-    "gt2CreateSocket",
-    "gt2Connect",
-    "gt2GetConnectionState",
-    "gti2UShortFromBuffer",
-    "gti2ConnectionError",
-    "gti2HandleESN",
-    "gti2HandleAppReliable",
-    "gti2HandleClientChallenge",
-    "gti2HandleServerChallenge",
-    "gti2HandleClientResponse",
-    "gti2HandleClose"
-   ],
-   "bytes": 6960,
-   "addr": [
-    33976672,
-    34003892
-   ]
-  },
-  {
-   "id": "L0-03017",
-   "level": 0,
-   "functions": [
-    "gti2DeliverReliableMessage",
-    "gti2BufferIncomingMessage",
-    "gti2RemoveHoldMessage",
-    "gti2DeliverHoldMessages",
-    "gti2HandleReliableMessage",
-    "gti2HandleNack",
-    "gti2HandleClosed",
-    "gti2HandleUnreliableMessage",
-    "gti2HandleConnectionReset",
-    "gti2SendServerChallenge",
-    "gti2ResendMessage",
-    "gti2ConnectionHash",
-    "gti2ConnectionCompare",
-    "gti2SocketFindConnection",
-    "gti2FreeSocketConnection",
-    "gti2SocketConnectionsThinkMap",
-    "gt2AddressToString",
-    "GetLocalPort",
-    "DetermineNatType",
-    "FindNegotiatorForCookie",
-    "SendPacket",
     "func_02070764",
-    "ResolveServers",
-    "NNCancel",
-    "NegotiateThink",
-    "ProcessConnectPacket",
-    "qr2_keybuffer_add",
-    "qr2_buffer_addA",
-    "encode_ct",
-    "gs_encode",
-    "gs_encrypt",
-    "qr_process_query",
-    "qr2_register_keyA",
-    "keyrand",
-    "GOAHashInit",
-    "GOACryptInit",
-    "GOADecryptByte",
-    "FIFORemove",
-    "SBQueryEngineUpdateServer",
-    "ParseSingleQR2Reply",
-    "ParseSingleGOAReply",
-    "ProcessIncomingReplies",
-    "QueueNextQueries",
-    "SBServerAddKeyValue",
-    "SBServerGetFloatValueA",
-    "CheckValidKey",
-    "mytok",
-    "StringHash",
-    "KeyValCompareKey",
-    "SBAllocServer"
-   ],
-   "bytes": 8812,
-   "addr": [
-    34003892,
-    34032872
-   ]
-  },
-  {
-   "id": "L0-03018",
-   "level": 0,
-   "functions": [
-    "ServerBrowserBeginUpdate2",
-    "ServerBrowserLimitUpdateA",
-    "ServerBrowserRemoveServer",
-    "ServerBrowserState",
-    "ServerBrowserSortA",
-    "SBServerListAppendServer",
-    "SBServerListFindServer",
-    "SBServerListFindServerByIP",
-    "SBServerListClear",
-    "SBRefStr",
-    "NTSLengthSB",
     "func_02075e88",
-    "BufferAddIntLE",
-    "SetupListChallenge",
-    "FreePopularValues",
-    "SBServerListDisconnect",
-    "InitCryptKey",
-    "ServerSizeForFlags",
-    "FullRulesPresent",
-    "ProcessPushKeyList",
-    "ProcessPushServer",
-    "ProcessIncomingData",
-    "ProcessLanData",
-    "SBListThink",
-    "func_0207dba8",
-    "func_0208e5b8",
-    "CTRDG_SetTaskThreadPriority",
     "func_0209361c",
     "func_02097db0",
     "func_020c33d0",
-    "func_020dcdc4",
-    "CRYPTO_RC4Init"
+    "func_020dcdc4"
    ],
-   "bytes": 3336,
+   "bytes": 6884,
    "addr": [
-    34033880,
-    34462708
+    33564260,
+    34459096
    ]
   },
   {
-   "id": "L1-03001",
+   "id": "L1-04001",
    "level": 1,
    "functions": [
     "func_02000954",
-    "func_02002b44",
     "func_020065d8",
+    "DC_InvalidateAll",
+    "IC_InvalidateAll",
+    "OSi_WaitVCount0",
+    "OS_SetProtectionRegion2",
     "func_02008c04",
-    "OsCountZeroBits",
     "MIi_CpuClear32",
     "func_0200f25c",
     "func_0200f29c",
     "func_0200f2ec",
-    "PM_ForceToPowerOff",
-    "func_0200f924",
     "func_0200ff10",
     "func_0200ff2c",
-    "CARDi_SendtoPxi",
-    "CTRDGi_InitCommon",
-    "CTRDGi_SendtoPxi",
+    "WM_InitializeForListening",
     "func_02019f64",
     "func_02026654",
     "func_02026834",
-    "__call_static_initializers",
     "func_02026c98",
     "func_02026e5c",
+    "AllocatorAllocForUnitHeap",
+    "NNS_G3dGetMdlSet",
     "GetNextIndex_",
+    "NNSi_GfdAllocLnkVram",
+    "NNS_SndPlayerSetTrackPan",
+    "calc_checksum",
     "func_0203a154",
     "func_0203d4f8",
-    "CPS_SslConnect",
-    "CPS_SslReadRelease",
-    "CPS_SslClose",
-    "Sha1PutBigEndian",
-    "Sha1GetBigEndian",
-    "BigInti_GetLength",
-    "BigInt_GetSign",
     "func_02040e70",
     "func_02040e7c",
     "func_02040e8c",
     "func_02040ea0",
     "func_020416b0",
     "func_0204170c",
-    "WcmCountLeadingZero",
+    "WCM_SearchAsync",
     "func_0204465c",
     "func_0204589c",
     "func_02045958",
@@ -1135,31 +101,36 @@
     "func_02046078",
     "func_02046aa8",
     "func_02046eac",
+    "DWCi_Acc_GetUserId",
+    "DWCi_Acc_GetFriendKey",
+    "DWC_LoginIdToUserName",
     "func_0204aa30",
-    "func_0204aa88"
+    "func_0204aa88",
+    "DWC_Realloc",
+    "func_0204f1ac"
    ],
-   "bytes": 2640,
+   "bytes": 2108,
    "addr": [
     33556820,
-    33860296
+    33878524
    ]
   },
   {
-   "id": "L1-03002",
+   "id": "L1-04002",
    "level": 1,
    "functions": [
-    "func_0204f1ac",
     "func_02052ccc",
     "func_02057794",
     "func_0205990c",
     "func_020599f4",
-    "recvfrom",
+    "gpiProfilesTableHash",
     "func_02067860",
-    "gpiGetProfile",
+    "gti2UShortFromBuffer",
+    "gti2ConnectionHash",
     "func_020721ac",
     "func_02072d30",
     "func_02072d90",
-    "SBReleaseStr",
+    "qr2_register_keyA",
     "func_02078cb4",
     "func_0207b6ac",
     "func_0207b708",
@@ -1199,14 +170,14 @@
     "func_02089e1c",
     "func_0208a43c"
    ],
-   "bytes": 2860,
+   "bytes": 2704,
    "addr": [
-    33878444,
+    33893580,
     34120840
    ]
   },
   {
-   "id": "L1-03003",
+   "id": "L1-04003",
    "level": 1,
    "functions": [
     "func_0208a4b8",
@@ -1267,7 +238,7 @@
    ]
   },
   {
-   "id": "L1-03004",
+   "id": "L1-04004",
    "level": 1,
    "functions": [
     "func_020ab87c",
@@ -1328,7 +299,7 @@
    ]
   },
   {
-   "id": "L1-03005",
+   "id": "L1-04005",
    "level": 1,
    "functions": [
     "func_020b80e0",
@@ -1389,7 +360,7 @@
    ]
   },
   {
-   "id": "L1-03006",
+   "id": "L1-04006",
    "level": 1,
    "functions": [
     "func_020d05b8",
@@ -1431,7 +402,7 @@
    ]
   },
   {
-   "id": "L2-03001",
+   "id": "L2-04001",
    "level": 2,
    "functions": [
     "HuffUnCompReadByCallback",
@@ -1464,48 +435,136 @@
     "func_020016dc",
     "func_020044b8",
     "func_02004750",
+    "OS_SetIrqStackChecker",
     "func_02006878",
-    "OS_SetProtectionRegion1",
-    "OS_SetProtectionRegion2",
+    "OSi_RemoveThreadFromList",
+    "OS_UnlockMutex",
+    "MIi_DMACallback",
+    "MIi_DMAFastCallback",
     "MIi_CpuClear16",
     "MIi_CpuCopy16",
     "MIi_CpuCopy32",
     "MIi_CpuSend32",
     "MIi_CpuClearFast",
     "MIi_CpuCopyFast",
+    "MI_Copy64B",
     "func_02009bb4",
-    "func_0200f354",
-    "PM_Init",
-    "func_020178f0",
-    "memmove",
-    "func_02026c50",
-    "func_02026e14",
-    "func_020271bc",
-    "func_0203ca10",
-    "func_0203cb68",
-    "func_0203cbb4"
+    "SND_SetupCapture",
+    "PXI_SetFifoRecvCallback",
+    "PXI_IsCallbackReady",
+    "FSi_ReleaseCommand",
+    "CP_SaveContext",
+    "CPi_RestoreContext"
    ],
-   "bytes": 1730,
+   "bytes": 1710,
    "addr": [
     33554554,
-    33803268
+    33613736
    ]
   },
   {
-   "id": "L2-03002",
+   "id": "L2-04002",
    "level": 2,
    "functions": [
+    "TP_GetCalibratedResult",
+    "func_0200f354",
+    "PM_ForceToPowerOff",
+    "PMi_ForceToPowerOff",
+    "CARDi_SetCardDma",
+    "CARDi_ReadRomIDCore",
+    "CARDi_TaskThread",
+    "CARDi_SendtoPxi",
+    "CTRDGi_InitCommon",
+    "CTRDGi_LockByProcessor",
+    "CTRDGi_SendtoPxi",
+    "STDi_FillBitset",
+    "func_020178f0",
+    "memmove",
+    "__dorounddecup",
+    "_ll_udiv",
+    "__call_static_initializers",
+    "func_02026c50",
+    "func_02026e14",
+    "func_020271bc",
+    "__rethrow",
+    "InitMBlock",
+    "NNS_FndAllocFromUnitHeap",
+    "NNS_G3dAnmObjCalcSizeRequired",
+    "NNS_G3dGlbFlushP",
+    "G3dDrawInternal_Loop_",
+    "NNS_G3dGeFlushBuffer",
+    "NNS_G3dGetAnmByIdx",
+    "NNSi_G3dGetTexPatAnmDataByIdx",
+    "NNSi_G3dAnmObjInitNsBva",
+    "texmtxCalc_flagTR_",
+    "NNS_GfdInitVramTransferManager",
+    "NNSi_GfdInitLnkVramBlockPool",
+    "NNS_GfdResetLnkPlttVramState",
+    "NNS_SndPlayerMoveVolume",
+    "NNS_SndPlayerSetTrackVolume",
+    "NNS_SndPlayerWriteVariable",
+    "NNS_SndPlayerReadDriverPlayerInfo",
+    "NNS_SndCaptureSetReverbVolume",
+    "NNS_SndCaptureStopReverb",
+    "NNSi_SndCaptureBeginSleep",
+    "NNSi_SndSeqArcGetSeqInfo",
+    "CPS_CalmDown",
+    "check_tcpudpsum",
+    "CPSi_RecvCallbackFunc",
+    "throw_packet",
+    "get_seqno",
+    "CPS_TcpConnect",
+    "udp_read_raw",
+    "CPS_SocConsume"
+   ],
+   "bytes": 3504,
+   "addr": [
+    33615088,
+    33784992
+   ]
+  },
+  {
+   "id": "L2-04003",
+   "level": 2,
+   "functions": [
+    "dns_skipname",
+    "SOCLi_ExecBindCommand",
+    "SOCLi_ExecReadCommand",
+    "SOCLi_ConsumeBuffer",
+    "SOCLi_ConsumeCPSBuffer",
+    "SOCLi_GetWriteBufferFreeSize",
+    "SOCLi_GetReadBufferOccpiedSize",
+    "SOCLi_SocketGetNextPtr",
+    "SOCL_SocketIsInvalid",
+    "SOC_InetNtoA",
+    "func_0203ca10",
+    "func_0203cb68",
+    "func_0203cbb4",
     "func_0203d46c",
     "func_0203d7d4",
     "func_0203d820",
     "func_0203d890",
-    "SSLi_HashKeyMaterialBlock",
-    "CPSi_SslPeriodical",
+    "CPS_SslConnect",
+    "CPS_SslReadRelease",
+    "CPS_SslClose",
     "Sha1ExpandWord",
-    "CPSi_rc4_crypt",
+    "Sha1PutBigEndian",
+    "Sha1GetBigEndian",
+    "BigInti_GetLength",
+    "BigInt_GetSign",
     "BigInt_Negate",
     "BigInti_Compare",
     "BigInti_AddDigitFrom",
+    "WCM_Finish",
+    "WcmNotifyEx",
+    "WcmCountBits",
+    "WcmWmReset",
+    "WCM_PointApList",
+    "WcmSearchIndexedApList",
+    "WCM_GetApEssid",
+    "WcmCpsifUnlockMutexInIRQ",
+    "WCM_CompareBssID",
+    "WCMi_ShelterRssi",
     "func_02045018",
     "func_02045c10",
     "func_020460ac",
@@ -1514,15 +573,35 @@
     "func_02046578",
     "func_0204663c",
     "func_02046b98",
+    "DWCi_Acc_SetFlag_DataType",
+    "DWCi_SetBuddyFriendData",
     "func_02048124",
-    "func_02048168",
+    "func_02048168"
+   ],
+   "bytes": 4000,
+   "addr": [
+    33789552,
+    33849788
+   ]
+  },
+  {
+   "id": "L2-04004",
+   "level": 2,
+   "functions": [
+    "DWC_CheckUserData",
+    "DWCi_Acc_SetLoginIdToUserData",
+    "DWC_GetFriendKey",
     "func_02048738",
     "func_02048798",
+    "DWC_CreateExchangeToken",
     "func_0204a23c",
     "func_0204aac8",
     "func_0204b0b8",
     "func_0204b110",
     "func_0204c9d0",
+    "DWC_AllocEx",
+    "DWC_SetCommonKeyValueString",
+    "DWCi_WStrLen",
     "func_0204e290",
     "func_0204e4b4",
     "func_0204e598",
@@ -1544,50 +623,129 @@
     "func_020599b8",
     "func_02059d4c",
     "func_02059ec0",
-    "writeDisable"
+    "DWCi_BACKUPlConvMaskCidr",
+    "DWC_BACKUPlCheckSsid",
+    "Callback_NVRAM",
+    "initPage",
+    "DWCi_AUTH_UpDateWiFiID",
+    "DWC_Auth_GetId",
+    "DWC_Auth_CheckWiFiIDNeedCreate",
+    "FreeElement",
+    "ArrayGrow",
+    "ArrayMapBackwards2",
+    "mylsearch",
+    "TableFree",
+    "func_0205bdb0",
+    "TableMapSafe2",
+    "MD5Print"
    ],
-   "bytes": 5884,
+   "bytes": 4900,
    "addr": [
-    33805420,
-    33926060
+    33850728,
+    33931368
    ]
   },
   {
-   "id": "L2-03003",
+   "id": "L2-04005",
    "level": 2,
    "functions": [
-    "func_0205bdb0",
-    "TableMapSafe2",
     "func_0205c108",
     "func_0205c168",
+    "recvfrom",
     "sendto",
     "time",
+    "_strlwr",
+    "current_time",
+    "nextlongrand",
+    "Util_RandInt",
+    "QuartToTrip",
     "func_0205cb70",
     "func_0205cd2c",
     "func_0205ddf0",
+    "gsUdpEngineNoApp",
+    "gpProcess",
+    "gpSetCallback",
+    "gpGetNumBuddies",
+    "gpDeleteBuddy",
     "func_020611ec",
     "func_02061a50",
+    "gpiClipBufferToPosition",
     "func_02063b14",
+    "gpiStatusInfoKeysInit",
+    "gpiOperationsAreBlocking",
     "gpiGetPeerByProfile",
     "gpiGetPeerByAddr",
+    "gpiPeerStartTransferMessage",
+    "gpiGetProfile",
+    "gpiFindProfileByUser",
+    "gpiProfileMap",
     "func_02068098",
+    "stripchars",
+    "DoFind",
+    "xcode_buf",
     "func_0206bda4",
-    "gti2ConnectedCallback",
-    "gti2ReceivedCallback",
+    "gti2CheckResponse",
+    "gti2NewOutgoingConnection",
+    "gti2NewIncomingConnection",
+    "gti2AcceptConnection",
+    "gti2RejectConnection",
+    "gti2CheckPendingAck",
+    "gti2ConnectionClosed",
+    "gt2CreateSocket",
+    "gt2GetConnectionState",
+    "gti2HandleClose",
+    "gti2HandleClosed",
     "gti2EndReliableMessage",
-    "gti2SendAppUnreliable",
-    "gti2SendAck",
+    "gti2ConnectionCompare",
+    "gti2SocketFindConnection",
+    "gti2SocketConnectionsThinkMap"
+   ],
+   "bytes": 4084,
+   "addr": [
+    33931528,
+    34012096
+   ]
+  },
+  {
+   "id": "L2-04006",
+   "level": 2,
+   "functions": [
     "func_0206fecc",
+    "GetLocalPort",
+    "SendPacket",
     "func_02070700",
+    "NNCancel",
     "func_02071ab0",
     "func_02071ccc",
+    "qr2_keybuffer_add",
+    "encode_ct",
     "func_0207227c",
     "func_020731d4",
+    "GOAHashInit",
     "func_02073bc4",
+    "QueueNextQueries",
+    "SBServerAddKeyValue",
     "SBServerGetStringValueA",
+    "SBServerGetFloatValueA",
+    "CheckValidKey",
+    "StringHash",
+    "KeyValCompareKey",
     "func_02074f28",
+    "ServerBrowserLimitUpdateA",
+    "ServerBrowserRemoveServer",
+    "ServerBrowserState",
+    "ServerBrowserSortA",
+    "SBServerListAppendServer",
+    "SBServerListFindServer",
+    "SBServerListClear",
+    "SBReleaseStr",
+    "NTSLengthSB",
     "func_02075cd4",
     "BufferAddInt",
+    "BufferAddIntLE",
+    "FreePopularValues",
+    "ServerSizeForFlags",
+    "SBListThink",
     "func_02078d04",
     "func_0207b54c",
     "func_0207b5c4",
@@ -1601,22 +759,22 @@
     "func_0207e81c",
     "func_0207eb5c",
     "func_0207ee0c",
-    "func_0207ee44",
-    "func_0207ee74",
-    "func_0207ef30",
-    "func_0207f0f8",
-    "func_0207f1e4"
+    "func_0207ee44"
    ],
-   "bytes": 5864,
+   "bytes": 4572,
    "addr": [
-    33930672,
-    34075152
+    34012876,
+    34074228
    ]
   },
   {
-   "id": "L2-03004",
+   "id": "L2-04007",
    "level": 2,
    "functions": [
+    "func_0207ee74",
+    "func_0207ef30",
+    "func_0207f0f8",
+    "func_0207f1e4",
     "func_0207f254",
     "func_0207f28c",
     "func_0207f3bc",
@@ -1662,22 +820,22 @@
     "func_02089068",
     "func_02089110",
     "func_02089144",
-    "func_02089520",
-    "func_0208a488",
-    "func_0208a76c",
-    "func_0208b224",
-    "func_0208b454"
+    "func_02089520"
    ],
-   "bytes": 5028,
+   "bytes": 5056,
    "addr": [
-    34075220,
-    34124936
+    34074228,
+    34117000
    ]
   },
   {
-   "id": "L2-03005",
+   "id": "L2-04008",
    "level": 2,
    "functions": [
+    "func_0208a488",
+    "func_0208a76c",
+    "func_0208b224",
+    "func_0208b454",
     "func_0208b488",
     "func_0208b4b0",
     "func_0208b940",
@@ -1723,22 +881,22 @@
     "func_02097a8c",
     "func_02097bb8",
     "func_02097c78",
-    "func_02097d6c",
-    "func_02097dc4",
-    "func_02097efc",
-    "func_02097fa0",
-    "func_02098094"
+    "func_02097d6c"
    ],
-   "bytes": 5272,
+   "bytes": 5048,
    "addr": [
-    34124936,
-    34177336
+    34120840,
+    34176432
    ]
   },
   {
-   "id": "L2-03006",
+   "id": "L2-04009",
    "level": 2,
    "functions": [
+    "func_02097dc4",
+    "func_02097efc",
+    "func_02097fa0",
+    "func_02098094",
     "func_0209833c",
     "func_02098548",
     "func_020985d0",
@@ -1784,22 +942,22 @@
     "func_020ac0d4",
     "func_020ac2f0",
     "func_020ac68c",
-    "func_020ac710",
-    "func_020ac77c",
-    "func_020acd14",
-    "func_020ace00",
-    "func_020ad03c"
+    "func_020ac710"
    ],
-   "bytes": 4664,
+   "bytes": 4672,
    "addr": [
-    34177852,
-    34263248
+    34176452,
+    34260860
    ]
   },
   {
-   "id": "L2-03007",
+   "id": "L2-04010",
    "level": 2,
    "functions": [
+    "func_020ac77c",
+    "func_020acd14",
+    "func_020ace00",
+    "func_020ad03c",
     "func_020ad284",
     "func_020ad484",
     "func_020ad6b4",
@@ -1845,22 +1003,22 @@
     "func_020b8344",
     "func_020b8fdc",
     "func_020b9020",
-    "func_020b96bc",
-    "func_020b96ec",
-    "func_020b9720",
-    "func_020b9764",
-    "func_020bac10"
+    "func_020b96bc"
    ],
-   "bytes": 4884,
+   "bytes": 5140,
    "addr": [
-    34263684,
-    34319432
+    34260860,
+    34313956
    ]
   },
   {
-   "id": "L2-03008",
+   "id": "L2-04011",
    "level": 2,
    "functions": [
+    "func_020b96ec",
+    "func_020b9720",
+    "func_020b9764",
+    "func_020bac10",
     "func_020bac48",
     "func_020baec4",
     "func_020baefc",
@@ -1906,22 +1064,22 @@
     "func_020c30a0",
     "func_020c3330",
     "func_020c338c",
-    "func_020c3490",
-    "func_020c35c4",
-    "func_020c36c4",
-    "func_020c3874",
-    "func_020c3978"
+    "func_020c3490"
    ],
-   "bytes": 4392,
+   "bytes": 4200,
    "addr": [
-    34319432,
-    34355680
+    34313964,
+    34354424
    ]
   },
   {
-   "id": "L2-03009",
+   "id": "L2-04012",
    "level": 2,
    "functions": [
+    "func_020c35c4",
+    "func_020c36c4",
+    "func_020c3874",
+    "func_020c3978",
     "func_020c3b90",
     "func_020c427c",
     "func_020c4388",
@@ -1967,22 +1125,22 @@
     "func_020dcbe8",
     "func_020dcc5c",
     "func_020dcd78",
-    "func_020dcdd8",
-    "func_020dcf20",
-    "func_020dd0d0",
-    "func_020dd1cc",
-    "func_020dd1ec"
+    "func_020dcdd8"
    ],
-   "bytes": 4236,
+   "bytes": 4208,
    "addr": [
-    34356112,
-    34460232
+    34354628,
+    34459164
    ]
   },
   {
-   "id": "L2-03010",
+   "id": "L2-04013",
    "level": 2,
    "functions": [
+    "func_020dcf20",
+    "func_020dd0d0",
+    "func_020dd1cc",
+    "func_020dd1ec",
     "func_020dd938",
     "func_020ddce0",
     "func_020dde08",
@@ -2028,22 +1186,22 @@
     "func_ov000_02170158",
     "func_ov000_02170174",
     "func_ov000_02170a98",
-    "func_ov000_02170c28",
-    "func_ov000_02170c74",
-    "func_ov000_02170c84",
-    "func_ov000_02170cd0",
-    "func_ov000_02170ce0"
+    "func_ov000_02170c28"
    ],
-   "bytes": 1792,
+   "bytes": 2144,
    "addr": [
-    34462008,
-    35065072
+    34459424,
+    35064888
    ]
   },
   {
-   "id": "L2-03011",
+   "id": "L2-04014",
    "level": 2,
    "functions": [
+    "func_ov000_02170c74",
+    "func_ov000_02170c84",
+    "func_ov000_02170cd0",
+    "func_ov000_02170ce0",
     "func_ov000_02170d2c",
     "func_ov000_02170d3c",
     "func_ov000_02170d88",
@@ -2089,22 +1247,22 @@
     "func_ov000_02173a84",
     "func_ov000_02173af4",
     "func_ov000_02173dd4",
-    "func_ov000_02173e88",
-    "func_ov000_02173ea4",
-    "func_ov000_02173f30",
-    "func_ov000_02174428",
-    "func_ov000_021744cc"
+    "func_ov000_02173e88"
    ],
-   "bytes": 1016,
+   "bytes": 960,
    "addr": [
-    35065132,
-    35079400
+    35064948,
+    35077796
    ]
   },
   {
-   "id": "L2-03012",
+   "id": "L2-04015",
    "level": 2,
    "functions": [
+    "func_ov000_02173ea4",
+    "func_ov000_02173f30",
+    "func_ov000_02174428",
+    "func_ov000_021744cc",
     "func_ov000_02174a54",
     "func_ov000_02174d20",
     "func_ov000_02175300",
@@ -2150,22 +1308,22 @@
     "func_ov000_0217fae0",
     "func_ov000_0217faf0",
     "func_ov000_0217fb04",
-    "func_ov000_0217fb14",
-    "func_ov000_0217fb28",
-    "func_ov000_0217fb38",
-    "func_ov000_0217fb54",
-    "func_ov000_0217fb68"
+    "func_ov000_0217fb14"
    ],
-   "bytes": 1068,
+   "bytes": 1096,
    "addr": [
-    35080788,
-    35126148
+    35077796,
+    35126056
    ]
   },
   {
-   "id": "L2-03013",
+   "id": "L2-04016",
    "level": 2,
    "functions": [
+    "func_ov000_0217fb28",
+    "func_ov000_0217fb38",
+    "func_ov000_0217fb54",
+    "func_ov000_0217fb68",
     "func_ov000_0217fb84",
     "func_ov000_0217fba0",
     "func_ov000_0217fbb0",
@@ -2211,22 +1369,22 @@
     "func_ov000_0218afc4",
     "func_ov000_0218b2c8",
     "func_ov000_0218be8c",
-    "func_ov000_0218c8e8",
-    "func_ov000_0218cd74",
-    "func_ov000_0218cdb4",
-    "func_ov000_0218cdbc",
-    "func_ov000_0218ce64"
+    "func_ov000_0218c8e8"
    ],
-   "bytes": 1036,
+   "bytes": 1068,
    "addr": [
-    35126148,
-    35180144
+    35126056,
+    35178756
    ]
   },
   {
-   "id": "L2-03014",
+   "id": "L2-04017",
    "level": 2,
    "functions": [
+    "func_ov000_0218cd74",
+    "func_ov000_0218cdb4",
+    "func_ov000_0218cdbc",
+    "func_ov000_0218ce64",
     "func_ov000_0218cee4",
     "func_ov000_0218ceec",
     "func_ov000_0218cef8",
@@ -2272,22 +1430,22 @@
     "func_ov000_02195228",
     "func_ov000_021952e4",
     "func_ov000_021952f8",
-    "func_ov000_021957e0",
-    "func_ov000_02195b98",
-    "func_ov000_02195c48",
-    "func_ov000_02195d98",
-    "func_ov000_02195db4"
+    "func_ov000_021957e0"
    ],
-   "bytes": 740,
+   "bytes": 736,
    "addr": [
-    35180260,
-    35216828
+    35179892,
+    35215340
    ]
   },
   {
-   "id": "L2-03015",
+   "id": "L2-04018",
    "level": 2,
    "functions": [
+    "func_ov000_02195b98",
+    "func_ov000_02195c48",
+    "func_ov000_02195d98",
+    "func_ov000_02195db4",
     "func_ov000_02195dbc",
     "func_ov000_02195dc4",
     "func_ov000_02195dd0",
@@ -2333,22 +1491,22 @@
     "func_ov000_02197e7c",
     "func_ov000_021980f0",
     "func_ov000_021980f8",
-    "func_ov000_02198118",
-    "func_ov000_02198404",
-    "func_ov000_021985cc",
-    "func_ov000_021985e0",
-    "func_ov000_021986c0"
+    "func_ov000_02198118"
    ],
-   "bytes": 644,
+   "bytes": 620,
    "addr": [
-    35216828,
-    35227356
+    35216280,
+    35225912
    ]
   },
   {
-   "id": "L2-03016",
+   "id": "L2-04019",
    "level": 2,
    "functions": [
+    "func_ov000_02198404",
+    "func_ov000_021985cc",
+    "func_ov000_021985e0",
+    "func_ov000_021986c0",
     "func_ov000_0219872c",
     "func_ov000_021987c0",
     "func_ov000_021987c4",
@@ -2394,22 +1552,22 @@
     "func_ov000_0219c1e0",
     "func_ov000_0219c618",
     "func_ov000_0219c620",
-    "func_ov000_0219c764",
-    "func_ov000_0219ce98",
-    "func_ov000_0219ceb4",
-    "func_ov000_0219d49c",
-    "func_ov000_0219d5f8"
+    "func_ov000_0219c764"
    ],
-   "bytes": 724,
+   "bytes": 720,
    "addr": [
-    35227436,
-    35247632
+    35226628,
+    35243904
    ]
   },
   {
-   "id": "L2-03017",
+   "id": "L2-04020",
    "level": 2,
    "functions": [
+    "func_ov000_0219ce98",
+    "func_ov000_0219ceb4",
+    "func_ov000_0219d49c",
+    "func_ov000_0219d5f8",
     "func_ov000_0219d610",
     "func_ov000_0219d958",
     "func_ov000_0219d964",
@@ -2455,22 +1613,22 @@
     "func_ov000_021a3028",
     "func_ov000_021a3048",
     "func_ov000_021a3068",
-    "func_ov000_021a3088",
-    "func_ov000_021a30a8",
-    "func_ov000_021a30c8",
-    "func_ov000_021a30e8",
-    "func_ov000_021a377c"
+    "func_ov000_021a3088"
    ],
-   "bytes": 1048,
+   "bytes": 1016,
    "addr": [
-    35247632,
-    35272600
+    35245720,
+    35270824
    ]
   },
   {
-   "id": "L2-03018",
+   "id": "L2-04021",
    "level": 2,
    "functions": [
+    "func_ov000_021a30a8",
+    "func_ov000_021a30c8",
+    "func_ov000_021a30e8",
+    "func_ov000_021a377c",
     "func_ov000_021a3798",
     "func_ov000_021a37b8",
     "func_ov000_021a37d8",
@@ -2516,22 +1674,22 @@
     "func_ov000_021a8248",
     "func_ov000_021a8250",
     "func_ov000_021a825c",
-    "func_ov000_021a8264",
-    "func_ov000_021a8270",
-    "func_ov000_021a827c",
-    "func_ov000_021a828c",
-    "func_ov000_021a829c"
+    "func_ov000_021a8264"
    ],
-   "bytes": 1008,
+   "bytes": 1080,
    "addr": [
-    35272600,
-    35291812
+    35270824,
+    35291760
    ]
   },
   {
-   "id": "L2-03019",
+   "id": "L2-04022",
    "level": 2,
    "functions": [
+    "func_ov000_021a8270",
+    "func_ov000_021a827c",
+    "func_ov000_021a828c",
+    "func_ov000_021a829c",
     "func_ov000_021a82a4",
     "func_ov000_021a82ac",
     "func_ov000_021a82b4",
@@ -2577,22 +1735,22 @@
     "func_ov000_021ac728",
     "func_ov000_021ac730",
     "func_ov000_021ac744",
-    "func_ov000_021ac75c",
-    "func_ov000_021ac764",
-    "func_ov000_021ac76c",
-    "func_ov000_021ac774",
-    "func_ov000_021ac77c"
+    "func_ov000_021ac75c"
    ],
-   "bytes": 640,
+   "bytes": 660,
    "addr": [
-    35291812,
-    35309444
+    35291760,
+    35309412
    ]
   },
   {
-   "id": "L2-03020",
+   "id": "L2-04023",
    "level": 2,
    "functions": [
+    "func_ov000_021ac764",
+    "func_ov000_021ac76c",
+    "func_ov000_021ac774",
+    "func_ov000_021ac77c",
     "func_ov000_021ac784",
     "func_ov000_021ac78c",
     "func_ov000_021ac794",
@@ -2638,22 +1796,22 @@
     "func_ov000_021adb3c",
     "func_ov000_021adb44",
     "func_ov000_021ade88",
-    "func_ov000_021ae2f4",
-    "func_ov000_021ae304",
-    "func_ov000_021ae8c4",
-    "func_ov000_021aeef8",
-    "func_ov000_021af064"
+    "func_ov000_021ae2f4"
    ],
-   "bytes": 616,
+   "bytes": 560,
    "addr": [
-    35309444,
-    35319936
+    35309412,
+    35316484
    ]
   },
   {
-   "id": "L2-03021",
+   "id": "L2-04024",
    "level": 2,
    "functions": [
+    "func_ov000_021ae304",
+    "func_ov000_021ae8c4",
+    "func_ov000_021aeef8",
+    "func_ov000_021af064",
     "func_ov000_021af638",
     "func_ov000_021af658",
     "func_ov000_021af678",
@@ -2699,22 +1857,22 @@
     "func_ov000_021b7210",
     "func_ov000_021b7218",
     "func_ov000_021b7220",
-    "func_ov000_021b7238",
-    "func_ov000_021b7240",
-    "func_ov000_021b7248",
-    "func_ov000_021b7250",
-    "func_ov000_021b7284"
+    "func_ov000_021b7238"
    ],
-   "bytes": 988,
+   "bytes": 1036,
    "addr": [
-    35321400,
-    35353236
+    35316484,
+    35353152
    ]
   },
   {
-   "id": "L2-03022",
+   "id": "L2-04025",
    "level": 2,
    "functions": [
+    "func_ov000_021b7240",
+    "func_ov000_021b7248",
+    "func_ov000_021b7250",
+    "func_ov000_021b7284",
     "func_ov000_021b7294",
     "func_ov000_021b72a4",
     "func_ov000_021b72ac",
@@ -2760,22 +1918,22 @@
     "func_ov000_021b9c28",
     "func_ov000_021b9e24",
     "func_ov000_021ba10c",
-    "func_ov000_021ba174",
-    "func_ov000_021ba180",
-    "func_ov000_021bad50",
-    "func_ov000_021bae70",
-    "func_ov000_021bae78"
+    "func_ov000_021ba174"
    ],
-   "bytes": 884,
+   "bytes": 860,
    "addr": [
-    35353236,
-    35368576
+    35353152,
+    35365248
    ]
   },
   {
-   "id": "L2-03023",
+   "id": "L2-04026",
    "level": 2,
    "functions": [
+    "func_ov000_021ba180",
+    "func_ov000_021bad50",
+    "func_ov000_021bae70",
+    "func_ov000_021bae78",
     "func_ov000_021bae80",
     "func_ov000_021bae88",
     "func_ov000_021bae90",
@@ -2821,22 +1979,22 @@
     "func_ov000_021bf948",
     "func_ov000_021bf950",
     "func_ov000_021bf95c",
-    "func_ov000_021bfa34",
-    "func_ov000_021bfc60",
-    "func_ov000_021bfc78",
-    "func_ov000_021bfe28",
-    "func_ov000_021bfe48"
+    "func_ov000_021bfa34"
    ],
-   "bytes": 820,
+   "bytes": 808,
    "addr": [
-    35368576,
-    35389008
+    35365248,
+    35387972
    ]
   },
   {
-   "id": "L2-03024",
+   "id": "L2-04027",
    "level": 2,
    "functions": [
+    "func_ov000_021bfc60",
+    "func_ov000_021bfc78",
+    "func_ov000_021bfe28",
+    "func_ov000_021bfe48",
     "func_ov000_021bfec0",
     "func_ov000_021bffc4",
     "func_ov000_021bffe0",
@@ -2882,22 +2040,22 @@
     "func_ov000_021c5714",
     "func_ov000_021c5728",
     "func_ov000_021c575c",
-    "func_ov000_021c5768",
-    "func_ov000_021c5778",
-    "func_ov000_021c5788",
-    "func_ov000_021c5798",
-    "func_ov000_021c57b8"
+    "func_ov000_021c5768"
    ],
-   "bytes": 1096,
+   "bytes": 1076,
    "addr": [
-    35389120,
-    35411928
+    35388512,
+    35411832
    ]
   },
   {
-   "id": "L2-03025",
+   "id": "L2-04028",
    "level": 2,
    "functions": [
+    "func_ov000_021c5778",
+    "func_ov000_021c5788",
+    "func_ov000_021c5798",
+    "func_ov000_021c57b8",
     "func_ov000_021c57d8",
     "func_ov000_021c5814",
     "func_ov000_021c5830",
@@ -2943,22 +2101,22 @@
     "func_ov000_021cc744",
     "func_ov000_021cccc4",
     "func_ov000_021cccdc",
-    "func_ov000_021ccee0",
-    "func_ov000_021cceec",
-    "func_ov000_021cd894",
-    "func_ov000_021cd8b4",
-    "func_ov000_021cd958"
+    "func_ov000_021ccee0"
    ],
-   "bytes": 980,
+   "bytes": 996,
    "addr": [
-    35411928,
-    35445108
+    35411832,
+    35442412
    ]
   },
   {
-   "id": "L2-03026",
+   "id": "L2-04029",
    "level": 2,
    "functions": [
+    "func_ov000_021cceec",
+    "func_ov000_021cd894",
+    "func_ov000_021cd8b4",
+    "func_ov000_021cd958",
     "func_ov000_021cd974",
     "func_ov000_021cd990",
     "func_ov000_021cd9ac",
@@ -3004,22 +2162,22 @@
     "func_ov000_021d7fe8",
     "func_ov000_021d8080",
     "func_ov000_021d8498",
-    "func_ov000_021d8e18",
-    "func_ov000_021d8f84",
-    "func_ov000_021d973c",
-    "func_ov000_021d9750",
-    "func_ov000_021d9814"
+    "func_ov000_021d8e18"
    ],
-   "bytes": 1116,
+   "bytes": 1096,
    "addr": [
-    35445108,
-    35493940
+    35442412,
+    35491384
    ]
   },
   {
-   "id": "L2-03027",
+   "id": "L2-04030",
    "level": 2,
    "functions": [
+    "func_ov000_021d8f84",
+    "func_ov000_021d973c",
+    "func_ov000_021d9750",
+    "func_ov000_021d9814",
     "func_ov000_021d98a4",
     "func_ov000_021d9a94",
     "func_ov000_021d9ab0",
@@ -3065,22 +2223,22 @@
     "func_ov001_02167eb0",
     "func_ov001_02168a9c",
     "func_ov001_0216929c",
-    "func_ov001_021692b4",
-    "func_ov001_02169340",
-    "func_ov001_02169360",
-    "func_ov001_02169370",
-    "func_ov001_0216937c"
+    "func_ov001_021692b4"
    ],
-   "bytes": 1096,
+   "bytes": 1118,
    "addr": [
-    35494052,
-    35033998
+    35491716,
+    35033796
    ]
   },
   {
-   "id": "L2-03028",
+   "id": "L2-04031",
    "level": 2,
    "functions": [
+    "func_ov001_02169340",
+    "func_ov001_02169360",
+    "func_ov001_02169370",
+    "func_ov001_0216937c",
     "func_ov001_021693e4",
     "func_ov001_021693f4",
     "func_ov001_021693f8",
@@ -3126,22 +2284,22 @@
     "func_ov001_0216f118",
     "func_ov001_02170a68",
     "func_ov001_02170a7c",
-    "func_ov001_02170a90",
-    "func_ov001_02170aa4",
-    "func_ov001_02170ab8",
-    "func_ov001_02170d58",
-    "func_ov001_02171e0c"
+    "func_ov001_02170a90"
    ],
-   "bytes": 966,
+   "bytes": 956,
    "addr": [
-    35034084,
-    35069468
+    35033920,
+    35064484
    ]
   },
   {
-   "id": "L2-03029",
+   "id": "L2-04032",
    "level": 2,
    "functions": [
+    "func_ov001_02170aa4",
+    "func_ov001_02170ab8",
+    "func_ov001_02170d58",
+    "func_ov001_02171e0c",
     "func_ov001_02171e1c",
     "func_ov001_021722e4",
     "func_ov001_021722f4",
@@ -3187,22 +2345,22 @@
     "func_ov001_02174954",
     "func_ov001_02174980",
     "func_ov001_02174a20",
-    "func_ov001_02174b40",
-    "func_ov001_02174b54",
-    "func_ov001_02174b74",
-    "func_ov001_02174ba0",
-    "func_ov001_02174dbc"
+    "func_ov001_02174b40"
    ],
    "bytes": 1032,
    "addr": [
-    35069468,
-    35081680
+    35064484,
+    35081044
    ]
   },
   {
-   "id": "L2-03030",
+   "id": "L2-04033",
    "level": 2,
    "functions": [
+    "func_ov001_02174b54",
+    "func_ov001_02174b74",
+    "func_ov001_02174ba0",
+    "func_ov001_02174dbc",
     "func_ov001_02174e08",
     "func_ov001_02174e5c",
     "func_ov001_02175098",
@@ -3248,22 +2406,22 @@
     "func_ov001_0217bf44",
     "func_ov001_0217c0a8",
     "func_ov001_0217c100",
-    "func_ov001_0217c130",
-    "func_ov001_0217c33c",
-    "func_ov001_0217c35c",
-    "func_ov001_0217c4c0",
-    "func_ov001_0217c518"
+    "func_ov001_0217c130"
    ],
-   "bytes": 992,
+   "bytes": 980,
    "addr": [
-    35081736,
-    35112220
+    35081044,
+    35111248
    ]
   },
   {
-   "id": "L2-03031",
+   "id": "L2-04034",
    "level": 2,
    "functions": [
+    "func_ov001_0217c33c",
+    "func_ov001_0217c35c",
+    "func_ov001_0217c4c0",
+    "func_ov001_0217c518",
     "func_ov001_0217c548",
     "func_ov001_0217c78c",
     "func_ov001_0217c8c0",
@@ -3309,22 +2467,22 @@
     "func_ov001_02180028",
     "func_ov001_02180040",
     "func_ov001_02180a80",
-    "func_ov001_02180a94",
-    "func_ov001_02180aa8",
-    "func_ov001_02180abc",
-    "func_ov001_02180c98",
-    "func_ov001_02180cb4"
+    "func_ov001_02180a94"
    ],
-   "bytes": 940,
+   "bytes": 944,
    "addr": [
-    35112264,
-    35130576
+    35111740,
+    35130024
    ]
   },
   {
-   "id": "L2-03032",
+   "id": "L2-04035",
    "level": 2,
    "functions": [
+    "func_ov001_02180aa8",
+    "func_ov001_02180abc",
+    "func_ov001_02180c98",
+    "func_ov001_02180cb4",
     "func_ov001_02180cd0",
     "func_ov001_02180cf0",
     "func_ov001_02180d10",
@@ -3370,22 +2528,22 @@
     "func_ov001_02188e20",
     "func_ov001_0218903c",
     "func_ov001_021890dc",
-    "func_ov001_021890e4",
-    "func_ov001_02189104",
-    "func_ov001_02189154",
-    "func_ov001_021895e0",
-    "func_ov001_0218ae8c"
+    "func_ov001_021890e4"
    ],
-   "bytes": 1112,
+   "bytes": 1124,
    "addr": [
-    35130576,
-    35172000
+    35130024,
+    35164420
    ]
   },
   {
-   "id": "L2-03033",
+   "id": "L2-04036",
    "level": 2,
    "functions": [
+    "func_ov001_02189104",
+    "func_ov001_02189154",
+    "func_ov001_021895e0",
+    "func_ov001_0218ae8c",
     "func_ov001_0218c238",
     "func_ov001_0218c248",
     "func_ov001_0218c264",
@@ -3431,22 +2589,22 @@
     "func_ov003_02202c68",
     "func_ov003_02202c6c",
     "func_ov003_02202c80",
-    "func_ov003_02209944",
-    "func_ov004_021f85f4",
-    "func_ov004_021f85fc",
-    "func_ov004_021f8610",
-    "func_ov004_021f8618"
+    "func_ov003_02209944"
    ],
-   "bytes": 772,
+   "bytes": 812,
    "addr": [
-    35177016,
-    35620384
+    35164420,
+    35690824
    ]
   },
   {
-   "id": "L2-03034",
+   "id": "L2-04037",
    "level": 2,
    "functions": [
+    "func_ov004_021f85f4",
+    "func_ov004_021f85fc",
+    "func_ov004_021f8610",
+    "func_ov004_021f8618",
     "func_ov004_021f8620",
     "func_ov004_021f8628",
     "func_ov004_021f862c",
@@ -3492,22 +2650,22 @@
     "func_ov006_021f9230",
     "func_ov006_021fd1ec",
     "func_ov006_021fd204",
-    "func_ov006_021fd21c",
-    "func_ov006_021fd4c4",
-    "func_ov006_021fd4c8",
-    "func_ov006_021fd4d4",
-    "func_ov006_021fd4e0"
+    "func_ov006_021fd21c"
    ],
-   "bytes": 864,
+   "bytes": 856,
    "addr": [
-    35620384,
-    35640568
+    35620340,
+    35639856
    ]
   },
   {
-   "id": "L2-03035",
+   "id": "L2-04038",
    "level": 2,
    "functions": [
+    "func_ov006_021fd4c4",
+    "func_ov006_021fd4c8",
+    "func_ov006_021fd4d4",
+    "func_ov006_021fd4e0",
     "func_ov007_021f6820",
     "func_ov007_021f6878",
     "func_ov007_021f735c",
@@ -3553,22 +2711,22 @@
     "func_ov008_021fba80",
     "func_ov008_021fbadc",
     "func_ov008_021fbae4",
-    "func_ov008_021fbaf8",
-    "func_ov008_021fbb00",
-    "func_ov008_021fbb08",
-    "func_ov008_021fbb10",
-    "func_ov008_021fbb14"
+    "func_ov008_021fbaf8"
    ],
-   "bytes": 568,
+   "bytes": 580,
    "addr": [
-    35612704,
-    35633960
+    35640516,
+    35633920
    ]
   },
   {
-   "id": "L2-03036",
+   "id": "L2-04039",
    "level": 2,
    "functions": [
+    "func_ov008_021fbb00",
+    "func_ov008_021fbb08",
+    "func_ov008_021fbb10",
+    "func_ov008_021fbb14",
     "func_ov008_021fbb28",
     "func_ov009_021f77ac",
     "func_ov009_021f860c",
@@ -3614,22 +2772,22 @@
     "func_ov010_021f8458",
     "func_ov010_021f8818",
     "func_ov010_021f8820",
-    "func_ov010_021f8834",
-    "func_ov010_021f883c",
-    "func_ov010_021f8844",
-    "func_ov010_021f884c",
-    "func_ov010_021f8850"
+    "func_ov010_021f8834"
    ],
    "bytes": 668,
    "addr": [
-    35633960,
-    35620964
+    35633920,
+    35620924
    ]
   },
   {
-   "id": "L2-03037",
+   "id": "L2-04040",
    "level": 2,
    "functions": [
+    "func_ov010_021f883c",
+    "func_ov010_021f8844",
+    "func_ov010_021f884c",
+    "func_ov010_021f8850",
     "func_ov010_021f8864",
     "func_ov010_021f8880",
     "func_ov010_021f897c",
@@ -3675,67 +2833,292 @@
     "func_ov013_0221378c",
     "func_ov013_02213794",
     "func_ov013_02213798",
-    "func_ov013_022137ac",
-    "func_ov014_02211f00",
-    "func_ov014_022125c0",
-    "func_ov014_02212790",
-    "func_ov014_02212798"
+    "func_ov013_022137ac"
    ],
-   "bytes": 708,
+   "bytes": 716,
    "addr": [
-    35620964,
-    35727264
+    35620924,
+    35731400
    ]
   },
   {
-   "id": "L2-03038",
+   "id": "L2-04041",
    "level": 2,
    "functions": [
+    "func_ov014_02211f00",
+    "func_ov014_022125c0",
+    "func_ov014_02212790",
+    "func_ov014_02212798",
     "func_ov014_022127a0",
     "func_ov014_022127a8",
     "func_ov015_02213178",
     "func_ov015_02213184"
    ],
-   "bytes": 48,
+   "bytes": 80,
    "addr": [
-    35727264,
+    35725056,
     35729808
    ]
   },
   {
-   "id": "L3-03001",
+   "id": "L3-04001",
    "level": 3,
    "functions": [
     "func_02001f94",
     "func_02001fb8",
     "func_02001fdc",
+    "OS_WaitIrq",
+    "OSi_IrqCallback",
+    "OS_SetIrqFunction",
+    "OS_GetIrqFunction",
     "OS_InitLock",
     "OS_GetLockID",
+    "OSi_RescheduleThread",
+    "OS_DestroyThread",
+    "OS_YieldThread",
     "OS_InitContext",
+    "OS_TryLockMutex",
+    "OS_GetInitArenaHi",
+    "OS_GetInitArenaLo",
+    "OS_InitException",
+    "OSi_ExceptionHandler",
+    "OSi_CountUpTick",
+    "OSi_SetTimer",
+    "OSi_ArrangeTimer",
+    "OS_WaitInterrupt",
+    "OS_ResetSystem",
+    "OS_GetOwnerInfo",
+    "OS_GetLowEntropyData",
+    "MI_DmaFill32",
+    "MI_DmaCopy32",
+    "MI_DmaCopy16",
+    "MI_DmaFill32Async",
+    "MI_WaitDma",
+    "MI_SendGXCommandAsync",
+    "MIi_FIFOCallback",
     "MI_CpuFill8",
+    "MIi_CardDmaCopy32",
+    "SND_CommandInit",
+    "SND_ReadPlayerInfo",
+    "PXI_InitFifo",
+    "PXI_SendWordByFifo",
+    "FSi_ReadTable",
+    "FS_UnloadArchive",
+    "FS_ResumeArchive",
+    "FS_NotifyArchiveAsyncEnd",
+    "FS_LoadOverlayImageAsync",
+    "FS_LoadOverlayImage",
+    "FS_StartOverlay",
     "func_0200d978",
     "func_0200da40",
-    "func_0200f41c",
-    "PMi_ForceToPowerOff",
+    "MATH_CalcHMACSHA1",
+    "PM_Init",
+    "func_0200f41c"
+   ],
+   "bytes": 7650,
+   "addr": [
+    33562516,
+    33617072
+   ]
+  },
+  {
+   "id": "L3-04002",
+   "level": 3,
+   "functions": [
+    "PMi_TryToSendPxiDataTillSuccess",
+    "PMi_SendSleepStart",
+    "PM_SetBackLightAsync",
     "func_0200ffc8",
     "CARDi_RequestStreamCommand",
-    "CTRDGi_LockByProcessor",
+    "CARDi_ReadFromCache",
+    "CARDi_OnReadCard",
+    "CARDi_ReadCard",
+    "CARDi_ReadRomSyncCore",
+    "CARDi_ReadRom",
+    "CARD_Init",
+    "WM_StartMPEx",
+    "WM_StartMP",
+    "WM_SetDCFData",
+    "MATH_CalcChecksum16",
+    "CTRDGi_IsAgbCartridge",
+    "StrNCaseCmp",
     "func_02017934",
     "func_02017a34",
     "strstr",
     "func_0201dcb0",
-    "__dorounddecup",
+    "__ull2dec",
     "func_02021c00",
     "func_02021ce0",
     "func_020229f4",
     "func_02022ee8",
-    "_ll_udiv",
     "func_020267b0",
     "func_02026acc",
     "func_02026cac",
     "func_02026d64",
     "func_020270cc",
     "FindContainHeap",
+    "AllocFromHead",
+    "AllocFromTail",
+    "RecycleRegion",
+    "NNS_FndGetAllocatableSizeForExpHeapEx",
+    "NNS_G3dAnmObjInit",
+    "addLink_",
+    "updateHintVec_",
+    "removeLink_",
+    "releaseMdlTex_Internal_",
+    "NNS_G3dBindMdlTex",
+    "NNS_G3dReleaseMdlTex",
+    "bindMdlPltt_Internal_",
+    "NNS_G3dReleaseMdlPltt",
+    "NNS_G3dBindMdlSet",
+    "NNS_G3dReleaseMdlSet",
+    "NNSi_G3dAnmBlendVis",
+    "NNSi_G3dFuncSbc_MAT",
+    "NNSi_G3dFuncSbc_SHP"
+   ],
+   "bytes": 8228,
+   "addr": [
+    33617072,
+    33727504
+   ]
+  },
+  {
+   "id": "L3-04003",
+   "level": 3,
+   "functions": [
+    "NNSi_G3dFuncSbc_POSSCALE",
+    "NNS_G3dGeBufferOP_N",
+    "NNS_G3dMdlSetMdlDiff",
+    "NNS_G3dMdlSetMdlAmb",
+    "NNS_G3dMdlSetMdlSpec",
+    "NNS_G3dMdlSetMdlEmi",
+    "NNS_G3dMdlSetMdlPolygonID",
+    "NNS_G3dMdlSetMdlAlpha",
+    "NNS_G3dMdlGetMdlDiff",
+    "NNS_G3dMdlGetMdlAmb",
+    "NNS_G3dMdlGetMdlSpec",
+    "NNS_G3dMdlGetMdlEmi",
+    "NNSi_G3dGetTexPatAnmFV",
+    "NNSi_G3dAnmObjInitNsBca",
+    "getMdlTrans_",
+    "getMdlScale_",
+    "GetMatColAnmuAlphaValue_",
+    "NNSi_G3dAnmCalcNsBma",
+    "GetTexSRTAnmVectorVal_",
+    "GetTexSRTAnm_",
+    "NNSi_G3dAnmObjInitNsBtp",
+    "SetTexParamaters_",
+    "SetPlttParamaters_",
+    "texmtxCalc_flagS_",
+    "texmtxCalc_flagR_",
+    "texmtxCalc_flagT_",
+    "texmtxCalc_flagTS_",
+    "NNS_GfdRegisterNewVramTransferTask",
+    "TryToMergeBlockRegion_",
+    "NNSi_GfdMergeAllFreeBlocks",
+    "NNSi_GfdFreeLnkVram",
+    "NNS_GfdAllocLnkTexVram",
+    "NNS_GfdFreeLnkTexVram",
+    "NNS_GfdAllocLnkPlttVram",
+    "NNS_SndUpdateDriverInfo",
+    "NNS_SndCaptureStartReverb",
+    "NNSi_SndCaptureMain",
+    "NNSi_SndCaptureStop",
+    "NNSi_SndCaptureEndSleep",
+    "NNS_SndArcInit",
+    "NNS_SndArcInitOnMemory",
+    "NNS_SndArcGetSeqInfo",
+    "NNS_SndArcGetSeqArcInfo",
+    "NNS_SndArcGetBankInfo",
+    "NNS_SndArcGetWaveArcInfo",
+    "NNS_SndArcGetPlayerInfo",
+    "NNS_SndArcGetGroupInfo",
+    "NNS_SndArcReadFile",
+    "LoadSingleWave",
+    "NNS_SndArcPlayerSetup"
+   ],
+   "bytes": 7852,
+   "addr": [
+    33732372,
+    33769716
+   ]
+  },
+  {
+   "id": "L3-04004",
+   "level": 3,
+   "functions": [
+    "StartSeq",
+    "calc_checksum_do",
+    "ip_isme",
+    "receive_packet",
+    "inq_arpcache",
+    "send_arprequest",
+    "send_ether",
+    "send_ping",
+    "reply_arp",
+    "reply_icmp",
+    "process_icmp_reply",
+    "dispatch_icmp",
+    "check_listener",
+    "check_socket",
+    "find_socket",
+    "parse_mss",
+    "tcp_send_handshake",
+    "dt_syn_listen",
+    "dt_syn",
+    "dt_synack",
+    "tcpip",
+    "CPS_SocGetEport",
+    "CPSi_TcpConnectRaw",
+    "CPS_TcpClose",
+    "CPSi_TcpReadRaw",
+    "CPS_SocRead",
+    "CPSi_SocConsumeRaw",
+    "tcp_write_do",
+    "CPSi_SocWrite2",
+    "CPS_SocGetLength",
+    "set_fixed_ip",
+    "dhcp_send_discover",
+    "dhcp_release_server",
+    "rawip",
+    "resolve_sub",
+    "SOCLi_StartupCommandPacketQueue",
+    "SOCLi_ExecCommandPacket",
+    "SOCLi_CommandPacketHandler",
+    "SOCLi_CreateSocketCallBack",
+    "SOCLi_GetSizeSocket",
+    "SOCLi_InitSocket",
+    "SOCL_Bind",
+    "SOCL_Connect",
+    "SOCLi_BindCallBack",
+    "SOCLi_ReadAndConsumeBuffer",
+    "SOCLi_ReadBuffer",
+    "SOCLi_ReadCPSBuffer",
+    "SOCLi_AllocWriteBuffer",
+    "SOCLi_GetOptimumSendBufLen",
+    "SOCL_Shutdown"
+   ],
+   "bytes": 8356,
+   "addr": [
+    33769916,
+    33797780
+   ]
+  },
+  {
+   "id": "L3-04005",
+   "level": 3,
+   "functions": [
+    "SOCL_Close",
+    "SOCLi_CleanupSocket",
+    "SOCL_CloseAll",
+    "SOCL_Resolve",
+    "SOCL_GetStatus",
+    "SOC_RecvFrom",
+    "SOC_SendTo",
+    "SOC_GetHostByName",
+    "SOC_GetSockName",
+    "SOC_InetNtoP",
+    "SOC_Poll",
     "func_0203c7f0",
     "func_0203c884",
     "func_0203c924",
@@ -3744,6 +3127,7 @@
     "func_0203d388",
     "func_0203d490",
     "func_0203d9f4",
+    "SSLi_HashKeyMaterialBlock",
     "func_0203dd30",
     "func_0203df38",
     "func_0203e014",
@@ -3751,22 +3135,12 @@
     "SSLi_DoHandshake",
     "CPSi_SslRead",
     "func_0203f49c",
-    "CPSi_SslWrite2",
     "CPSi_SslShutdown",
+    "CPSi_SslPeriodical",
     "MD5Update",
     "SHA1Update",
-    "func_0204095c"
-   ],
-   "bytes": 8902,
-   "addr": [
-    33562516,
-    33819128
-   ]
-  },
-  {
-   "id": "L3-03002",
-   "level": 3,
-   "functions": [
+    "CPSi_rc4_crypt",
+    "func_0204095c",
     "BigInti_AddDigit",
     "func_02040a9c",
     "BigInti_SubDigit",
@@ -3774,7 +3148,29 @@
     "BigInti_MulDigit",
     "func_0204109c",
     "func_02041230",
-    "WcmCountBits",
+    "WCM_CleanupAsync",
+    "WCM_EndSearchAsync",
+    "WCM_UpdateOption",
+    "WcmGetNextScanChannel",
+    "WcmSetPhase",
+    "WcmWmcbIndication",
+    "WcmWmcbEndScan",
+    "WcmWmcbDisconnect",
+    "WCM_LockApList",
+    "WcmAllocApList"
+   ],
+   "bytes": 10000,
+   "addr": [
+    33797880,
+    33831864
+   ]
+  },
+  {
+   "id": "L3-04006",
+   "level": 3,
+   "functions": [
+    "WcmAppendApList",
+    "WCMi_GetRssiAverage",
     "func_020446fc",
     "func_02044ba4",
     "func_02044db0",
@@ -3798,6 +3194,14 @@
     "func_020470a4",
     "func_020477fc",
     "func_0204807c",
+    "DWC_StringToFriendKey",
+    "DWCi_Acc_U64ToString32",
+    "DWCi_Acc_LoginIdToUserName",
+    "DWCi_Acc_CreateTempLoginId",
+    "DWCi_Acc_CheckConsoleUserId",
+    "DWC_CheckValidConsole",
+    "DWC_IsEqualFriendData",
+    "DWC_ReportFriendData",
     "func_02049680",
     "func_0204a040",
     "func_0204a158",
@@ -3806,28 +3210,31 @@
     "func_0204a7b4",
     "func_0204b1a4",
     "func_0204b22c",
+    "DWC_ReallocEx",
+    "DWC_ConnectInetAsync",
     "func_0204d270",
+    "DWC_GetCommonValueString",
     "func_0204e168",
     "func_0204e20c",
     "func_0204e368",
     "func_0204e430",
-    "func_0204e6b0",
+    "func_0204e6b0"
+   ],
+   "bytes": 8516,
+   "addr": [
+    33832100,
+    33875916
+   ]
+  },
+  {
+   "id": "L3-04007",
+   "level": 3,
+   "functions": [
     "func_0204e7cc",
     "func_0204e918",
     "func_0204f098",
     "func_0204f444",
-    "func_02050258"
-   ],
-   "bytes": 9016,
-   "addr": [
-    33819128,
-    33882844
-   ]
-  },
-  {
-   "id": "L3-03003",
-   "level": 3,
-   "functions": [
+    "func_02050258",
     "func_02050324",
     "func_02050474",
     "func_02050510",
@@ -3855,69 +3262,175 @@
     "func_020593e8",
     "func_02059e40",
     "func_02059f88",
+    "DWCi_BM_GetWiFiInfo",
+    "DWCi_BM_SetWiFiInfo",
+    "DWCi_BACKUPlWritePage",
+    "DWCi_BACKUPlWriteAll",
     "readNvram",
-    "TableFree",
+    "writeNvram",
+    "writeDisable",
+    "DWCi_BACKUPlConvWifiInfo",
+    "init",
+    "ArraySearch",
+    "mybsearch",
+    "TableNew2",
     "TableEnter",
     "TableRemove",
     "TableLookup",
     "GSISocketSelect",
     "func_0205c444",
+    "IsPrivateIP"
+   ],
+   "bytes": 9540,
+   "addr": [
+    33875916,
+    33932620
+   ]
+  },
+  {
+   "id": "L3-04008",
+   "level": 3,
+   "functions": [
+    "TripToQuart",
+    "gsUdpSocketError",
+    "gsUdpPingRoutingCB",
+    "gsUdpEngineGetPeerState",
+    "gsUdpEngineGetPeerOutBufferFreeSpace",
     "func_0205e1ac",
     "func_0205e274",
+    "gpDenyBuddyRequest",
+    "gpGetBuddyIndex",
+    "gpIsBuddy",
+    "gpSendBuddyMessageA",
     "func_0205ec24",
-    "gpiProcess",
     "func_02060d00",
-    "gpiDeleteBuddy",
     "func_02061568",
     "func_020615e0",
+    "gpiSendData",
     "func_02061900",
     "gpiCallErrorCallback",
     "gpiAddCallback",
     "func_020621fc",
-    "gpiDisconnect",
+    "randomString",
+    "gpiSetInfoCache",
+    "gpiStatusInfoAddKey",
+    "gpiStatusInfoSetKey",
+    "gpiStatusInfoCheckKey",
+    "gpiPeerSendMessages",
+    "gpiCheckTimedOutPeerOperations",
     "func_02066f50",
+    "gpiPeerStartConnect",
     "func_02067520",
-    "func_02067a18"
+    "gpiPeerRemoveOp",
+    "func_02067a18",
+    "func_020681d8",
+    "gpiValueForKey",
+    "gpiCheckSocketConnect",
+    "gpiEncodeString",
+    "func_0206ade4",
+    "BucketAdd",
+    "BucketSub",
+    "BucketMult",
+    "BucketDiv",
+    "BucketAvg",
+    "DoSet",
+    "value_for_key",
+    "FindFinal",
+    "FindRequest",
+    "ProcessGetData",
+    "ProcessSetData",
+    "ProcessInBuffer",
+    "func_0206bc50"
    ],
-   "bytes": 10660,
+   "bytes": 8788,
    "addr": [
-    33882916,
-    33979080
+    33933116,
+    33996100
    ]
   },
   {
-   "id": "L3-03004",
+   "id": "L3-04009",
    "level": 3,
    "functions": [
-    "func_020681d8",
-    "gpiValueForKey",
-    "gpiReadKeyAndValue",
-    "func_0206ade4",
-    "DoFind",
-    "FindRequest",
-    "func_0206bc50",
     "func_0206be0c",
+    "gti2VerifyChallenge",
     "gti2GetChallenge",
     "gti2ConnectAttemptCallback",
+    "gti2ConnectedCallback",
+    "gti2ReceivedCallback",
+    "gti2ReceiveFilterCallback",
     "gti2DumpCallback",
     "func_0206cb34",
+    "gti2StartConnectionAttempt",
+    "gti2CheckTimeout",
+    "gti2SendRetries",
+    "gti2ConnectionError",
+    "gti2HandleESN",
+    "gti2HandleAppReliable",
+    "gti2HandleClientChallenge",
+    "gti2HandleServerChallenge",
+    "gti2DeliverReliableMessage",
+    "gti2RemoveHoldMessage",
+    "gti2DeliverHoldMessages",
+    "gti2HandleNack",
     "gti2HandlePong",
+    "gti2HandleUnreliableMessage",
+    "gti2HandleConnectionReset",
     "gti2StoreOutgoingReliableMessageInfo",
+    "gti2SendServerChallenge",
+    "gti2SendAppUnreliable",
+    "gti2SendAck",
     "gti2SendNack",
     "func_0206f21c",
+    "gti2ResendMessage",
+    "gti2FreeSocketConnection",
+    "gt2AddressToString",
+    "FindNegotiatorForCookie",
     "func_02070564",
+    "ResolveServers",
     "func_02070f5c",
     "SendConnectAck",
+    "ProcessConnectPacket",
+    "qr2_buffer_addA",
     "func_02071e2c",
     "func_02071ea0",
+    "gs_encode",
     "func_02072b58",
+    "keyrand",
+    "GOACryptInit",
+    "GOADecryptByte",
+    "FIFORemove",
+    "SBQueryEngineUpdateServer",
+    "ParseSingleGOAReply"
+   ],
+   "bytes": 8624,
+   "addr": [
+    33996300,
+    34029468
+   ]
+  },
+  {
+   "id": "L3-04010",
+   "level": 3,
+   "functions": [
     "func_02074488",
+    "mytok",
+    "SBAllocServer",
     "func_020755ac",
     "func_0207572c",
     "func_020757ac",
+    "SBServerListFindServerByIP",
+    "SBRefStr",
+    "SetupListChallenge",
+    "SBServerListDisconnect",
+    "InitCryptKey",
+    "FullRulesPresent",
     "AllKeysPresent",
     "ParseServerIPPort",
+    "ProcessPushKeyList",
     "func_0207755c",
+    "ProcessPushServer",
+    "ProcessIncomingData",
     "SBSendNatNegotiateCookieToServer",
     "func_02077c94",
     "func_02077f8c",
@@ -3938,18 +3451,7 @@
     "func_0207cdd0",
     "func_0207cf10",
     "func_0207d38c",
-    "func_0207d5d8"
-   ],
-   "bytes": 8844,
-   "addr": [
-    33980888,
-    34068000
-   ]
-  },
-  {
-   "id": "L3-03005",
-   "level": 3,
-   "functions": [
+    "func_0207d5d8",
     "func_0207dfc8",
     "func_0207e0b0",
     "func_0207e29c",
@@ -3960,7 +3462,18 @@
     "func_0207f090",
     "func_0207f494",
     "func_0207fbd8",
-    "func_0207fc88",
+    "func_0207fc88"
+   ],
+   "bytes": 8372,
+   "addr": [
+    34030728,
+    34078016
+   ]
+  },
+  {
+   "id": "L3-04011",
+   "level": 3,
+   "functions": [
     "func_0207fdd0",
     "func_0207fea8",
     "func_0207ff48",
@@ -3999,18 +3512,7 @@
     "func_0208a1a8",
     "func_0208a680",
     "func_0208acc0",
-    "func_0208ad50"
-   ],
-   "bytes": 7312,
-   "addr": [
-    34070472,
-    34123196
-   ]
-  },
-  {
-   "id": "L3-03006",
-   "level": 3,
-   "functions": [
+    "func_0208ad50",
     "func_0208adbc",
     "func_0208b0bc",
     "func_0208b150",
@@ -4021,7 +3523,18 @@
     "func_0208c8fc",
     "func_0208d3d4",
     "func_0208d5bc",
-    "func_0208d698",
+    "func_0208d698"
+   ],
+   "bytes": 7612,
+   "addr": [
+    34078160,
+    34133816
+   ]
+  },
+  {
+   "id": "L3-04012",
+   "level": 3,
+   "functions": [
     "func_0208da70",
     "func_0208dc3c",
     "func_0208ef78",
@@ -4060,18 +3573,7 @@
     "func_02097adc",
     "func_02097e10",
     "func_020981cc",
-    "func_020983d0"
-   ],
-   "bytes": 8144,
-   "addr": [
-    34123196,
-    34178144
-   ]
-  },
-  {
-   "id": "L3-03007",
-   "level": 3,
-   "functions": [
+    "func_020983d0",
     "func_02098664",
     "func_020986e0",
     "func_02098878",
@@ -4082,7 +3584,18 @@
     "func_0209c118",
     "func_0209c650",
     "func_0209c7a4",
-    "func_0209cbd8",
+    "func_0209cbd8"
+   ],
+   "bytes": 7528,
+   "addr": [
+    34134640,
+    34196544
+   ]
+  },
+  {
+   "id": "L3-04013",
+   "level": 3,
+   "functions": [
     "func_0209ccb8",
     "func_0209cd18",
     "func_0209cd50",
@@ -4121,18 +3634,7 @@
     "func_020aba78",
     "func_020abaf0",
     "func_020abb98",
-    "func_020abc24"
-   ],
-   "bytes": 6540,
-   "addr": [
-    34178660,
-    34258100
-   ]
-  },
-  {
-   "id": "L3-03008",
-   "level": 3,
-   "functions": [
+    "func_020abc24",
     "func_020abce0",
     "func_020abd88",
     "func_020abe14",
@@ -4143,7 +3645,18 @@
     "func_020ac1d8",
     "func_020ac490",
     "func_020ac534",
-    "func_020ac7e8",
+    "func_020ac7e8"
+   ],
+   "bytes": 6744,
+   "addr": [
+    34196664,
+    34261152
+   ]
+  },
+  {
+   "id": "L3-04014",
+   "level": 3,
+   "functions": [
     "func_020ac9d8",
     "func_020acc28",
     "func_020ad110",
@@ -4182,18 +3695,7 @@
     "func_020b5b14",
     "func_020b5d4c",
     "func_020b5f58",
-    "func_020b60e8"
-   ],
-   "bytes": 8576,
-   "addr": [
-    34258144,
-    34300176
-   ]
-  },
-  {
-   "id": "L3-03009",
-   "level": 3,
-   "functions": [
+    "func_020b60e8",
     "func_020b6110",
     "func_020b6408",
     "func_020b77d0",
@@ -4204,7 +3706,18 @@
     "func_020b83a0",
     "func_020b978c",
     "func_020b97c0",
-    "func_020b97e4",
+    "func_020b97e4"
+   ],
+   "bytes": 8600,
+   "addr": [
+    34261464,
+    34314304
+   ]
+  },
+  {
+   "id": "L3-04015",
+   "level": 3,
+   "functions": [
     "func_020ba4e8",
     "func_020bd4ac",
     "func_020be190",
@@ -4243,18 +3756,7 @@
     "func_020c2ae0",
     "func_020c2ba4",
     "func_020c2c30",
-    "func_020c2cec"
-   ],
-   "bytes": 8232,
-   "addr": [
-    34300176,
-    34352504
-   ]
-  },
-  {
-   "id": "L3-03010",
-   "level": 3,
-   "functions": [
+    "func_020c2cec",
     "func_020c2d78",
     "func_020c2e2c",
     "func_020c2eb4",
@@ -4265,7 +3767,18 @@
     "func_020c37d8",
     "func_020c39e0",
     "func_020c3a94",
-    "func_020c3c00",
+    "func_020c3c00"
+   ],
+   "bytes": 8112,
+   "addr": [
+    34317544,
+    34356304
+   ]
+  },
+  {
+   "id": "L3-04016",
+   "level": 3,
+   "functions": [
     "func_020c409c",
     "func_020c4194",
     "func_020c5288",
@@ -4304,18 +3817,7 @@
     "func_020d29a4",
     "func_020d31f4",
     "func_020d3298",
-    "func_020d7e38"
-   ],
-   "bytes": 8348,
-   "addr": [
-    34352504,
-    34439012
-   ]
-  },
-  {
-   "id": "L3-03011",
-   "level": 3,
-   "functions": [
+    "func_020d7e38",
     "func_020d8af8",
     "func_020d8b94",
     "func_020d8e80",
@@ -4326,7 +3828,18 @@
     "func_020d9474",
     "func_020d9720",
     "func_020d9804",
-    "func_020d9838",
+    "func_020d9838"
+   ],
+   "bytes": 8368,
+   "addr": [
+    34357404,
+    34445440
+   ]
+  },
+  {
+   "id": "L3-04017",
+   "level": 3,
+   "functions": [
     "func_020d9880",
     "func_020d98d4",
     "func_020d9950",
@@ -4356,6 +3869,8 @@
     "func_020dbf3c",
     "func_020dc28c",
     "func_020dd590",
+    "CRYPTO_RC4Init",
+    "CRYPTO_RC4Encrypt",
     "func_020ddd2c",
     "func_020dde58",
     "__sinit_020de698",
@@ -4365,18 +3880,7 @@
     "OSi_FinalizeReset",
     "MIi_DmaSetParams",
     "MIi_DmaSetParams_noInt",
-    "func_ov000_02167418"
-   ],
-   "bytes": 7948,
-   "addr": [
-    34441976,
-    35026008
-   ]
-  },
-  {
-   "id": "L3-03012",
-   "level": 3,
-   "functions": [
+    "func_ov000_02167418",
     "func_ov000_021674ec",
     "func_ov000_02167dd4",
     "func_ov000_021687b8",
@@ -4385,7 +3889,18 @@
     "func_ov000_0216960c",
     "func_ov000_02169660",
     "func_ov000_02169720",
-    "func_ov000_02169764",
+    "func_ov000_02169764"
+   ],
+   "bytes": 7272,
+   "addr": [
+    34445440,
+    35035020
+   ]
+  },
+  {
+   "id": "L3-04018",
+   "level": 3,
+   "functions": [
     "func_ov000_0216978c",
     "func_ov000_021697c8",
     "func_ov000_02169800",
@@ -4426,18 +3941,7 @@
     "func_ov000_0216d5fc",
     "func_ov000_0216d638",
     "func_ov000_0216ddb8",
-    "func_ov000_0216fc54"
-   ],
-   "bytes": 3004,
-   "addr": [
-    35026156,
-    35060864
-   ]
-  },
-  {
-   "id": "L3-03013",
-   "level": 3,
-   "functions": [
+    "func_ov000_0216fc54",
     "func_ov000_0216fc80",
     "func_ov000_0216fcbc",
     "func_ov000_0216ff50",
@@ -4446,7 +3950,18 @@
     "func_ov000_021701b4",
     "func_ov000_021701ec",
     "func_ov000_02170220",
-    "func_ov000_02170bd4",
+    "func_ov000_02170bd4"
+   ],
+   "bytes": 2984,
+   "addr": [
+    35035020,
+    35064872
+   ]
+  },
+  {
+   "id": "L3-04019",
+   "level": 3,
+   "functions": [
     "func_ov000_02170c38",
     "func_ov000_02170c94",
     "func_ov000_02170cf0",
@@ -4487,18 +4002,7 @@
     "func_ov000_021732d0",
     "func_ov000_021734b4",
     "func_ov000_02173514",
-    "func_ov000_02173564"
-   ],
-   "bytes": 3048,
-   "addr": [
-    35060864,
-    35075508
-   ]
-  },
-  {
-   "id": "L3-03014",
-   "level": 3,
-   "functions": [
+    "func_ov000_02173564",
     "func_ov000_021737f8",
     "func_ov000_02173aa0",
     "func_ov000_02173c24",
@@ -4507,7 +4011,18 @@
     "func_ov000_02173cc8",
     "func_ov000_02173d0c",
     "func_ov000_02173d3c",
-    "func_ov000_02173d60",
+    "func_ov000_02173d60"
+   ],
+   "bytes": 3048,
+   "addr": [
+    35064888,
+    35077540
+   ]
+  },
+  {
+   "id": "L3-04020",
+   "level": 3,
+   "functions": [
     "func_ov000_02173da4",
     "func_ov000_02173df0",
     "func_ov000_02173e14",
@@ -4548,18 +4063,7 @@
     "func_ov000_021771e4",
     "func_ov000_02177218",
     "func_ov000_0217724c",
-    "func_ov000_02177280"
-   ],
-   "bytes": 2804,
-   "addr": [
-    35076088,
-    35091108
-   ]
-  },
-  {
-   "id": "L3-03015",
-   "level": 3,
-   "functions": [
+    "func_ov000_02177280",
     "func_ov000_021772a4",
     "func_ov000_0217730c",
     "func_ov000_02177338",
@@ -4568,7 +4072,18 @@
     "func_ov000_021774a0",
     "func_ov000_021774dc",
     "func_ov000_02177510",
-    "func_ov000_0217753c",
+    "func_ov000_0217753c"
+   ],
+   "bytes": 2772,
+   "addr": [
+    35077540,
+    35091816
+   ]
+  },
+  {
+   "id": "L3-04021",
+   "level": 3,
+   "functions": [
     "func_ov000_02177568",
     "func_ov000_02177594",
     "func_ov000_021775c0",
@@ -4609,18 +4124,7 @@
     "func_ov000_0217a8dc",
     "func_ov000_0217a90c",
     "func_ov000_0217ab10",
-    "func_ov000_0217ab54"
-   ],
-   "bytes": 3092,
-   "addr": [
-    35091108,
-    35105692
-   ]
-  },
-  {
-   "id": "L3-03016",
-   "level": 3,
-   "functions": [
+    "func_ov000_0217ab54",
     "func_ov000_0217ab9c",
     "func_ov000_0217abd0",
     "func_ov000_0217aca8",
@@ -4629,7 +4133,18 @@
     "func_ov000_0217b158",
     "func_ov000_0217b184",
     "func_ov000_0217b1c8",
-    "func_ov000_0217b648",
+    "func_ov000_0217b648"
+   ],
+   "bytes": 3152,
+   "addr": [
+    35091816,
+    35108488
+   ]
+  },
+  {
+   "id": "L3-04022",
+   "level": 3,
+   "functions": [
     "func_ov000_0217b688",
     "func_ov000_0217b6b4",
     "func_ov000_0217b6e8",
@@ -4670,18 +4185,7 @@
     "func_ov000_02188db8",
     "func_ov000_02188e18",
     "func_ov000_02188ef0",
-    "func_ov000_02189058"
-   ],
-   "bytes": 3236,
-   "addr": [
-    35105692,
-    35164296
-   ]
-  },
-  {
-   "id": "L3-03017",
-   "level": 3,
-   "functions": [
+    "func_ov000_02189058",
     "func_ov000_02189088",
     "func_ov000_021890bc",
     "func_ov000_02189118",
@@ -4690,7 +4194,18 @@
     "func_ov000_021893d4",
     "func_ov000_02189408",
     "func_ov000_021894a8",
-    "func_ov000_02189518",
+    "func_ov000_02189518"
+   ],
+   "bytes": 3244,
+   "addr": [
+    35108488,
+    35165516
+   ]
+  },
+  {
+   "id": "L3-04023",
+   "level": 3,
+   "functions": [
     "func_ov000_0218954c",
     "func_ov000_021895f4",
     "func_ov000_02189618",
@@ -4731,18 +4246,7 @@
     "func_ov000_0218b558",
     "func_ov000_0218b580",
     "func_ov000_0218b694",
-    "func_ov000_0218b98c"
-   ],
-   "bytes": 3296,
-   "addr": [
-    35164296,
-    35174876
-   ]
-  },
-  {
-   "id": "L3-03018",
-   "level": 3,
-   "functions": [
+    "func_ov000_0218b98c",
     "func_ov000_0218bea8",
     "func_ov000_0218c904",
     "func_ov000_0218ca10",
@@ -4751,7 +4255,18 @@
     "func_ov000_0218d198",
     "func_ov000_0218d33c",
     "func_ov000_0218d36c",
-    "func_ov000_0218d3a0",
+    "func_ov000_0218d3a0"
+   ],
+   "bytes": 3192,
+   "addr": [
+    35165516,
+    35181548
+   ]
+  },
+  {
+   "id": "L3-04024",
+   "level": 3,
+   "functions": [
     "func_ov000_0218d3ec",
     "func_ov000_0218d4e0",
     "func_ov000_0218d534",
@@ -4792,18 +4307,7 @@
     "func_ov000_02192088",
     "func_ov000_021921c4",
     "func_ov000_0219251c",
-    "func_ov000_02192564"
-   ],
-   "bytes": 3040,
-   "addr": [
-    35176104,
-    35202464
-   ]
-  },
-  {
-   "id": "L3-03019",
-   "level": 3,
-   "functions": [
+    "func_ov000_02192564",
     "func_ov000_02192704",
     "func_ov000_02192a80",
     "func_ov000_02192b58",
@@ -4812,7 +4316,18 @@
     "func_ov000_02193ed0",
     "func_ov000_021941ac",
     "func_ov000_021941fc",
-    "func_ov000_02194620",
+    "func_ov000_02194620"
+   ],
+   "bytes": 3216,
+   "addr": [
+    35181548,
+    35210848
+   ]
+  },
+  {
+   "id": "L3-04025",
+   "level": 3,
+   "functions": [
     "func_ov000_0219482c",
     "func_ov000_02194864",
     "func_ov000_021951e4",
@@ -4853,18 +4368,7 @@
     "func_ov000_02197f3c",
     "func_ov000_02197f9c",
     "func_ov000_02197ff4",
-    "func_ov000_02198054"
-   ],
-   "bytes": 3716,
-   "addr": [
-    35202820,
-    35225772
-   ]
-  },
-  {
-   "id": "L3-03020",
-   "level": 3,
-   "functions": [
+    "func_ov000_02198054",
     "func_ov000_021980ac",
     "func_ov000_021983b8",
     "func_ov000_0219840c",
@@ -4873,7 +4377,18 @@
     "func_ov000_0219855c",
     "func_ov000_0219858c",
     "func_ov000_02198600",
-    "func_ov000_02198628",
+    "func_ov000_02198628"
+   ],
+   "bytes": 3600,
+   "addr": [
+    35211308,
+    35227232
+   ]
+  },
+  {
+   "id": "L3-04026",
+   "level": 3,
+   "functions": [
     "func_ov000_02198660",
     "func_ov000_02198698",
     "func_ov000_021986dc",
@@ -4914,18 +4429,7 @@
     "func_ov000_0219abb4",
     "func_ov000_0219afa0",
     "func_ov000_0219b2b4",
-    "func_ov000_0219b418"
-   ],
-   "bytes": 2732,
-   "addr": [
-    35225772,
-    35238976
-   ]
-  },
-  {
-   "id": "L3-03021",
-   "level": 3,
-   "functions": [
+    "func_ov000_0219b418",
     "func_ov000_0219b440",
     "func_ov000_0219b490",
     "func_ov000_0219b538",
@@ -4934,7 +4438,18 @@
     "func_ov000_0219c024",
     "func_ov000_0219c054",
     "func_ov000_0219c2c0",
-    "func_ov000_0219c3c4",
+    "func_ov000_0219c3c4"
+   ],
+   "bytes": 2804,
+   "addr": [
+    35227232,
+    35243012
+   ]
+  },
+  {
+   "id": "L3-04027",
+   "level": 3,
+   "functions": [
     "func_ov000_0219c628",
     "func_ov000_0219c6d0",
     "func_ov000_0219c700",
@@ -4975,18 +4490,7 @@
     "func_ov000_0219ec48",
     "func_ov000_0219ee00",
     "func_ov000_0219ee64",
-    "func_ov000_0219eeb4"
-   ],
-   "bytes": 3004,
-   "addr": [
-    35238976,
-    35253976
-   ]
-  },
-  {
-   "id": "L3-03022",
-   "level": 3,
-   "functions": [
+    "func_ov000_0219eeb4",
     "func_ov000_0219fef0",
     "func_ov000_021a0404",
     "func_ov000_021a06c8",
@@ -4995,7 +4499,18 @@
     "func_ov000_021a08e0",
     "func_ov000_021a0924",
     "func_ov000_021a0968",
-    "func_ov000_021a0acc",
+    "func_ov000_021a0acc"
+   ],
+   "bytes": 2936,
+   "addr": [
+    35243560,
+    35261188
+   ]
+  },
+  {
+   "id": "L3-04028",
+   "level": 3,
+   "functions": [
     "func_ov000_021a0b04",
     "func_ov000_021a0b30",
     "func_ov000_021a0b60",
@@ -5036,18 +4551,7 @@
     "func_ov000_021a1c30",
     "func_ov000_021a1c54",
     "func_ov000_021a1c78",
-    "func_ov000_021a1dd8"
-   ],
-   "bytes": 2828,
-   "addr": [
-    35258096,
-    35266056
-   ]
-  },
-  {
-   "id": "L3-03023",
-   "level": 3,
-   "functions": [
+    "func_ov000_021a1dd8",
     "func_ov000_021a1e08",
     "func_ov000_021a1e50",
     "func_ov000_021a1e80",
@@ -5056,7 +4560,18 @@
     "func_ov000_021a1f0c",
     "func_ov000_021a1f34",
     "func_ov000_021a2180",
-    "func_ov000_021a21b0",
+    "func_ov000_021a21b0"
+   ],
+   "bytes": 2760,
+   "addr": [
+    35261188,
+    35267080
+   ]
+  },
+  {
+   "id": "L3-04029",
+   "level": 3,
+   "functions": [
     "func_ov000_021a23b0",
     "func_ov000_021a24b0",
     "func_ov000_021a24e4",
@@ -5097,18 +4612,7 @@
     "func_ov000_021a5ea8",
     "func_ov000_021a5ef8",
     "func_ov000_021a5f2c",
-    "func_ov000_021a5f60"
-   ],
-   "bytes": 2716,
-   "addr": [
-    35266056,
-    35282856
-   ]
-  },
-  {
-   "id": "L3-03024",
-   "level": 3,
-   "functions": [
+    "func_ov000_021a5f60",
     "func_ov000_021a5fa8",
     "func_ov000_021a61a4",
     "func_ov000_021a61d0",
@@ -5117,7 +4621,18 @@
     "func_ov000_021a64d0",
     "func_ov000_021a67a4",
     "func_ov000_021a7000",
-    "func_ov000_021a7030",
+    "func_ov000_021a7030"
+   ],
+   "bytes": 2676,
+   "addr": [
+    35267504,
+    35287160
+   ]
+  },
+  {
+   "id": "L3-04030",
+   "level": 3,
+   "functions": [
     "func_ov000_021a7138",
     "func_ov000_021a794c",
     "func_ov000_021a7988",
@@ -5158,18 +4673,7 @@
     "func_ov000_021a9d0c",
     "func_ov000_021a9d48",
     "func_ov000_021a9d74",
-    "func_ov000_021aa3a4"
-   ],
-   "bytes": 2896,
-   "addr": [
-    35282856,
-    35300340
-   ]
-  },
-  {
-   "id": "L3-03025",
-   "level": 3,
-   "functions": [
+    "func_ov000_021aa3a4",
     "func_ov000_021aa3f4",
     "func_ov000_021aa428",
     "func_ov000_021aa45c",
@@ -5178,7 +4682,18 @@
     "func_ov000_021aa6bc",
     "func_ov000_021aa6f4",
     "func_ov000_021aa790",
-    "func_ov000_021aaa50",
+    "func_ov000_021aaa50"
+   ],
+   "bytes": 2904,
+   "addr": [
+    35287352,
+    35302016
+   ]
+  },
+  {
+   "id": "L3-04031",
+   "level": 3,
+   "functions": [
     "func_ov000_021ab03c",
     "func_ov000_021ab370",
     "func_ov000_021ab870",
@@ -5219,18 +4734,7 @@
     "func_ov000_021af080",
     "func_ov000_021af0b4",
     "func_ov000_021af0e8",
-    "func_ov000_021af11c"
-   ],
-   "bytes": 2716,
-   "addr": [
-    35300340,
-    35320144
-   ]
-  },
-  {
-   "id": "L3-03026",
-   "level": 3,
-   "functions": [
+    "func_ov000_021af11c",
     "func_ov000_021af150",
     "func_ov000_021af184",
     "func_ov000_021af1b8",
@@ -5239,7 +4743,18 @@
     "func_ov000_021af8e4",
     "func_ov000_021af920",
     "func_ov000_021af978",
-    "func_ov000_021af9c0",
+    "func_ov000_021af9c0"
+   ],
+   "bytes": 2724,
+   "addr": [
+    35303484,
+    35322344
+   ]
+  },
+  {
+   "id": "L3-04032",
+   "level": 3,
+   "functions": [
     "func_ov000_021af9e8",
     "func_ov000_021afa10",
     "func_ov000_021afa38",
@@ -5280,18 +4795,7 @@
     "func_ov000_021b49f0",
     "func_ov000_021b4b44",
     "func_ov000_021b4c00",
-    "func_ov000_021b4c44"
-   ],
-   "bytes": 2892,
-   "addr": [
-    35320144,
-    35343520
-   ]
-  },
-  {
-   "id": "L3-03027",
-   "level": 3,
-   "functions": [
+    "func_ov000_021b4c44",
     "func_ov000_021b4dcc",
     "func_ov000_021b5568",
     "func_ov000_021b55c0",
@@ -5300,7 +4804,18 @@
     "func_ov000_021b5674",
     "func_ov000_021b56c0",
     "func_ov000_021b57dc",
-    "func_ov000_021b5804",
+    "func_ov000_021b5804"
+   ],
+   "bytes": 3012,
+   "addr": [
+    35322344,
+    35346496
+   ]
+  },
+  {
+   "id": "L3-04033",
+   "level": 3,
+   "functions": [
     "func_ov000_021b63c4",
     "func_ov000_021b6404",
     "func_ov000_021b64f0",
@@ -5341,18 +4856,7 @@
     "func_ov000_021b9060",
     "func_ov000_021b9094",
     "func_ov000_021b9148",
-    "func_ov000_021b91a8"
-   ],
-   "bytes": 3100,
-   "addr": [
-    35343820,
-    35361280
-   ]
-  },
-  {
-   "id": "L3-03028",
-   "level": 3,
-   "functions": [
+    "func_ov000_021b91a8",
     "func_ov000_021b95bc",
     "func_ov000_021b9614",
     "func_ov000_021b966c",
@@ -5361,7 +4865,18 @@
     "func_ov000_021b9708",
     "func_ov000_021b972c",
     "func_ov000_021b975c",
-    "func_ov000_021b9858",
+    "func_ov000_021b9858"
+   ],
+   "bytes": 3076,
+   "addr": [
+    35349444,
+    35362980
+   ]
+  },
+  {
+   "id": "L3-04034",
+   "level": 3,
+   "functions": [
     "func_ov000_021b9918",
     "func_ov000_021b9c48",
     "func_ov000_021b9e44",
@@ -5402,18 +4917,7 @@
     "func_ov000_021be20c",
     "func_ov000_021be234",
     "func_ov000_021be26c",
-    "func_ov000_021be2ac"
-   ],
-   "bytes": 2876,
-   "addr": [
-    35362236,
-    35381972
-   ]
-  },
-  {
-   "id": "L3-03029",
-   "level": 3,
-   "functions": [
+    "func_ov000_021be2ac",
     "func_ov000_021be708",
     "func_ov000_021bebfc",
     "func_ov000_021bec60",
@@ -5422,7 +4926,18 @@
     "func_ov000_021bef34",
     "func_ov000_021bf4c8",
     "func_ov000_021bf4ec",
-    "func_ov000_021bf7e4",
+    "func_ov000_021bf7e4"
+   ],
+   "bytes": 2764,
+   "addr": [
+    35363096,
+    35387432
+   ]
+  },
+  {
+   "id": "L3-04035",
+   "level": 3,
+   "functions": [
     "func_ov000_021bf828",
     "func_ov000_021bf86c",
     "func_ov000_021bf8b4",
@@ -5463,18 +4978,7 @@
     "func_ov000_021c0e94",
     "func_ov000_021c0ec0",
     "func_ov000_021c0f00",
-    "func_ov000_021c0f44"
-   ],
-   "bytes": 2864,
-   "addr": [
-    35383048,
-    35393396
-   ]
-  },
-  {
-   "id": "L3-03030",
-   "level": 3,
-   "functions": [
+    "func_ov000_021c0f44",
     "func_ov000_021c1634",
     "func_ov000_021c23d8",
     "func_ov000_021c2534",
@@ -5483,7 +4987,18 @@
     "func_ov000_021c26a4",
     "func_ov000_021c26cc",
     "func_ov000_021c27c8",
-    "func_ov000_021c27f4",
+    "func_ov000_021c27f4"
+   ],
+   "bytes": 2972,
+   "addr": [
+    35387432,
+    35399720
+   ]
+  },
+  {
+   "id": "L3-04036",
+   "level": 3,
+   "functions": [
     "func_ov000_021c2828",
     "func_ov000_021c291c",
     "func_ov000_021c294c",
@@ -5524,18 +5039,7 @@
     "func_ov000_021c5670",
     "func_ov000_021c56b8",
     "func_ov000_021c56e4",
-    "func_ov000_021c5738"
-   ],
-   "bytes": 3032,
-   "addr": [
-    35395124,
-    35411804
-   ]
-  },
-  {
-   "id": "L3-03031",
-   "level": 3,
-   "functions": [
+    "func_ov000_021c5738",
     "func_ov000_021c57e8",
     "func_ov000_021c5b74",
     "func_ov000_021c5ba8",
@@ -5544,7 +5048,18 @@
     "func_ov000_021c5c64",
     "func_ov000_021c5ca8",
     "func_ov000_021c5cf4",
-    "func_ov000_021c5db0",
+    "func_ov000_021c5db0"
+   ],
+   "bytes": 2940,
+   "addr": [
+    35399720,
+    35413464
+   ]
+  },
+  {
+   "id": "L3-04037",
+   "level": 3,
+   "functions": [
     "func_ov000_021c5e74",
     "func_ov000_021c5e98",
     "func_ov000_021c60e4",
@@ -5585,18 +5100,7 @@
     "func_ov000_021cd900",
     "func_ov000_021cdb60",
     "func_ov000_021cdba8",
-    "func_ov000_021cdbf8"
-   ],
-   "bytes": 2932,
-   "addr": [
-    35411944,
-    35445808
-   ]
-  },
-  {
-   "id": "L3-03032",
-   "level": 3,
-   "functions": [
+    "func_ov000_021cdbf8",
     "func_ov000_021cdc30",
     "func_ov000_021cdc68",
     "func_ov000_021cdccc",
@@ -5605,7 +5109,18 @@
     "func_ov000_021d13c8",
     "func_ov000_021d140c",
     "func_ov000_021d1430",
-    "func_ov000_021d1458",
+    "func_ov000_021d1458"
+   ],
+   "bytes": 2948,
+   "addr": [
+    35413620,
+    35460244
+   ]
+  },
+  {
+   "id": "L3-04038",
+   "level": 3,
+   "functions": [
     "func_ov000_021d1608",
     "func_ov000_021d1638",
     "func_ov000_021d1678",
@@ -5646,18 +5161,7 @@
     "func_ov000_021d57a4",
     "func_ov000_021d57f8",
     "func_ov000_021d581c",
-    "func_ov000_021d5a94"
-   ],
-   "bytes": 2808,
-   "addr": [
-    35445808,
-    35478204
-   ]
-  },
-  {
-   "id": "L3-03033",
-   "level": 3,
-   "functions": [
+    "func_ov000_021d5a94",
     "func_ov000_021d5d94",
     "func_ov000_021d5dcc",
     "func_ov000_021d5fd4",
@@ -5666,7 +5170,18 @@
     "func_ov000_021d68b4",
     "func_ov000_021d6e14",
     "func_ov000_021d6e3c",
-    "func_ov000_021d6fe8",
+    "func_ov000_021d6fe8"
+   ],
+   "bytes": 2868,
+   "addr": [
+    35460616,
+    35483676
+   ]
+  },
+  {
+   "id": "L3-04039",
+   "level": 3,
+   "functions": [
     "func_ov000_021d708c",
     "func_ov000_021d73ac",
     "func_ov000_021d7f4c",
@@ -5707,18 +5222,7 @@
     "func_ov000_021db33c",
     "func_ov000_021dba70",
     "func_ov000_021dbc68",
-    "func_ov000_021dbdc8"
-   ],
-   "bytes": 3040,
-   "addr": [
-    35478932,
-    35503596
-   ]
-  },
-  {
-   "id": "L3-03034",
-   "level": 3,
-   "functions": [
+    "func_ov000_021dbdc8",
     "func_ov000_021dc05c",
     "func_ov000_021dc1cc",
     "func_ov000_021dc228",
@@ -5727,7 +5231,18 @@
     "func_ov000_021dc2fc",
     "func_ov000_021dc354",
     "func_ov000_021dc628",
-    "func_ov000_021dc688",
+    "func_ov000_021dc688"
+   ],
+   "bytes": 3204,
+   "addr": [
+    35483788,
+    35505872
+   ]
+  },
+  {
+   "id": "L3-04040",
+   "level": 3,
+   "functions": [
     "func_ov000_021dc6d0",
     "func_ov000_021dc928",
     "func_ov000_021dcc34",
@@ -5768,18 +5283,7 @@
     "func_ov000_021e4174",
     "func_ov000_021e41a4",
     "func_ov000_021e428c",
-    "func_ov000_021e5370"
-   ],
-   "bytes": 3212,
-   "addr": [
-    35504220,
-    35541920
-   ]
-  },
-  {
-   "id": "L3-03035",
-   "level": 3,
-   "functions": [
+    "func_ov000_021e5370",
     "func_ov000_021e5828",
     "func_ov000_021e5e2c",
     "func_ov000_021e5e54",
@@ -5788,7 +5292,18 @@
     "__sinit_ov000_021e753c",
     "__sinit_ov000_021e7578",
     "__sinit_ov000_021e76b4",
-    "__sinit_ov000_021e7710",
+    "__sinit_ov000_021e7710"
+   ],
+   "bytes": 3136,
+   "addr": [
+    35505872,
+    35551084
+   ]
+  },
+  {
+   "id": "L3-04041",
+   "level": 3,
+   "functions": [
     "__sinit_ov000_021e776c",
     "__sinit_ov000_021e784c",
     "__sinit_ov000_021e8050",
@@ -5829,18 +5344,7 @@
     "func_ov001_02169f60",
     "func_ov001_02169f9c",
     "func_ov001_02169fd4",
-    "func_ov001_0216a4dc"
-   ],
-   "bytes": 3110,
-   "addr": [
-    35543080,
-    35038494
-   ]
-  },
-  {
-   "id": "L3-03036",
-   "level": 3,
-   "functions": [
+    "func_ov001_0216a4dc",
     "func_ov001_0216a608",
     "func_ov001_0216a640",
     "func_ov001_0216a7e4",
@@ -5849,7 +5353,18 @@
     "func_ov001_0216a864",
     "func_ov001_0216a89c",
     "func_ov001_0216a97c",
-    "func_ov001_0216afd4",
+    "func_ov001_0216afd4"
+   ],
+   "bytes": 3006,
+   "addr": [
+    35551084,
+    35041296
+   ]
+  },
+  {
+   "id": "L3-04042",
+   "level": 3,
+   "functions": [
     "func_ov001_0216b08c",
     "func_ov001_0216b0dc",
     "func_ov001_0216b1d4",
@@ -5890,18 +5405,7 @@
     "func_ov001_0217228c",
     "func_ov001_02172308",
     "func_ov001_02172344",
-    "func_ov001_021723c4"
-   ],
-   "bytes": 3076,
-   "addr": [
-    35038728,
-    35070980
-   ]
-  },
-  {
-   "id": "L3-03037",
-   "level": 3,
-   "functions": [
+    "func_ov001_021723c4",
     "func_ov001_02172404",
     "func_ov001_02172454",
     "func_ov001_021724ac",
@@ -5910,7 +5414,18 @@
     "func_ov001_021729c8",
     "func_ov001_02172aa8",
     "func_ov001_02172b08",
-    "func_ov001_02172d98",
+    "func_ov001_02172d98"
+   ],
+   "bytes": 3048,
+   "addr": [
+    35041420,
+    35073492
+   ]
+  },
+  {
+   "id": "L3-04043",
+   "level": 3,
+   "functions": [
     "func_ov001_02172fb0",
     "func_ov001_02173004",
     "func_ov001_02173040",
@@ -5951,18 +5466,7 @@
     "func_ov001_021749a0",
     "func_ov001_021749ec",
     "func_ov001_02174aa8",
-    "func_ov001_02174adc"
-   ],
-   "bytes": 2828,
-   "addr": [
-    35070980,
-    35080984
-   ]
-  },
-  {
-   "id": "L3-03038",
-   "level": 3,
-   "functions": [
+    "func_ov001_02174adc",
     "func_ov001_02174b18",
     "func_ov001_02174b78",
     "func_ov001_02174bc0",
@@ -5971,7 +5475,18 @@
     "func_ov001_02174d14",
     "func_ov001_02174d68",
     "func_ov001_02174d94",
-    "func_ov001_02174dd0",
+    "func_ov001_02174dd0"
+   ],
+   "bytes": 2848,
+   "addr": [
+    35073968,
+    35081736
+   ]
+  },
+  {
+   "id": "L3-04044",
+   "level": 3,
+   "functions": [
     "func_ov001_02174e0c",
     "func_ov001_02174f98",
     "func_ov001_02175034",
@@ -6012,18 +5527,7 @@
     "func_ov001_02176388",
     "func_ov001_02176434",
     "func_ov001_021768b0",
-    "func_ov001_02176904"
-   ],
-   "bytes": 3012,
-   "addr": [
-    35080984,
-    35088704
-   ]
-  },
-  {
-   "id": "L3-03039",
-   "level": 3,
-   "functions": [
+    "func_ov001_02176904",
     "func_ov001_02176940",
     "func_ov001_02177694",
     "func_ov001_021776f0",
@@ -6032,7 +5536,18 @@
     "func_ov001_021779dc",
     "func_ov001_02177bf4",
     "func_ov001_02177ed4",
-    "func_ov001_0217823c",
+    "func_ov001_0217823c"
+   ],
+   "bytes": 3060,
+   "addr": [
+    35081740,
+    35095192
+   ]
+  },
+  {
+   "id": "L3-04045",
+   "level": 3,
+   "functions": [
     "func_ov001_021784d4",
     "func_ov001_02178500",
     "func_ov001_02178774",
@@ -6073,18 +5588,7 @@
     "func_ov001_0217c438",
     "func_ov001_0217c46c",
     "func_ov001_0217c498",
-    "func_ov001_0217c4e0"
-   ],
-   "bytes": 2996,
-   "addr": [
-    35088704,
-    35112216
-   ]
-  },
-  {
-   "id": "L3-03040",
-   "level": 3,
-   "functions": [
+    "func_ov001_0217c4e0",
     "func_ov001_0217c51c",
     "func_ov001_0217c760",
     "func_ov001_0217c7ac",
@@ -6093,7 +5597,18 @@
     "func_ov001_0217c8d4",
     "func_ov001_0217c980",
     "func_ov001_0217c9d4",
-    "func_ov001_0217cad8",
+    "func_ov001_0217cad8"
+   ],
+   "bytes": 2956,
+   "addr": [
+    35095764,
+    35113772
+   ]
+  },
+  {
+   "id": "L3-04046",
+   "level": 3,
+   "functions": [
     "func_ov001_0217cb2c",
     "func_ov001_0217cb6c",
     "func_ov001_0217cbb4",
@@ -6134,18 +5649,7 @@
     "func_ov001_0217f22c",
     "func_ov001_0217f264",
     "func_ov001_0217f310",
-    "func_ov001_0217f344"
-   ],
-   "bytes": 2944,
-   "addr": [
-    35112220,
-    35124116
-   ]
-  },
-  {
-   "id": "L3-03041",
-   "level": 3,
-   "functions": [
+    "func_ov001_0217f344",
     "func_ov001_0217f43c",
     "func_ov001_0217f490",
     "func_ov001_0217f4cc",
@@ -6154,7 +5658,18 @@
     "func_ov001_0217f82c",
     "func_ov001_0217f860",
     "func_ov001_0217f88c",
-    "func_ov001_0217f8c8",
+    "func_ov001_0217f8c8"
+   ],
+   "bytes": 2932,
+   "addr": [
+    35113772,
+    35125504
+   ]
+  },
+  {
+   "id": "L3-04047",
+   "level": 3,
+   "functions": [
     "func_ov001_0217f904",
     "func_ov001_0217fbbc",
     "func_ov001_0217fc08",
@@ -6195,18 +5710,7 @@
     "func_ov001_02182c7c",
     "func_ov001_02182cf0",
     "func_ov001_021832e0",
-    "func_ov001_021833ac"
-   ],
-   "bytes": 3044,
-   "addr": [
-    35124284,
-    35140616
-   ]
-  },
-  {
-   "id": "L3-03042",
-   "level": 3,
-   "functions": [
+    "func_ov001_021833ac",
     "func_ov001_021834b8",
     "func_ov001_02183618",
     "func_ov001_02183bd8",
@@ -6215,7 +5719,18 @@
     "func_ov001_02184150",
     "func_ov001_02184228",
     "func_ov001_0218433c",
-    "func_ov001_0218470c",
+    "func_ov001_0218470c"
+   ],
+   "bytes": 3100,
+   "addr": [
+    35125508,
+    35145544
+   ]
+  },
+  {
+   "id": "L3-04048",
+   "level": 3,
+   "functions": [
     "func_ov001_02184748",
     "func_ov001_02184778",
     "func_ov001_021847a8",
@@ -6256,18 +5771,7 @@
     "func_ov001_02186d6c",
     "func_ov001_02186dc4",
     "func_ov001_02186e1c",
-    "func_ov001_02186e78"
-   ],
-   "bytes": 2996,
-   "addr": [
-    35140792,
-    35155612
-   ]
-  },
-  {
-   "id": "L3-03043",
-   "level": 3,
-   "functions": [
+    "func_ov001_02186e78",
     "func_ov001_0218709c",
     "func_ov001_021870f4",
     "func_ov001_02187230",
@@ -6276,7 +5780,18 @@
     "func_ov001_021876bc",
     "func_ov001_02187910",
     "func_ov001_02187958",
-    "func_ov001_0218798c",
+    "func_ov001_0218798c"
+   ],
+   "bytes": 2960,
+   "addr": [
+    35145544,
+    35158496
+   ]
+  },
+  {
+   "id": "L3-04049",
+   "level": 3,
+   "functions": [
     "func_ov001_021879e0",
     "func_ov001_02187cc0",
     "func_ov001_02187d00",
@@ -6317,18 +5832,7 @@
     "func_ov001_0218b080",
     "func_ov001_0218b0cc",
     "func_ov001_0218bb24",
-    "func_ov001_0218cf60"
-   ],
-   "bytes": 3076,
-   "addr": [
-    35156124,
-    35180440
-   ]
-  },
-  {
-   "id": "L3-03044",
-   "level": 3,
-   "functions": [
+    "func_ov001_0218cf60",
     "func_ov001_0218cf98",
     "func_ov001_0218d1e4",
     "func_ov001_0218d20c",
@@ -6337,7 +5841,18 @@
     "func_ov001_0218d3cc",
     "func_ov001_0218d584",
     "func_ov001_0218d890",
-    "func_ov001_0218d8f0",
+    "func_ov001_0218d8f0"
+   ],
+   "bytes": 3116,
+   "addr": [
+    35158496,
+    35182912
+   ]
+  },
+  {
+   "id": "L3-04050",
+   "level": 3,
+   "functions": [
     "func_ov001_0218d940",
     "func_ov001_0218f084",
     "func_ov001_0218f0a8",
@@ -6378,18 +5893,7 @@
     "func_ov004_021f99c8",
     "func_ov004_021f9f4c",
     "func_ov004_021fbc2c",
-    "func_ov004_021ff3f4"
-   ],
-   "bytes": 3016,
-   "addr": [
-    35180440,
-    35648552
-   ]
-  },
-  {
-   "id": "L3-03045",
-   "level": 3,
-   "functions": [
+    "func_ov004_021ff3f4",
     "func_ov004_021ff428",
     "func_ov004_021ff970",
     "func_ov004_02200374",
@@ -6398,7 +5902,18 @@
     "func_ov005_021f69dc",
     "func_ov005_021f6a00",
     "func_ov005_021f6a24",
-    "func_ov005_021f6a60",
+    "func_ov005_021f6a60"
+   ],
+   "bytes": 2844,
+   "addr": [
+    35182912,
+    35613316
+   ]
+  },
+  {
+   "id": "L3-04051",
+   "level": 3,
+   "functions": [
     "func_ov005_021f6ab4",
     "func_ov005_021f721c",
     "func_ov005_021f75cc",
@@ -6439,18 +5954,7 @@
     "func_ov007_021f7464",
     "func_ov007_021f7900",
     "func_ov007_021f954c",
-    "func_ov007_021fa294"
-   ],
-   "bytes": 3132,
-   "addr": [
-    35648552,
-    35627712
-   ]
-  },
-  {
-   "id": "L3-03046",
-   "level": 3,
-   "functions": [
+    "func_ov007_021fa294",
     "func_ov007_021fa4e4",
     "func_ov007_021fa848",
     "func_ov007_021fcc04",
@@ -6459,7 +5963,18 @@
     "func_ov007_021fd684",
     "func_ov007_021fdd58",
     "__sinit_ov007_021fe3a8",
-    "func_ov008_021f6a54",
+    "func_ov008_021f6a54"
+   ],
+   "bytes": 3328,
+   "addr": [
+    35613364,
+    35613348
+   ]
+  },
+  {
+   "id": "L3-04052",
+   "level": 3,
+   "functions": [
     "func_ov008_021f7b48",
     "func_ov008_021f91e0",
     "func_ov008_021fae20",
@@ -6500,18 +6015,7 @@
     "func_ov011_021f9a2c",
     "func_ov011_021fb6a8",
     "func_ov011_021fcb54",
-    "func_ov011_021fe0dc"
-   ],
-   "bytes": 3276,
-   "addr": [
-    35628260,
-    35643656
-   ]
-  },
-  {
-   "id": "L3-03047",
-   "level": 3,
-   "functions": [
+    "func_ov011_021fe0dc",
     "func_ov012_021f7728",
     "func_ov012_021f7940",
     "func_ov012_021f8dec",
@@ -6520,7 +6024,18 @@
     "func_ov013_022129dc",
     "func_ov013_02212a08",
     "func_ov013_02212c24",
-    "func_ov013_02212cd0",
+    "func_ov013_02212cd0"
+   ],
+   "bytes": 3280,
+   "addr": [
+    35617608,
+    35728656
+   ]
+  },
+  {
+   "id": "L3-04053",
+   "level": 3,
+   "functions": [
     "func_ov013_02212f44",
     "func_ov013_02213148",
     "func_ov013_022133ec",
@@ -6558,47 +6073,164 @@
     "func_ov015_02213670",
     "__sinit_ov015_022136c8"
    ],
-   "bytes": 2848,
+   "bytes": 2248,
    "addr": [
-    35616552,
+    35729220,
     35731220
    ]
   },
   {
-   "id": "L4-03001",
+   "id": "L4-04001",
    "level": 4,
    "functions": [
-    "OSi_ExceptionHandler",
+    "MTX_OrthoW",
+    "OS_InitThread",
+    "OSi_InsertAlarm",
     "MI_CpuCopy8",
     "func_02009ccc",
-    "PMi_TryToSendPxiDataTillSuccess",
+    "SND_RecvCommandReply",
+    "SND_FlushCommand",
+    "PXIi_HandlerRecvFifoNotEmpty",
+    "FSi_TranslateCommand",
+    "FSi_FindPathCommand",
+    "FSi_NextCommand",
+    "FSi_SendCommand",
+    "FS_LoadArchiveTables",
+    "FSi_FindPath",
+    "FSi_InitRom",
+    "DGT_Hash2GetDigest",
+    "HmacCalc",
+    "DGTi_Hash2ProcessBlock",
+    "TP_SetCalibrateParam",
+    "TP_CalcCalibrateParam",
     "PMi_SetLCDPower",
+    "CARDi_InitCommon",
+    "CARDi_RequestStreamCommandCore",
     "CARD_IdentifyBackup",
     "CARDi_TryReadCardDma",
+    "WmInitCore",
+    "WMi_StartMP",
     "CTRDGi_InitModuleInfo",
+    "STD_ConvertStringSjisToUnicode",
+    "STD_ConvertStringUnicodeToSjis",
+    "__exit",
     "func_02017630",
+    "long2str",
     "qsort",
+    "raise",
     "func_0201b704",
     "func_020204bc",
     "func_02020cbc",
+    "ldexp",
     "func_02021314",
     "func_020247e0",
+    "_fsub",
     "func_02024b48",
+    "_u32_div_f",
     "func_0202665c",
     "func_02026894",
     "func_02026ec0",
-    "SOCLi_CommandPacketHandler",
+    "AllocUsedBlockFromFreeBlock",
+    "bindMdlTex_Internal_",
+    "NNS_G3dBindMdlPltt"
+   ],
+   "bytes": 20316,
+   "addr": [
+    33564592,
+    33720952
+   ]
+  },
+  {
+   "id": "L4-04002",
+   "level": 4,
+   "functions": [
+    "mtx_inverse44",
+    "G3dDrawInternal_",
+    "NNSi_G3dFuncSbc_NODE",
+    "NNS_G3dResDefaultRelease",
+    "NNS_G3dWorldPosToScrPos",
+    "NNS_G3dGetResDataByName",
+    "NNS_G3dGetResDictIdxByName",
+    "getMdlRot_",
+    "getTransData_",
+    "getTransDataEx_",
+    "getScaleData_",
+    "getScaleDataEx_",
+    "getRotDataByIdx_",
+    "GetMatColAnmValue_",
+    "GetTexSRTAnmSinCosVal_",
+    "NNSi_G3dGetJointScaleMaya",
+    "texmtxCalc_flag_",
+    "NNSi_G3dSendJointSRTSi3d",
+    "NNSi_G3dGetJointScaleSi3d",
+    "NNSi_G3dSendTexSRTSi3d",
+    "NNSi_G3dSendTexSRTXsi",
+    "NNSi_GfdAllocLnkVramAligned",
+    "NNS_GfdResetLnkTexVramState",
+    "NNS_SndArcSetup",
+    "NNSi_SndArcLoadGroup",
+    "LoadWaveArcTable",
+    "NNSi_SndArcStrmMain",
+    "reset_network_vars",
+    "CPS_Startup",
+    "put_in_buffer",
+    "reg_arpcache",
+    "send_ip_frag",
+    "send_ip",
+    "send_udp",
+    "send_tcp",
+    "dispatch_arp",
+    "tcp_send_rst",
+    "dispatch_tcp",
+    "dispatch_udp",
+    "dispatch_ip",
+    "CPSi_TcpWrite2Raw",
+    "dhcp_setcommon",
+    "dhcp_send_request",
+    "CPS_Resolve",
+    "SOCLi_StartupCPS",
+    "SOCL_ReadFrom",
+    "SOCLi_CopyCPSBuffer",
+    "SOCLi_ReadCallBack",
+    "SOCLi_ReadUdpBuffer",
+    "SOCLi_UdpRecvCallback"
+   ],
+   "bytes": 18872,
+   "addr": [
+    33721956,
+    33795912
+   ]
+  },
+  {
+   "id": "L4-04003",
+   "level": 4,
+   "functions": [
+    "SOCL_WriteTo",
+    "SOCLi_WriteBuffer",
+    "SOCLi_ExecWriteCommand",
+    "SOCLi_WriteCallBack",
     "func_0203d720",
     "func_0203d958",
     "func_0203e41c",
     "func_0203e6b8",
     "func_0203ead8",
     "func_0203edd0",
+    "CPSi_SslWrite2",
     "func_02040824",
     "func_02040d3c",
     "func_02040ebc",
     "func_0204137c",
     "func_020414a4",
+    "WCM_StartupAsync",
+    "WCM_BeginSearchAsync",
+    "WCM_ConnectAsync",
+    "WCM_DisconnectAsync",
+    "WCM_TerminateAsync",
+    "WcmEditScanExParam",
+    "WcmWmcbConnect",
+    "WcmWmcbStartDCF",
+    "WcmWmcbEndDCF",
+    "WCM_SendDCFDataEx",
     "DWC_AC_Create",
     "func_02045388",
     "func_020454c4",
@@ -6617,23 +6249,23 @@
     "func_0204d568",
     "func_0204daa8",
     "func_0204dd28",
-    "func_0204df70"
-   ],
-   "bytes": 18220,
-   "addr": [
-    33587880,
-    33874280
-   ]
-  },
-  {
-   "id": "L4-03002",
-   "level": 4,
-   "functions": [
+    "func_0204df70",
     "func_0204eac8",
     "func_0204f2f4",
     "func_0204f4e0",
     "func_0204f6ac",
-    "func_0204f8b4",
+    "func_0204f8b4"
+   ],
+   "bytes": 19096,
+   "addr": [
+    33795912,
+    33880664
+   ]
+  },
+  {
+   "id": "L4-04004",
+   "level": 4,
+   "functions": [
     "func_0204fa9c",
     "func_0204fcac",
     "func_02050f44",
@@ -6655,63 +6287,107 @@
     "func_02058cc0",
     "func_02059584",
     "func_02059a34",
-    "writeNvram",
-    "TableNew2",
+    "DWCi_Util_WiFiId_scrambleUid",
+    "DWCi_AUTH_GetNewWiFiInfo",
+    "DWCi_AUTH_RemakeWiFiID",
+    "B64Decode",
+    "B64Encode",
     "func_0205cde4",
+    "gsUdpClosedRoutingCB",
+    "gsUdpConnectedRoutingCB",
     "func_0205d418",
     "gsUdpConnAttemptCB",
     "gsUdpEngineStartTalkingToPeer",
     "func_0205db1c",
     "func_0205dce0",
     "func_0205e074",
+    "gpSendBuddyRequestA",
     "func_0205e654",
+    "gpSetStatusA",
     "gpiInitialize",
     "gpiReset",
+    "gpiProcess",
+    "gpiSendBuddyMessage",
+    "gpiDeleteBuddy",
     "gpiSendBufferToPeer",
+    "gpiReadMessageFromBuffer",
+    "gpiConnect",
     "func_02062ce4",
     "func_02062f2c",
     "func_02063674",
-    "gpiProcessPeerAcceptingConnection",
-    "gpiPeerAddMessage",
-    "func_020678b8",
-    "gpiStartProfileSearch",
-    "func_0206a564",
-    "func_0206c8b8",
-    "gti2ReceiveFilterCallback",
-    "func_0206d2fc"
+    "gpiDisconnect"
    ],
-   "bytes": 20216,
+   "bytes": 21716,
    "addr": [
-    33876680,
-    34001920
+    33880732,
+    33962420
    ]
   },
   {
-   "id": "L4-03003",
+   "id": "L4-04005",
    "level": 4,
    "functions": [
+    "gpiIsValidDate",
+    "gpiGetInfo",
+    "gpiProcessPeerAcceptingConnection",
+    "gpiPeerAddMessage",
+    "func_020678b8",
+    "gpiProcessDeleteProfle",
+    "gpiStartProfileSearch",
+    "func_0206a564",
+    "gpiReadKeyAndValue",
+    "CallReqCallback",
+    "gti2GetResponse",
+    "func_0206c8b8",
+    "gt2Connect",
+    "func_0206d2fc",
+    "gti2HandleClientResponse",
+    "gti2BufferIncomingMessage",
+    "gti2HandleReliableMessage",
+    "gti2ReceiveMessages",
     "func_0206f3e0",
+    "gti2SocketSend",
     "gt2StringToAddress",
+    "DetermineNatType",
     "SendReportPacket",
     "SendInitPackets",
     "SendPingPacket",
+    "CheckNatifyStatus",
     "func_020715b4",
     "NNProcessData",
     "func_02071868",
+    "gs_encrypt",
+    "qr_build_partial_query_reply",
+    "qr_process_query",
     "func_02072bbc",
+    "ParseSingleQR2Reply",
+    "ProcessIncomingReplies",
     "SBServerParseQR2FullKeysSingle",
     "SBServerParseQR2FullKeysSplit",
+    "ServerBrowserBeginUpdate2",
     "SBServerListSort",
     "func_02075ee0",
     "SBServerListConnectAndQuery",
     "func_0207721c",
     "ProcessAdHocData",
     "SBSendMessageToServer",
+    "ProcessLanData",
     "func_0207803c",
     "func_02078404",
     "func_02078818",
     "func_02078ba4",
-    "func_0207a658",
+    "func_0207a658"
+   ],
+   "bytes": 18572,
+   "addr": [
+    33962420,
+    34055868
+   ]
+  },
+  {
+   "id": "L4-04006",
+   "level": 4,
+   "functions": [
     "func_0207adf8",
     "func_0207b754",
     "func_0207b9c8",
@@ -6739,18 +6415,7 @@
     "func_02083b7c",
     "func_02084954",
     "func_02084e34",
-    "func_02084f34"
-   ],
-   "bytes": 16228,
-   "addr": [
-    34010080,
-    34099300
-   ]
-  },
-  {
-   "id": "L4-03004",
-   "level": 4,
-   "functions": [
+    "func_02084f34",
     "func_020851c4",
     "func_020852a8",
     "func_02087084",
@@ -6772,7 +6437,18 @@
     "func_0208fc18",
     "func_02090280",
     "func_02090324",
-    "func_02090498",
+    "func_02090498"
+   ],
+   "bytes": 15452,
+   "addr": [
+    34057720,
+    34145748
+   ]
+  },
+  {
+   "id": "L4-04007",
+   "level": 4,
+   "functions": [
     "func_02090840",
     "func_02090b60",
     "func_02090ca4",
@@ -6800,18 +6476,7 @@
     "func_02099f0c",
     "func_0209a2e0",
     "func_0209a4f0",
-    "func_0209a5ac"
-   ],
-   "bytes": 15700,
-   "addr": [
-    34099652,
-    34186888
-   ]
-  },
-  {
-   "id": "L4-03005",
-   "level": 4,
-   "functions": [
+    "func_0209a5ac",
     "func_0209a688",
     "func_0209a764",
     "func_0209a84c",
@@ -6833,7 +6498,18 @@
     "func_0209d074",
     "func_0209d138",
     "func_0209d518",
-    "func_0209d880",
+    "func_0209d880"
+   ],
+   "bytes": 12188,
+   "addr": [
+    34146368,
+    34200000
+   ]
+  },
+  {
+   "id": "L4-04008",
+   "level": 4,
+   "functions": [
     "func_0209dc84",
     "func_0209df38",
     "func_0209e0ec",
@@ -6861,18 +6537,7 @@
     "func_020a5704",
     "func_020a579c",
     "func_020a5844",
-    "func_020a58ec"
-   ],
-   "bytes": 9452,
-   "addr": [
-    34186888,
-    34232724
-   ]
-  },
-  {
-   "id": "L4-03006",
-   "level": 4,
-   "functions": [
+    "func_020a58ec",
     "func_020a5994",
     "func_020a5a3c",
     "func_020a5ad4",
@@ -6894,7 +6559,18 @@
     "func_020a9d90",
     "func_020a9fc8",
     "func_020aa430",
-    "func_020aa9b0",
+    "func_020aa9b0"
+   ],
+   "bytes": 10224,
+   "addr": [
+    34200708,
+    34253688
+   ]
+  },
+  {
+   "id": "L4-04009",
+   "level": 4,
+   "functions": [
     "func_020aae44",
     "func_020aaed4",
     "func_020ab010",
@@ -6922,18 +6598,7 @@
     "func_020b4fa8",
     "func_020b50c0",
     "func_020b5bc8",
-    "func_020b66c8"
-   ],
-   "bytes": 16356,
-   "addr": [
-    34232724,
-    34306000
-   ]
-  },
-  {
-   "id": "L4-03007",
-   "level": 4,
-   "functions": [
+    "func_020b66c8",
     "func_020b7984",
     "func_020b7c9c",
     "func_020b7de0",
@@ -6955,7 +6620,18 @@
     "func_020becbc",
     "func_020bf78c",
     "func_020bfa3c",
-    "func_020c03f0",
+    "func_020c03f0"
+   ],
+   "bytes": 16432,
+   "addr": [
+    34254404,
+    34341992
+   ]
+  },
+  {
+   "id": "L4-04010",
+   "level": 4,
+   "functions": [
     "func_020c04c0",
     "func_020c0610",
     "func_020c0f54",
@@ -6983,18 +6659,7 @@
     "func_020c73fc",
     "func_020c76f0",
     "func_020c7774",
-    "func_020c7840"
-   ],
-   "bytes": 12376,
-   "addr": [
-    34306436,
-    34371788
-   ]
-  },
-  {
-   "id": "L4-03008",
-   "level": 4,
-   "functions": [
+    "func_020c7840",
     "func_020c79fc",
     "func_020c8208",
     "func_020c9618",
@@ -7016,7 +6681,18 @@
     "func_020ce2e8",
     "func_020ce900",
     "func_020ce9f8",
-    "func_020ceaa4",
+    "func_020ceaa4"
+   ],
+   "bytes": 13672,
+   "addr": [
+    34342080,
+    34401052
+   ]
+  },
+  {
+   "id": "L4-04011",
+   "level": 4,
+   "functions": [
     "func_020ceb4c",
     "func_020cf208",
     "func_020cf300",
@@ -7044,24 +6720,12 @@
     "func_020dac4c",
     "func_020db10c",
     "func_020db340",
-    "func_020dbb8c"
-   ],
-   "bytes": 16848,
-   "addr": [
-    34372092,
-    34454764
-   ]
-  },
-  {
-   "id": "L4-03009",
-   "level": 4,
-   "functions": [
+    "func_020dbb8c",
     "func_020dbec8",
     "func_020dc0ac",
     "func_020dcfec",
     "func_020dd248",
     "func_020dd2e0",
-    "CRYPTO_RC4Encrypt",
     "func_020de0cc",
     "func_020de284",
     "__sinit_020de568",
@@ -7078,7 +6742,18 @@
     "func_ov000_021677c8",
     "func_ov000_02167ab8",
     "func_ov000_02167d60",
-    "func_ov000_021696b0",
+    "func_ov000_021696b0"
+   ],
+   "bytes": 16060,
+   "addr": [
+    34401100,
+    35034912
+   ]
+  },
+  {
+   "id": "L4-04012",
+   "level": 4,
+   "functions": [
     "func_ov000_0216983c",
     "func_ov000_021699b8",
     "func_ov000_02169b0c",
@@ -7105,18 +6780,7 @@
     "func_ov000_0216ff7c",
     "func_ov000_02170004",
     "func_ov000_02170070",
-    "func_ov000_02170824"
-   ],
-   "bytes": 9312,
-   "addr": [
-    34455240,
-    35064008
-   ]
-  },
-  {
-   "id": "L4-03010",
-   "level": 4,
-   "functions": [
+    "func_ov000_02170824",
     "func_ov000_02170e20",
     "func_ov000_0217113c",
     "func_ov000_021711a8",
@@ -7139,7 +6803,18 @@
     "func_ov000_02173b78",
     "func_ov000_02173f4c",
     "func_ov000_02173fb0",
-    "func_ov000_02174068",
+    "func_ov000_02174068"
+   ],
+   "bytes": 7480,
+   "addr": [
+    35035196,
+    35078352
+   ]
+  },
+  {
+   "id": "L4-04013",
+   "level": 4,
+   "functions": [
     "func_ov000_021740d0",
     "func_ov000_0217426c",
     "func_ov000_02174378",
@@ -7166,18 +6841,7 @@
     "func_ov000_021792b4",
     "func_ov000_02179364",
     "func_ov000_02179474",
-    "func_ov000_021795c8"
-   ],
-   "bytes": 8240,
-   "addr": [
-    35065376,
-    35100308
-   ]
-  },
-  {
-   "id": "L4-03011",
-   "level": 4,
-   "functions": [
+    "func_ov000_021795c8",
     "func_ov000_02179694",
     "func_ov000_02179c24",
     "func_ov000_02179d38",
@@ -7200,7 +6864,18 @@
     "func_ov000_0217b968",
     "func_ov000_0217cf38",
     "func_ov000_0217d2d4",
-    "func_ov000_0217d390",
+    "func_ov000_0217d390"
+   ],
+   "bytes": 8580,
+   "addr": [
+    35078352,
+    35116044
+   ]
+  },
+  {
+   "id": "L4-04014",
+   "level": 4,
+   "functions": [
     "func_ov000_0217d40c",
     "func_ov000_0217d5d8",
     "func_ov000_0217d63c",
@@ -7227,18 +6902,7 @@
     "func_ov000_02184f54",
     "func_ov000_0218543c",
     "func_ov000_021854ec",
-    "func_ov000_02185590"
-   ],
-   "bytes": 8656,
-   "addr": [
-    35100308,
-    35149336
-   ]
-  },
-  {
-   "id": "L4-03012",
-   "level": 4,
-   "functions": [
+    "func_ov000_02185590",
     "func_ov000_02185618",
     "func_ov000_021856b4",
     "func_ov000_021857b0",
@@ -7261,7 +6925,18 @@
     "func_ov000_02188e70",
     "func_ov000_02188f50",
     "func_ov000_02189320",
-    "func_ov000_0218943c",
+    "func_ov000_0218943c"
+   ],
+   "bytes": 9008,
+   "addr": [
+    35116044,
+    35165352
+   ]
+  },
+  {
+   "id": "L4-04015",
+   "level": 4,
+   "functions": [
     "func_ov000_02189580",
     "func_ov000_02189874",
     "func_ov000_02189910",
@@ -7288,18 +6963,7 @@
     "func_ov000_0218d558",
     "func_ov000_0218d934",
     "func_ov000_0218e054",
-    "func_ov000_0218e400"
-   ],
-   "bytes": 9000,
-   "addr": [
-    35149336,
-    35185860
-   ]
-  },
-  {
-   "id": "L4-03013",
-   "level": 4,
-   "functions": [
+    "func_ov000_0218e400",
     "func_ov000_0218ecc0",
     "func_ov000_0218edb4",
     "func_ov000_0218ee18",
@@ -7322,7 +6986,18 @@
     "func_ov000_02190ebc",
     "func_ov000_02191424",
     "func_ov000_0219175c",
-    "func_ov000_02191904",
+    "func_ov000_02191904"
+   ],
+   "bytes": 8432,
+   "addr": [
+    35165568,
+    35199376
+   ]
+  },
+  {
+   "id": "L4-04016",
+   "level": 4,
+   "functions": [
     "func_ov000_02191c3c",
     "func_ov000_02191cb4",
     "func_ov000_02191e58",
@@ -7349,18 +7024,7 @@
     "func_ov000_02195d2c",
     "func_ov000_021961b4",
     "func_ov000_021962fc",
-    "func_ov000_021963cc"
-   ],
-   "bytes": 7732,
-   "addr": [
-    35187904,
-    35218504
-   ]
-  },
-  {
-   "id": "L4-03014",
-   "level": 4,
-   "functions": [
+    "func_ov000_021963cc",
     "func_ov000_02196448",
     "func_ov000_021964c4",
     "func_ov000_0219656c",
@@ -7383,7 +7047,18 @@
     "func_ov000_021976ac",
     "func_ov000_02197728",
     "func_ov000_021977a4",
-    "func_ov000_02197828",
+    "func_ov000_02197828"
+   ],
+   "bytes": 7608,
+   "addr": [
+    35200060,
+    35223708
+   ]
+  },
+  {
+   "id": "L4-04017",
+   "level": 4,
+   "functions": [
     "func_ov000_021978a4",
     "func_ov000_02197998",
     "func_ov000_02197a8c",
@@ -7410,18 +7085,7 @@
     "func_ov000_0219b904",
     "func_ov000_0219c1f8",
     "func_ov000_0219c310",
-    "func_ov000_0219c520"
-   ],
-   "bytes": 8036,
-   "addr": [
-    35218504,
-    35243544
-   ]
-  },
-  {
-   "id": "L4-03015",
-   "level": 4,
-   "functions": [
+    "func_ov000_0219c520",
     "func_ov000_0219c660",
     "func_ov000_0219c780",
     "func_ov000_0219c854",
@@ -7444,7 +7108,18 @@
     "func_ov000_0219e82c",
     "func_ov000_0219e91c",
     "func_ov000_0219ea60",
-    "func_ov000_0219eb58",
+    "func_ov000_0219eb58"
+   ],
+   "bytes": 8492,
+   "addr": [
+    35223716,
+    35253280
+   ]
+  },
+  {
+   "id": "L4-04018",
+   "level": 4,
+   "functions": [
     "func_ov000_0219ec8c",
     "func_ov000_0219ed6c",
     "func_ov000_0219f84c",
@@ -7471,18 +7146,7 @@
     "func_ov000_021a18a4",
     "func_ov000_021a195c",
     "func_ov000_021a19cc",
-    "func_ov000_021a1ad4"
-   ],
-   "bytes": 8080,
-   "addr": [
-    35243616,
-    35265336
-   ]
-  },
-  {
-   "id": "L4-03016",
-   "level": 4,
-   "functions": [
+    "func_ov000_021a1ad4",
     "func_ov000_021a1b38",
     "func_ov000_021a1bc4",
     "func_ov000_021a1f80",
@@ -7505,7 +7169,18 @@
     "func_ov000_021a3d94",
     "func_ov000_021a41b8",
     "func_ov000_021a4560",
-    "func_ov000_021a45e8",
+    "func_ov000_021a45e8"
+   ],
+   "bytes": 7584,
+   "addr": [
+    35253388,
+    35276420
+   ]
+  },
+  {
+   "id": "L4-04019",
+   "level": 4,
+   "functions": [
     "func_ov000_021a48c4",
     "func_ov000_021a4990",
     "func_ov000_021a5398",
@@ -7532,18 +7207,7 @@
     "func_ov000_021a8120",
     "func_ov000_021a838c",
     "func_ov000_021a845c",
-    "func_ov000_021a877c"
-   ],
-   "bytes": 8120,
-   "addr": [
-    35265336,
-    35293188
-   ]
-  },
-  {
-   "id": "L4-03017",
-   "level": 4,
-   "functions": [
+    "func_ov000_021a877c",
     "func_ov000_021a8848",
     "func_ov000_021a8914",
     "func_ov000_021a89e0",
@@ -7566,7 +7230,18 @@
     "func_ov000_021ac570",
     "func_ov000_021ac648",
     "func_ov000_021ad168",
-    "func_ov000_021ad210",
+    "func_ov000_021ad210"
+   ],
+   "bytes": 8792,
+   "addr": [
+    35276996,
+    35312304
+   ]
+  },
+  {
+   "id": "L4-04020",
+   "level": 4,
+   "functions": [
     "func_ov000_021ad4f8",
     "func_ov000_021ad570",
     "func_ov000_021ad6c4",
@@ -7593,18 +7268,7 @@
     "func_ov000_021b0134",
     "func_ov000_021b01dc",
     "func_ov000_021b0318",
-    "func_ov000_021b0420"
-   ],
-   "bytes": 8212,
-   "addr": [
-    35293256,
-    35325084
-   ]
-  },
-  {
-   "id": "L4-03018",
-   "level": 4,
-   "functions": [
+    "func_ov000_021b0420",
     "func_ov000_021b0530",
     "func_ov000_021b06b8",
     "func_ov000_021b0a8c",
@@ -7627,7 +7291,18 @@
     "func_ov000_021b4b9c",
     "func_ov000_021b4ca0",
     "func_ov000_021b4d20",
-    "func_ov000_021b4e18",
+    "func_ov000_021b4e18"
+   ],
+   "bytes": 7888,
+   "addr": [
+    35312888,
+    35343996
+   ]
+  },
+  {
+   "id": "L4-04021",
+   "level": 4,
+   "functions": [
     "func_ov000_021b570c",
     "func_ov000_021b5778",
     "func_ov000_021b5840",
@@ -7654,18 +7329,7 @@
     "func_ov000_021b8d38",
     "func_ov000_021b90bc",
     "func_ov000_021b9200",
-    "func_ov000_021b940c"
-   ],
-   "bytes": 7764,
-   "addr": [
-    35325232,
-    35361912
-   ]
-  },
-  {
-   "id": "L4-03019",
-   "level": 4,
-   "functions": [
+    "func_ov000_021b940c",
     "func_ov000_021b97a0",
     "func_ov000_021b98a4",
     "func_ov000_021b9964",
@@ -7688,7 +7352,18 @@
     "func_ov000_021bb410",
     "func_ov000_021bb474",
     "func_ov000_021bb580",
-    "func_ov000_021bbaa4",
+    "func_ov000_021bbaa4"
+   ],
+   "bytes": 7984,
+   "addr": [
+    35346188,
+    35371832
+   ]
+  },
+  {
+   "id": "L4-04022",
+   "level": 4,
+   "functions": [
     "func_ov000_021bc0d4",
     "func_ov000_021bc390",
     "func_ov000_021bc878",
@@ -7715,18 +7390,7 @@
     "func_ov000_021bee5c",
     "func_ov000_021bef6c",
     "func_ov000_021bf014",
-    "func_ov000_021bf214"
-   ],
-   "bytes": 7996,
-   "addr": [
-    35362720,
-    35386116
-   ]
-  },
-  {
-   "id": "L4-03020",
-   "level": 4,
-   "functions": [
+    "func_ov000_021bf214",
     "func_ov000_021bf978",
     "func_ov000_021bfaa8",
     "func_ov000_021bfbdc",
@@ -7749,7 +7413,18 @@
     "func_ov000_021c1c64",
     "func_ov000_021c22e4",
     "func_ov000_021c2440",
-    "func_ov000_021c2638",
+    "func_ov000_021c2638"
+   ],
+   "bytes": 7368,
+   "addr": [
+    35373268,
+    35399332
+   ]
+  },
+  {
+   "id": "L4-04023",
+   "level": 4,
+   "functions": [
     "func_ov000_021c2718",
     "func_ov000_021c28a0",
     "func_ov000_021c29dc",
@@ -7776,18 +7451,7 @@
     "func_ov000_021c6044",
     "func_ov000_021c61c4",
     "func_ov000_021c625c",
-    "func_ov000_021c6754"
-   ],
-   "bytes": 7528,
-   "addr": [
-    35387768,
-    35416088
-   ]
-  },
-  {
-   "id": "L4-03021",
-   "level": 4,
-   "functions": [
+    "func_ov000_021c6754",
     "func_ov000_021c6818",
     "func_ov000_021c68f0",
     "func_ov000_021c6974",
@@ -7810,7 +7474,18 @@
     "func_ov000_021cc8f4",
     "func_ov000_021cca30",
     "func_ov000_021ccab8",
-    "func_ov000_021ccb48",
+    "func_ov000_021ccb48"
+   ],
+   "bytes": 7736,
+   "addr": [
+    35399448,
+    35441644
+   ]
+  },
+  {
+   "id": "L4-04024",
+   "level": 4,
+   "functions": [
     "func_ov000_021ccdf4",
     "func_ov000_021ccef4",
     "func_ov000_021ccf68",
@@ -7837,18 +7512,7 @@
     "func_ov000_021d5bd0",
     "func_ov000_021d5e1c",
     "func_ov000_021d5eec",
-    "func_ov000_021d6034"
-   ],
-   "bytes": 7992,
-   "addr": [
-    35416088,
-    35479800
-   ]
-  },
-  {
-   "id": "L4-03022",
-   "level": 4,
-   "functions": [
+    "func_ov000_021d6034",
     "func_ov000_021d62c4",
     "func_ov000_021d638c",
     "func_ov000_021d63fc",
@@ -7871,7 +7535,18 @@
     "func_ov000_021d7e24",
     "func_ov000_021d7e98",
     "func_ov000_021d808c",
-    "func_ov000_021d8198",
+    "func_ov000_021d8198"
+   ],
+   "bytes": 7920,
+   "addr": [
+    35442164,
+    35488404
+   ]
+  },
+  {
+   "id": "L4-04025",
+   "level": 4,
+   "functions": [
     "func_ov000_021d8294",
     "func_ov000_021d854c",
     "func_ov000_021d85d4",
@@ -7898,18 +7573,7 @@
     "func_ov000_021db7ac",
     "func_ov000_021db828",
     "func_ov000_021db8e8",
-    "func_ov000_021dbae4"
-   ],
-   "bytes": 7892,
-   "addr": [
-    35480260,
-    35502984
-   ]
-  },
-  {
-   "id": "L4-03023",
-   "level": 4,
-   "functions": [
+    "func_ov000_021dbae4",
     "func_ov000_021dbb88",
     "func_ov000_021dbcbc",
     "func_ov000_021dbd30",
@@ -7932,7 +7596,18 @@
     "func_ov000_021dd17c",
     "func_ov000_021de100",
     "func_ov000_021deda8",
-    "func_ov000_021dee20",
+    "func_ov000_021dee20"
+   ],
+   "bytes": 7820,
+   "addr": [
+    35488404,
+    35516036
+   ]
+  },
+  {
+   "id": "L4-04026",
+   "level": 4,
+   "functions": [
     "func_ov000_021def00",
     "func_ov000_021def88",
     "func_ov000_021df000",
@@ -7959,18 +7634,7 @@
     "func_ov000_021e5b94",
     "func_ov000_021e5c44",
     "func_ov000_021e6bc0",
-    "func_ov000_021e6c68"
-   ],
-   "bytes": 8148,
-   "addr": [
-    35502984,
-    35548476
-   ]
-  },
-  {
-   "id": "L4-03024",
-   "level": 4,
-   "functions": [
+    "func_ov000_021e6c68",
     "__sinit_ov000_021e75d4",
     "__sinit_ov000_021e77c8",
     "__sinit_ov000_021e78a8",
@@ -7993,7 +7657,18 @@
     "func_ov001_02168ec4",
     "func_ov001_02168f2c",
     "func_ov001_02168fa8",
-    "func_ov001_02169030",
+    "func_ov001_02169030"
+   ],
+   "bytes": 8636,
+   "addr": [
+    35516160,
+    35033234
+   ]
+  },
+  {
+   "id": "L4-04027",
+   "level": 4,
+   "functions": [
     "func_ov001_02169198",
     "func_ov001_021694a8",
     "func_ov001_0216952c",
@@ -8020,18 +7695,7 @@
     "func_ov001_0216d854",
     "func_ov001_0216d950",
     "func_ov001_0216da5c",
-    "func_ov001_0216db28"
-   ],
-   "bytes": 8444,
-   "addr": [
-    35550676,
-    35052576
-   ]
-  },
-  {
-   "id": "L4-03025",
-   "level": 4,
-   "functions": [
+    "func_ov001_0216db28",
     "func_ov001_0216dcf4",
     "func_ov001_0216dd88",
     "func_ov001_0216dfd0",
@@ -8054,7 +7718,18 @@
     "func_ov001_0216fde8",
     "func_ov001_0216feb0",
     "func_ov001_021703c4",
-    "func_ov001_02170448",
+    "func_ov001_02170448"
+   ],
+   "bytes": 8228,
+   "addr": [
+    35033496,
+    35062972
+   ]
+  },
+  {
+   "id": "L4-04028",
+   "level": 4,
+   "functions": [
     "func_ov001_021704bc",
     "func_ov001_02170530",
     "func_ov001_021705a4",
@@ -8081,18 +7756,7 @@
     "func_ov001_021729ec",
     "func_ov001_02172b44",
     "func_ov001_02172dd4",
-    "func_ov001_02172e48"
-   ],
-   "bytes": 7532,
-   "addr": [
-    35052788,
-    35073732
-   ]
-  },
-  {
-   "id": "L4-03026",
-   "level": 4,
-   "functions": [
+    "func_ov001_02172e48",
     "func_ov001_02172ec4",
     "func_ov001_02173268",
     "func_ov001_02173310",
@@ -8115,7 +7779,18 @@
     "func_ov001_02174a40",
     "func_ov001_02174c94",
     "func_ov001_02174e7c",
-    "func_ov001_02174ee0",
+    "func_ov001_02174ee0"
+   ],
+   "bytes": 7152,
+   "addr": [
+    35062972,
+    35082136
+   ]
+  },
+  {
+   "id": "L4-04029",
+   "level": 4,
+   "functions": [
     "func_ov001_02174fc8",
     "func_ov001_021750e8",
     "func_ov001_021751bc",
@@ -8142,18 +7817,7 @@
     "func_ov001_021773f8",
     "func_ov001_02177484",
     "func_ov001_02177540",
-    "func_ov001_021775fc"
-   ],
-   "bytes": 7396,
-   "addr": [
-    35073732,
-    35092116
-   ]
-  },
-  {
-   "id": "L4-03027",
-   "level": 4,
-   "functions": [
+    "func_ov001_021775fc",
     "func_ov001_02177888",
     "func_ov001_021778fc",
     "func_ov001_02177b38",
@@ -8176,7 +7840,18 @@
     "func_ov001_0217a1b0",
     "func_ov001_0217a810",
     "func_ov001_0217abc0",
-    "func_ov001_0217aeac",
+    "func_ov001_0217aeac"
+   ],
+   "bytes": 7728,
+   "addr": [
+    35082184,
+    35106628
+   ]
+  },
+  {
+   "id": "L4-04030",
+   "level": 4,
+   "functions": [
     "func_ov001_0217b430",
     "func_ov001_0217b4f8",
     "func_ov001_0217b59c",
@@ -8203,18 +7878,7 @@
     "func_ov001_0217ceb0",
     "func_ov001_0217d214",
     "func_ov001_0217d67c",
-    "func_ov001_0217d8e4"
-   ],
-   "bytes": 7924,
-   "addr": [
-    35092616,
-    35117416
-   ]
-  },
-  {
-   "id": "L4-03028",
-   "level": 4,
-   "functions": [
+    "func_ov001_0217d8e4",
     "func_ov001_0217db0c",
     "func_ov001_0217dd7c",
     "func_ov001_0217df9c",
@@ -8237,7 +7901,18 @@
     "func_ov001_0217f394",
     "func_ov001_0217f5b4",
     "func_ov001_0217f618",
-    "func_ov001_0217f6f0",
+    "func_ov001_0217f6f0"
+   ],
+   "bytes": 7736,
+   "addr": [
+    35107888,
+    35125124
+   ]
+  },
+  {
+   "id": "L4-04031",
+   "level": 4,
+   "functions": [
     "func_ov001_0217f784",
     "func_ov001_0217f970",
     "func_ov001_0217f9dc",
@@ -8264,18 +7939,7 @@
     "func_ov001_02181ad8",
     "func_ov001_02181bbc",
     "func_ov001_02181cc4",
-    "func_ov001_02181dac"
-   ],
-   "bytes": 8388,
-   "addr": [
-    35117836,
-    35135040
-   ]
-  },
-  {
-   "id": "L4-03029",
-   "level": 4,
-   "functions": [
+    "func_ov001_02181dac",
     "func_ov001_02181e40",
     "func_ov001_02181f1c",
     "func_ov001_02181ff8",
@@ -8298,7 +7962,18 @@
     "func_ov001_02183fac",
     "func_ov001_021840a8",
     "func_ov001_0218418c",
-    "func_ov001_0218426c",
+    "func_ov001_0218426c"
+   ],
+   "bytes": 9160,
+   "addr": [
+    35125124,
+    35144408
+   ]
+  },
+  {
+   "id": "L4-04032",
+   "level": 4,
+   "functions": [
     "func_ov001_021842d8",
     "func_ov001_02184374",
     "func_ov001_02184548",
@@ -8325,18 +8000,7 @@
     "func_ov001_02186bd4",
     "func_ov001_02186e9c",
     "func_ov001_0218727c",
-    "func_ov001_021874fc"
-   ],
-   "bytes": 8840,
-   "addr": [
-    35135040,
-    35157380
-   ]
-  },
-  {
-   "id": "L4-03030",
-   "level": 4,
-   "functions": [
+    "func_ov001_021874fc",
     "func_ov001_02187584",
     "func_ov001_0218760c",
     "func_ov001_021876f8",
@@ -8359,7 +8023,18 @@
     "func_ov001_02188f8c",
     "func_ov001_02189050",
     "func_ov001_021891b4",
-    "func_ov001_02189334",
+    "func_ov001_02189334"
+   ],
+   "bytes": 8136,
+   "addr": [
+    35144408,
+    35165152
+   ]
+  },
+  {
+   "id": "L4-04033",
+   "level": 4,
+   "functions": [
     "func_ov001_021893e0",
     "func_ov001_02189454",
     "func_ov001_021894e8",
@@ -8386,18 +8061,7 @@
     "func_ov001_0218d174",
     "func_ov001_0218d2a0",
     "func_ov001_0218d32c",
-    "func_ov001_0218d820"
-   ],
-   "bytes": 7936,
-   "addr": [
-    35157380,
-    35182736
-   ]
-  },
-  {
-   "id": "L4-03031",
-   "level": 4,
-   "functions": [
+    "func_ov001_0218d820",
     "func_ov001_0218e1dc",
     "func_ov001_0218ea78",
     "func_ov001_0218ecc4",
@@ -8420,7 +8084,18 @@
     "func_ov002_021fa354",
     "func_ov002_021fa3c8",
     "func_ov002_021fa464",
-    "func_ov002_021fa744",
+    "func_ov002_021fa744"
+   ],
+   "bytes": 8016,
+   "addr": [
+    35165152,
+    35628972
+   ]
+  },
+  {
+   "id": "L4-04034",
+   "level": 4,
+   "functions": [
     "func_ov002_021fadb8",
     "func_ov002_021faf38",
     "func_ov002_021fafb0",
@@ -8447,18 +8122,7 @@
     "func_ov003_021f9c00",
     "func_ov003_021f9c64",
     "func_ov003_021f9ee8",
-    "func_ov003_021fb24c"
-   ],
-   "bytes": 8156,
-   "addr": [
-    35185116,
-    35631924
-   ]
-  },
-  {
-   "id": "L4-03032",
-   "level": 4,
-   "functions": [
+    "func_ov003_021fb24c",
     "func_ov003_021fb3a4",
     "func_ov003_021fcec8",
     "func_ov003_021fcf94",
@@ -8481,7 +8145,18 @@
     "func_ov003_02202c9c",
     "func_ov003_022037b4",
     "func_ov003_022045e0",
-    "func_ov003_02205a60",
+    "func_ov003_02205a60"
+   ],
+   "bytes": 8660,
+   "addr": [
+    35630520,
+    35674936
+   ]
+  },
+  {
+   "id": "L4-04035",
+   "level": 4,
+   "functions": [
     "func_ov003_02205b38",
     "func_ov003_02205cc4",
     "func_ov003_02205d54",
@@ -8508,18 +8183,7 @@
     "func_ov004_021fc78c",
     "func_ov004_021fcab0",
     "func_ov004_021fcd78",
-    "func_ov004_021fd05c"
-   ],
-   "bytes": 8460,
-   "addr": [
-    35632036,
-    35639492
-   ]
-  },
-  {
-   "id": "L4-03033",
-   "level": 4,
-   "functions": [
+    "func_ov004_021fd05c",
     "func_ov004_021fdc80",
     "func_ov004_021ff45c",
     "func_ov004_021ff4e4",
@@ -8542,7 +8206,18 @@
     "func_ov005_021f7fe4",
     "func_ov005_021f8054",
     "func_ov005_021f80d8",
-    "func_ov005_021f8300",
+    "func_ov005_021f8300"
+   ],
+   "bytes": 8044,
+   "addr": [
+    35674936,
+    35619820
+   ]
+  },
+  {
+   "id": "L4-04036",
+   "level": 4,
+   "functions": [
     "func_ov005_021f83ec",
     "func_ov005_021f8450",
     "func_ov005_021f8508",
@@ -8569,18 +8244,7 @@
     "func_ov006_021fb174",
     "func_ov006_021fb27c",
     "func_ov006_021fb34c",
-    "func_ov006_021fb460"
-   ],
-   "bytes": 8044,
-   "addr": [
-    35642496,
-    35632372
-   ]
-  },
-  {
-   "id": "L4-03034",
-   "level": 4,
-   "functions": [
+    "func_ov006_021fb460",
     "func_ov006_021fb774",
     "func_ov006_021fb84c",
     "func_ov006_021fb938",
@@ -8603,7 +8267,18 @@
     "func_ov007_021f98a8",
     "func_ov007_021fa158",
     "func_ov007_021fa20c",
-    "func_ov007_021fa3ec",
+    "func_ov007_021fa3ec"
+   ],
+   "bytes": 8188,
+   "addr": [
+    35619820,
+    35628260
+   ]
+  },
+  {
+   "id": "L4-04037",
+   "level": 4,
+   "functions": [
     "func_ov007_021fa64c",
     "func_ov007_021fa6c4",
     "func_ov007_021fa768",
@@ -8630,18 +8305,7 @@
     "func_ov008_021fb584",
     "func_ov008_021fb618",
     "func_ov008_021fb6c8",
-    "func_ov009_021f7714"
-   ],
-   "bytes": 8680,
-   "addr": [
-    35633012,
-    35616684
-   ]
-  },
-  {
-   "id": "L4-03035",
-   "level": 4,
-   "functions": [
+    "func_ov009_021f7714",
     "func_ov009_021f77bc",
     "func_ov009_021f7f3c",
     "func_ov009_021f8c84",
@@ -8664,7 +8328,18 @@
     "func_ov009_022053c8",
     "func_ov009_02205468",
     "__sinit_ov009_022057d8",
-    "func_ov010_021f72bc",
+    "func_ov010_021f72bc"
+   ],
+   "bytes": 9040,
+   "addr": [
+    35628620,
+    35615544
+   ]
+  },
+  {
+   "id": "L4-04038",
+   "level": 4,
+   "functions": [
     "func_ov010_021f82dc",
     "func_ov010_021f83c4",
     "func_ov010_021f88a0",
@@ -8691,18 +8366,7 @@
     "func_ov011_021fd844",
     "func_ov012_021f6820",
     "func_ov012_021f7798",
-    "func_ov012_021f7890"
-   ],
-   "bytes": 8804,
-   "addr": [
-    35616700,
-    35617088
-   ]
-  },
-  {
-   "id": "L4-03036",
-   "level": 4,
-   "functions": [
+    "func_ov012_021f7890",
     "func_ov012_021f8a7c",
     "func_ov012_021f8afc",
     "func_ov012_021f8bd0",
@@ -8725,7 +8389,18 @@
     "func_ov015_02211e00",
     "func_ov015_02211ea0",
     "func_ov015_02211f40",
-    "func_ov015_02211fd0",
+    "func_ov015_02211fd0"
+   ],
+   "bytes": 8056,
+   "addr": [
+    35619548,
+    35725408
+   ]
+  },
+  {
+   "id": "L4-04039",
+   "level": 4,
+   "functions": [
     "func_ov015_02212808",
     "func_ov015_02212908",
     "func_ov015_02212990",
@@ -8734,25 +8409,38 @@
     "func_ov015_02212dc4",
     "func_ov015_0221325c"
    ],
-   "bytes": 4596,
+   "bytes": 1176,
    "addr": [
-    35621500,
+    35727368,
     35730152
    ]
   },
   {
-   "id": "L5-03001",
+   "id": "L5-04001",
    "level": 5,
    "functions": [
+    "MTX_Inverse43",
+    "FSi_GetPathCommand",
     "func_0200daf8",
     "func_0200f9b0",
+    "RtcCommonCallback",
+    "CARDi_IdentifyBackupCore2",
+    "WmReceiveFifo",
     "func_02015a60",
     "STD_TVSScanf",
     "func_0201670c",
+    "parse_format",
+    "longlong2str",
+    "double2hex",
+    "float2str",
+    "__pformatter",
+    "__strtold",
+    "__strtoul",
     "func_0201bd88",
     "func_0201c850",
     "func_0201cd0c",
     "func_0201d358",
+    "__ieee754_pow",
     "func_0201ef18",
     "func_0201f5e0",
     "func_0201f900",
@@ -8768,10 +8456,36 @@
     "_ddiv",
     "func_02025a24",
     "func_02025dac",
+    "NNSi_G3dAnmBlendJnt",
+    "NNSi_G3dFuncSbc_MAT_InternalDefault",
     "func_0202a410",
-    "getMdlRot_",
-    "put_in_buffer",
+    "NNSi_G3dFuncSbc_BB",
+    "NNSi_G3dFuncSbc_BBY",
+    "NNSi_G3dFuncSbc_NODEMIX",
+    "NNSi_G3dFuncSbc_ENVMAP",
+    "NNSi_G3dFuncSbc_PRJMAP",
+    "NNS_G3dDraw1Mat1Shp",
+    "NNS_G3dScrPosToWorldLine",
+    "getJntSRTAnmResult_",
+    "getRotData_",
+    "getRotDataEx_"
+   ],
+   "bytes": 66272,
+   "addr": [
+    33560312,
+    33744860
+   ]
+  },
+  {
+   "id": "L5-04002",
+   "level": 5,
+   "functions": [
+    "NNSi_SndCaptureStart",
+    "dt_ack",
     "check_frag",
+    "scavenger",
+    "dhcp_analyze_response",
+    "resolve_common",
     "func_0203ccf0",
     "func_0203d1e0",
     "func_0203d4fc",
@@ -8779,6 +8493,9 @@
     "func_0203ef64",
     "MD5Transform",
     "func_0203fff8",
+    "WcmWmcbCommon",
+    "WcmWmcbScanEx",
+    "WcmWmcbReset",
     "func_02044c44",
     "func_02046330",
     "func_02046458",
@@ -8793,18 +8510,7 @@
     "func_0204a324",
     "func_0204a890",
     "func_0204ae18",
-    "func_0204b54c"
-   ],
-   "bytes": 51068,
-   "addr": [
-    33610488,
-    33866848
-   ]
-  },
-  {
-   "id": "L5-03002",
-   "level": 5,
-   "functions": [
+    "func_0204b54c",
     "func_0204c6c0",
     "func_0204c848",
     "func_0204d6b4",
@@ -8823,13 +8529,26 @@
     "func_02056e54",
     "func_02057b08",
     "func_02058284",
-    "func_02058874",
+    "func_02058874"
+   ],
+   "bytes": 43376,
+   "addr": [
+    33762732,
+    33917412
+   ]
+  },
+  {
+   "id": "L5-04003",
+   "level": 5,
+   "functions": [
     "func_020589e4",
     "func_02058dd0",
     "func_0205a57c",
+    "DWC_BM_Init",
     "func_0205f078",
     "func_0205f618",
     "func_02060248",
+    "gpiBuddyHandleKeyReply",
     "func_02061f64",
     "gpiStartConnect",
     "func_020628ac",
@@ -8842,30 +8561,15 @@
     "gpiProcessPeerConnected",
     "func_02068430",
     "func_0206b3a8",
-    "CallReqCallback",
     "func_0206e41c",
-    "gti2ReceiveMessages",
-    "gti2SocketSend",
     "func_0206ff68",
-    "CheckNatifyStatus",
-    "qr_build_partial_query_reply",
+    "NegotiateThink",
     "qr_build_split_query_reply",
     "func_02072a30",
     "func_02072dd4",
     "func_02073234",
     "QEStartQuery",
-    "func_02074d30"
-   ],
-   "bytes": 55200,
-   "addr": [
-    33867456,
-    34033448
-   ]
-  },
-  {
-   "id": "L5-03003",
-   "level": 5,
-   "functions": [
+    "func_02074d30",
     "func_02075410",
     "func_0207561c",
     "ParseServer",
@@ -8886,7 +8590,18 @@
     "func_0207eb90",
     "func_0207ef88",
     "func_02081114",
-    "func_02081514",
+    "func_02081514"
+   ],
+   "bytes": 52192,
+   "addr": [
+    33917412,
+    34084476
+   ]
+  },
+  {
+   "id": "L5-04004",
+   "level": 5,
+   "functions": [
     "func_02083240",
     "func_02083e9c",
     "func_02084710",
@@ -8915,18 +8630,7 @@
     "func_02094630",
     "func_02094df0",
     "func_02095b5c",
-    "func_02096934"
-   ],
-   "bytes": 51040,
-   "addr": [
-    34034704,
-    34171920
-   ]
-  },
-  {
-   "id": "L5-03004",
-   "level": 5,
-   "functions": [
+    "func_02096934",
     "func_02097140",
     "func_02097570",
     "func_02098ab0",
@@ -8947,7 +8651,18 @@
     "func_0209f19c",
     "func_0209fff8",
     "func_020a2ef8",
-    "func_020a3574",
+    "func_020a3574"
+   ],
+   "bytes": 63360,
+   "addr": [
+    34091584,
+    34224220
+   ]
+  },
+  {
+   "id": "L5-04005",
+   "level": 5,
+   "functions": [
     "func_020a3c74",
     "func_020a3ea4",
     "func_020a3fa8",
@@ -8976,18 +8691,7 @@
     "func_020b09d8",
     "func_020b3b70",
     "func_020b4038",
-    "func_020b47d4"
-   ],
-   "bytes": 56132,
-   "addr": [
-    34173248,
-    34294624
-   ]
-  },
-  {
-   "id": "L5-03005",
-   "level": 5,
-   "functions": [
+    "func_020b47d4",
     "func_020b4b94",
     "func_020b51ec",
     "func_020b5da4",
@@ -9008,7 +8712,18 @@
     "func_020bf350",
     "func_020bf86c",
     "func_020bfce0",
-    "func_020c1aac",
+    "func_020c1aac"
+   ],
+   "bytes": 38980,
+   "addr": [
+    34225268,
+    34349064
+   ]
+  },
+  {
+   "id": "L5-04006",
+   "level": 5,
+   "functions": [
     "func_020c440c",
     "func_020c483c",
     "func_020c4b00",
@@ -9037,18 +8752,7 @@
     "func_020caec0",
     "func_020cb390",
     "func_020cb714",
-    "func_020cba24"
-   ],
-   "bytes": 27812,
-   "addr": [
-    34294676,
-    34388868
-   ]
-  },
-  {
-   "id": "L5-03006",
-   "level": 5,
-   "functions": [
+    "func_020cba24",
     "func_020cbd5c",
     "func_020cbfe4",
     "func_020cc460",
@@ -9069,7 +8773,18 @@
     "func_020d2300",
     "func_020d2a48",
     "func_020d3394",
-    "func_020d3960",
+    "func_020d3960"
+   ],
+   "bytes": 32760,
+   "addr": [
+    34358284,
+    34421936
+   ]
+  },
+  {
+   "id": "L5-04007",
+   "level": 5,
+   "functions": [
     "func_020d3d5c",
     "func_020d459c",
     "func_020d508c",
@@ -9098,18 +8813,7 @@
     "func_ov000_02168524",
     "func_ov000_021687dc",
     "func_ov000_02168928",
-    "func_ov000_02168c0c"
-   ],
-   "bytes": 37548,
-   "addr": [
-    34389340,
-    35032856
-   ]
-  },
-  {
-   "id": "L5-03007",
-   "level": 5,
-   "functions": [
+    "func_ov000_02168c0c",
     "func_ov000_02168f18",
     "func_ov000_0216933c",
     "func_ov000_02169f00",
@@ -9130,7 +8834,18 @@
     "func_ov000_0216d0bc",
     "func_ov000_0216d684",
     "func_ov000_0216db9c",
-    "func_ov000_0216ddfc",
+    "func_ov000_0216ddfc"
+   ],
+   "bytes": 36320,
+   "addr": [
+    34422108,
+    35053380
+   ]
+  },
+  {
+   "id": "L5-04008",
+   "level": 5,
+   "functions": [
     "func_ov000_0216df44",
     "func_ov000_0216e130",
     "func_ov000_0216e4c8",
@@ -9159,18 +8874,7 @@
     "func_ov000_021746f8",
     "func_ov000_02174fb4",
     "func_ov000_02175634",
-    "func_ov000_02175898"
-   ],
-   "bytes": 33336,
-   "addr": [
-    35032856,
-    35086128
-   ]
-  },
-  {
-   "id": "L5-03008",
-   "level": 5,
-   "functions": [
+    "func_ov000_02175898",
     "func_ov000_02175f30",
     "func_ov000_021761dc",
     "func_ov000_0217675c",
@@ -9191,7 +8895,18 @@
     "func_ov000_0217a43c",
     "func_ov000_0217a548",
     "func_ov000_0217a964",
-    "func_ov000_0217b300",
+    "func_ov000_0217b300"
+   ],
+   "bytes": 31260,
+   "addr": [
+    35053380,
+    35107968
+   ]
+  },
+  {
+   "id": "L5-04009",
+   "level": 5,
+   "functions": [
     "func_ov000_0217b7d8",
     "func_ov000_0217b9cc",
     "func_ov000_0217bcfc",
@@ -9220,18 +8935,7 @@
     "func_ov000_0218219c",
     "func_ov000_02182864",
     "func_ov000_021829d0",
-    "func_ov000_02182b2c"
-   ],
-   "bytes": 39684,
-   "addr": [
-    35086128,
-    35142188
-   ]
-  },
-  {
-   "id": "L5-03009",
-   "level": 5,
-   "functions": [
+    "func_ov000_02182b2c",
     "func_ov000_02183a88",
     "func_ov000_02183e18",
     "func_ov000_02183fb4",
@@ -9252,7 +8956,18 @@
     "func_ov000_0218964c",
     "func_ov000_02189760",
     "func_ov000_02189a24",
-    "func_ov000_02189ba8",
+    "func_ov000_02189ba8"
+   ],
+   "bytes": 44264,
+   "addr": [
+    35108824,
+    35167480
+   ]
+  },
+  {
+   "id": "L5-04010",
+   "level": 5,
+   "functions": [
     "func_ov000_02189cf8",
     "func_ov000_0218a244",
     "func_ov000_0218a5d0",
@@ -9281,18 +8996,7 @@
     "func_ov000_02190174",
     "func_ov000_021906d8",
     "func_ov000_02190d84",
-    "func_ov000_02190fb4"
-   ],
-   "bytes": 34280,
-   "addr": [
-    35142280,
-    35197948
-   ]
-  },
-  {
-   "id": "L5-03010",
-   "level": 5,
-   "functions": [
+    "func_ov000_02190fb4",
     "func_ov000_021914c8",
     "func_ov000_02191990",
     "func_ov000_02191d30",
@@ -9313,7 +9017,18 @@
     "func_ov000_021948b8",
     "func_ov000_02194fb4",
     "func_ov000_02195468",
-    "func_ov000_02195598",
+    "func_ov000_02195598"
+   ],
+   "bytes": 29548,
+   "addr": [
+    35167480,
+    35215148
+   ]
+  },
+  {
+   "id": "L5-04011",
+   "level": 5,
+   "functions": [
     "func_ov000_021958f8",
     "func_ov000_02195de0",
     "func_ov000_02195fc8",
@@ -9342,18 +9057,7 @@
     "func_ov000_0219d324",
     "func_ov000_0219d754",
     "func_ov000_0219dd2c",
-    "func_ov000_0219e064"
-   ],
-   "bytes": 26068,
-   "addr": [
-    35198152,
-    35251088
-   ]
-  },
-  {
-   "id": "L5-03011",
-   "level": 5,
-   "functions": [
+    "func_ov000_0219e064",
     "func_ov000_0219e4c4",
     "func_ov000_0219e650",
     "func_ov000_0219eed8",
@@ -9374,7 +9078,18 @@
     "func_ov000_021a4068",
     "func_ov000_021a4308",
     "func_ov000_021a4454",
-    "func_ov000_021a4d70",
+    "func_ov000_021a4d70"
+   ],
+   "bytes": 26756,
+   "addr": [
+    35215608,
+    35279768
+   ]
+  },
+  {
+   "id": "L5-04012",
+   "level": 5,
+   "functions": [
     "func_ov000_021a5600",
     "func_ov000_021a579c",
     "func_ov000_021a59dc",
@@ -9403,18 +9118,7 @@
     "func_ov000_021abd38",
     "func_ov000_021ac0e8",
     "func_ov000_021ac920",
-    "func_ov000_021acc80"
-   ],
-   "bytes": 29904,
-   "addr": [
-    35251396,
-    35311016
-   ]
-  },
-  {
-   "id": "L5-03012",
-   "level": 5,
-   "functions": [
+    "func_ov000_021acc80",
     "func_ov000_021acda8",
     "func_ov000_021acf84",
     "func_ov000_021ad2b0",
@@ -9435,7 +9139,18 @@
     "func_ov000_021b0f88",
     "func_ov000_021b1288",
     "func_ov000_021b1560",
-    "func_ov000_021b1754",
+    "func_ov000_021b1754"
+   ],
+   "bytes": 26152,
+   "addr": [
+    35280384,
+    35330444
+   ]
+  },
+  {
+   "id": "L5-04013",
+   "level": 5,
+   "functions": [
     "func_ov000_021b1a30",
     "func_ov000_021b1b90",
     "func_ov000_021b1f94",
@@ -9464,18 +9179,7 @@
     "func_ov000_021b66fc",
     "func_ov000_021b68a8",
     "func_ov000_021b6b28",
-    "func_ov000_021b6d4c"
-   ],
-   "bytes": 25352,
-   "addr": [
-    35311016,
-    35352144
-   ]
-  },
-  {
-   "id": "L5-03013",
-   "level": 5,
-   "functions": [
+    "func_ov000_021b6d4c",
     "func_ov000_021b6f34",
     "func_ov000_021b75a0",
     "func_ov000_021b7a88",
@@ -9496,7 +9200,18 @@
     "func_ov000_021bc1cc",
     "func_ov000_021bc40c",
     "func_ov000_021bc5a4",
-    "func_ov000_021bc718",
+    "func_ov000_021bc718"
+   ],
+   "bytes": 26928,
+   "addr": [
+    35330608,
+    35375224
+   ]
+  },
+  {
+   "id": "L5-04014",
+   "level": 5,
+   "functions": [
     "func_ov000_021bcd4c",
     "func_ov000_021bd09c",
     "func_ov000_021bd1a4",
@@ -9525,18 +9240,7 @@
     "func_ov000_021c348c",
     "func_ov000_021c58a0",
     "func_ov000_021c59ec",
-    "func_ov000_021c6358"
-   ],
-   "bytes": 29492,
-   "addr": [
-    35352372,
-    35415148
-   ]
-  },
-  {
-   "id": "L5-03014",
-   "level": 5,
-   "functions": [
+    "func_ov000_021c6358",
     "func_ov000_021c64b0",
     "func_ov000_021c65e4",
     "func_ov000_021c6adc",
@@ -9557,7 +9261,18 @@
     "func_ov000_021ca108",
     "func_ov000_021ca2ac",
     "func_ov000_021ca820",
-    "func_ov000_021caa38",
+    "func_ov000_021caa38"
+   ],
+   "bytes": 34232,
+   "addr": [
+    35376460,
+    35433680
+   ]
+  },
+  {
+   "id": "L5-04015",
+   "level": 5,
+   "functions": [
     "func_ov000_021cad64",
     "func_ov000_021cc4f8",
     "func_ov000_021ccce8",
@@ -9586,18 +9301,7 @@
     "func_ov000_021d4a3c",
     "func_ov000_021d4d20",
     "func_ov000_021d5844",
-    "func_ov000_021d5968"
-   ],
-   "bytes": 49468,
-   "addr": [
-    35415216,
-    35478164
-   ]
-  },
-  {
-   "id": "L5-03015",
-   "level": 5,
-   "functions": [
+    "func_ov000_021d5968",
     "func_ov000_021d5abc",
     "func_ov000_021d5c7c",
     "func_ov000_021d60f8",
@@ -9618,7 +9322,18 @@
     "func_ov000_021da378",
     "func_ov000_021da508",
     "func_ov000_021da764",
-    "func_ov000_021db224",
+    "func_ov000_021db224"
+   ],
+   "bytes": 46028,
+   "addr": [
+    35433828,
+    35500860
+   ]
+  },
+  {
+   "id": "L5-04016",
+   "level": 5,
+   "functions": [
     "func_ov000_021db584",
     "func_ov000_021db968",
     "func_ov000_021dc3a0",
@@ -9647,18 +9362,7 @@
     "func_ov000_021dfeb4",
     "func_ov000_021e01e8",
     "func_ov000_021e0a08",
-    "func_ov000_021e0d50"
-   ],
-   "bytes": 26748,
-   "addr": [
-    35478204,
-    35524440
-   ]
-  },
-  {
-   "id": "L5-03016",
-   "level": 5,
-   "functions": [
+    "func_ov000_021e0d50",
     "func_ov000_021e0f58",
     "func_ov000_021e14c0",
     "func_ov000_021e2260",
@@ -9679,7 +9383,18 @@
     "__sinit_ov000_021e7990",
     "__sinit_ov000_021e7ce0",
     "func_ov001_021673f0",
-    "func_ov001_02167ebc",
+    "func_ov001_02167ebc"
+   ],
+   "bytes": 38856,
+   "addr": [
+    35501444,
+    35029172
+   ]
+  },
+  {
+   "id": "L5-04017",
+   "level": 5,
+   "functions": [
     "func_ov001_02168750",
     "func_ov001_0216898c",
     "func_ov001_02168b00",
@@ -9708,18 +9423,7 @@
     "func_ov001_0216f8b8",
     "func_ov001_0216fae8",
     "func_ov001_0216ff8c",
-    "func_ov001_021706f8"
-   ],
-   "bytes": 42562,
-   "addr": [
-    35524440,
-    35064372
-   ]
-  },
-  {
-   "id": "L5-03017",
-   "level": 5,
-   "functions": [
+    "func_ov001_021706f8",
     "func_ov001_02170d70",
     "func_ov001_02170f4c",
     "func_ov001_0217111c",
@@ -9740,7 +9444,18 @@
     "func_ov001_02176e40",
     "func_ov001_02176fdc",
     "func_ov001_02177280",
-    "func_ov001_0217773c",
+    "func_ov001_0217773c"
+   ],
+   "bytes": 28066,
+   "addr": [
+    35030864,
+    35092616
+   ]
+  },
+  {
+   "id": "L5-04018",
+   "level": 5,
+   "functions": [
     "func_ov001_02177a04",
     "func_ov001_02177cf4",
     "func_ov001_02177fdc",
@@ -9769,18 +9484,7 @@
     "func_ov001_0217d968",
     "func_ov001_0217db88",
     "func_ov001_0217de0c",
-    "func_ov001_0217e06c"
-   ],
-   "bytes": 22616,
-   "addr": [
-    35065200,
-    35119504
-   ]
-  },
-  {
-   "id": "L5-03018",
-   "level": 5,
-   "functions": [
+    "func_ov001_0217e06c",
     "func_ov001_0217e348",
     "func_ov001_0217e5a8",
     "func_ov001_02180058",
@@ -9801,7 +9505,18 @@
     "func_ov001_021843d8",
     "func_ov001_021845e0",
     "func_ov001_02184f20",
-    "func_ov001_02185198",
+    "func_ov001_02185198"
+   ],
+   "bytes": 21356,
+   "addr": [
+    35092996,
+    35148448
+   ]
+  },
+  {
+   "id": "L5-04019",
+   "level": 5,
+   "functions": [
     "func_ov001_021855b8",
     "func_ov001_02185a5c",
     "func_ov001_02185c40",
@@ -9830,18 +9545,7 @@
     "func_ov001_0218abfc",
     "func_ov001_0218b0f4",
     "func_ov001_0218b594",
-    "func_ov001_0218bb64"
-   ],
-   "bytes": 21644,
-   "addr": [
-    35119944,
-    35175676
-   ]
-  },
-  {
-   "id": "L5-03019",
-   "level": 5,
-   "functions": [
+    "func_ov001_0218bb64",
     "func_ov001_0218bda0",
     "func_ov001_0218c03c",
     "func_ov001_0218c2fc",
@@ -9862,7 +9566,18 @@
     "func_ov002_021f6c6c",
     "func_ov002_021f791c",
     "func_ov002_021f7d34",
-    "func_ov002_021f7f20",
+    "func_ov002_021f7f20"
+   ],
+   "bytes": 34184,
+   "addr": [
+    35149240,
+    35623652
+   ]
+  },
+  {
+   "id": "L5-04020",
+   "level": 5,
+   "functions": [
     "func_ov002_021f9470",
     "func_ov002_021f9650",
     "func_ov002_021f97f4",
@@ -9891,18 +9606,7 @@
     "func_ov003_021f6e10",
     "func_ov003_021f6f60",
     "func_ov003_021f8020",
-    "func_ov003_021f8158"
-   ],
-   "bytes": 42512,
-   "addr": [
-    35175840,
-    35619884
-   ]
-  },
-  {
-   "id": "L5-03020",
-   "level": 5,
-   "functions": [
+    "func_ov003_021f8158",
     "func_ov003_021f857c",
     "func_ov003_021f879c",
     "func_ov003_021f8a18",
@@ -9923,7 +9627,18 @@
     "func_ov003_021fd964",
     "func_ov003_021fdb24",
     "func_ov003_021fdc44",
-    "func_ov003_021fdf70",
+    "func_ov003_021fdf70"
+   ],
+   "bytes": 42568,
+   "addr": [
+    35624048,
+    35643944
+   ]
+  },
+  {
+   "id": "L5-04021",
+   "level": 5,
+   "functions": [
     "func_ov003_021fe228",
     "func_ov003_021fe338",
     "func_ov003_021fe970",
@@ -9952,18 +9667,7 @@
     "func_ov003_02203cf0",
     "func_ov003_02203f78",
     "func_ov003_0220439c",
-    "func_ov003_022046c4"
-   ],
-   "bytes": 43640,
-   "addr": [
-    35620220,
-    35670408
-   ]
-  },
-  {
-   "id": "L5-03021",
-   "level": 5,
-   "functions": [
+    "func_ov003_022046c4",
     "func_ov003_02204988",
     "func_ov003_02205b9c",
     "func_ov003_02205e00",
@@ -9984,7 +9688,18 @@
     "func_ov003_02209740",
     "func_ov003_02209948",
     "func_ov003_0220a0b4",
-    "func_ov003_0220a408",
+    "func_ov003_0220a408"
+   ],
+   "bytes": 44832,
+   "addr": [
+    35643944,
+    35693996
+   ]
+  },
+  {
+   "id": "L5-04022",
+   "level": 5,
+   "functions": [
     "func_ov003_0220a5ac",
     "func_ov003_0220a998",
     "func_ov003_0220ab1c",
@@ -10013,18 +9728,7 @@
     "func_ov004_021fd0c4",
     "func_ov004_021fd2a4",
     "func_ov004_021fdd24",
-    "func_ov004_021fe158"
-   ],
-   "bytes": 55176,
-   "addr": [
-    35670408,
-    35644068
-   ]
-  },
-  {
-   "id": "L5-03022",
-   "level": 5,
-   "functions": [
+    "func_ov004_021fe158",
     "func_ov004_021fe2a4",
     "func_ov004_021fe5ac",
     "func_ov004_021fe9dc",
@@ -10045,7 +9749,18 @@
     "func_ov005_021f78dc",
     "func_ov005_021f81f4",
     "func_ov005_021f8608",
-    "func_ov005_021f88f8",
+    "func_ov005_021f88f8"
+   ],
+   "bytes": 46108,
+   "addr": [
+    35693996,
+    35621420
+   ]
+  },
+  {
+   "id": "L5-04023",
+   "level": 5,
+   "functions": [
     "func_ov005_021f8b80",
     "func_ov005_021fa180",
     "func_ov005_021fa72c",
@@ -10074,18 +9789,7 @@
     "func_ov006_021fbb88",
     "func_ov006_021fc48c",
     "func_ov006_021fc6dc",
-    "func_ov006_021fc910"
-   ],
-   "bytes": 37356,
-   "addr": [
-    35644068,
-    35637860
-   ]
-  },
-  {
-   "id": "L5-03023",
-   "level": 5,
-   "functions": [
+    "func_ov006_021fc910",
     "func_ov006_021fca64",
     "func_ov006_021fccbc",
     "func_ov006_021fd230",
@@ -10106,7 +9810,18 @@
     "func_ov007_021f95a0",
     "func_ov007_021f99a0",
     "func_ov007_021f9d0c",
-    "func_ov007_021fa2c0",
+    "func_ov007_021fa2c0"
+   ],
+   "bytes": 39088,
+   "addr": [
+    35621760,
+    35628012
+   ]
+  },
+  {
+   "id": "L5-04024",
+   "level": 5,
+   "functions": [
     "func_ov007_021fa544",
     "func_ov007_021fa8d0",
     "func_ov007_021fb0cc",
@@ -10135,18 +9850,7 @@
     "func_ov008_021f9ca4",
     "func_ov008_021fa71c",
     "func_ov008_021fa928",
-    "func_ov008_021fae68"
-   ],
-   "bytes": 44456,
-   "addr": [
-    35637860,
-    35631132
-   ]
-  },
-  {
-   "id": "L5-03024",
-   "level": 5,
-   "functions": [
+    "func_ov008_021fae68",
     "func_ov008_021fb25c",
     "func_ov008_021fb404",
     "func_ov008_021fb78c",
@@ -10167,7 +9871,18 @@
     "func_ov009_021f9b00",
     "func_ov009_021fa124",
     "func_ov009_021fa790",
-    "func_ov009_021fab20",
+    "func_ov009_021fab20"
+   ],
+   "bytes": 48204,
+   "addr": [
+    35628356,
+    35630872
+   ]
+  },
+  {
+   "id": "L5-04025",
+   "level": 5,
+   "functions": [
     "func_ov009_021fb138",
     "func_ov009_021fb3ac",
     "func_ov009_021fbddc",
@@ -10196,18 +9911,7 @@
     "func_ov009_02200cd0",
     "func_ov009_02200f88",
     "func_ov009_02201298",
-    "func_ov009_02201458"
-   ],
-   "bytes": 42916,
-   "addr": [
-    35631708,
-    35658676
-   ]
-  },
-  {
-   "id": "L5-03025",
-   "level": 5,
-   "functions": [
+    "func_ov009_02201458",
     "func_ov009_02201bb4",
     "func_ov009_02201dd8",
     "func_ov009_02202170",
@@ -10228,7 +9932,18 @@
     "func_ov010_021f6820",
     "func_ov010_021f6998",
     "func_ov010_021f6b88",
-    "func_ov010_021f6d80",
+    "func_ov010_021f6d80"
+   ],
+   "bytes": 40072,
+   "addr": [
+    35631416,
+    35614640
+   ]
+  },
+  {
+   "id": "L5-04026",
+   "level": 5,
+   "functions": [
     "func_ov010_021f6fb0",
     "func_ov010_021f70f8",
     "func_ov010_021f736c",
@@ -10257,18 +9972,7 @@
     "func_ov011_021fb8bc",
     "func_ov011_021fba94",
     "func_ov011_021fbd84",
-    "func_ov011_021fbf44"
-   ],
-   "bytes": 41616,
-   "addr": [
-    35658676,
-    35635332
-   ]
-  },
-  {
-   "id": "L5-03026",
-   "level": 5,
-   "functions": [
+    "func_ov011_021fbf44",
     "func_ov011_021fc22c",
     "func_ov011_021fc504",
     "func_ov011_021fc690",
@@ -10289,7 +9993,18 @@
     "func_ov012_021f7e08",
     "func_ov012_021f7fe8",
     "func_ov012_021f87b4",
-    "func_ov012_021f8c94",
+    "func_ov012_021f8c94"
+   ],
+   "bytes": 41620,
+   "addr": [
+    35614640,
+    35622380
+   ]
+  },
+  {
+   "id": "L5-04027",
+   "level": 5,
+   "functions": [
     "func_ov012_021f8e34",
     "func_ov013_02211cc0",
     "func_ov013_02211dd0",
@@ -10314,9 +10029,9 @@
     "func_ov015_02213378",
     "func_ov015_02213490"
    ],
-   "bytes": 26016,
+   "bytes": 10492,
    "addr": [
-    35635756,
+    35622452,
     35730968
    ]
   }
