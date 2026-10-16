@@ -324,3 +324,17 @@ src/auto/FreePlayer.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/auto/RemoveCommandByPlayer.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/auto/func_0207dba8.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/auto/func_0208e5b8.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/OSi_RescheduleThread.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/OSi_WaitVCount0.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/OS_GetOwnerInfo.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/SND_FlushCommand.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/CP_SaveContext.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/CPi_RestoreContext.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/WmInitCore.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/NNS_SndArcSetup.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/NNSi_SndArcLoadGroup.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/LoadSingleWave.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/NNS_SndArcPlayerSetup.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/StartSeq.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/NNSi_SndArcStrmMain.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/NNSi_SndSeqArcGetSeqInfo.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto

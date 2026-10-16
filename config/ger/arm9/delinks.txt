@@ -14425,3 +14425,59 @@ src/auto/func_0208e5b8.c:
 src/auto/CTRDG_SetTaskThreadPriority.c:
     complete
     .text       start:0x0208fe88 end:0x0208feac
+
+src/auto/OSi_RescheduleThread.c:
+    complete
+    .text       start:0x02006b24 end:0x02006bec
+
+src/auto/OSi_WaitVCount0.c:
+    complete
+    .text       start:0x02007abc end:0x02007adc
+
+src/auto/OS_GetOwnerInfo.c:
+    complete
+    .text       start:0x02008dac end:0x02008e30
+
+src/auto/SND_FlushCommand.c:
+    complete
+    .text       start:0x0200a5f4 end:0x0200a7b0
+
+src/auto/CP_SaveContext.c:
+    complete
+    .text       start:0x0200e72c end:0x0200e76c
+
+src/auto/CPi_RestoreContext.c:
+    complete
+    .text       start:0x0200e76c end:0x0200e7a8
+
+src/auto/WmInitCore.c:
+    complete
+    .text       start:0x020121dc end:0x020123c0
+
+src/auto/NNS_SndArcSetup.c:
+    complete
+    .text       start:0x02033458 end:0x02033630
+
+src/auto/NNSi_SndArcLoadGroup.c:
+    complete
+    .text       start:0x02033e7c end:0x02033f80
+
+src/auto/LoadSingleWave.c:
+    complete
+    .text       start:0x020346d0 end:0x02034798
+
+src/auto/NNS_SndArcPlayerSetup.c:
+    complete
+    .text       start:0x02034858 end:0x020348f4
+
+src/auto/StartSeq.c:
+    complete
+    .text       start:0x020349bc end:0x02034ab8
+
+src/auto/NNSi_SndArcStrmMain.c:
+    complete
+    .text       start:0x02034b7c end:0x02034c8c
+
+src/auto/NNSi_SndSeqArcGetSeqInfo.c:
+    complete
+    .text       start:0x02034e74 end:0x02034eb4
