@@ -14481,3 +14481,2247 @@ src/auto/NNSi_SndArcStrmMain.c:
 src/auto/NNSi_SndSeqArcGetSeqInfo.c:
     complete
     .text       start:0x02034e74 end:0x02034eb4
+
+src/auto/func_020065d8.c:
+    complete
+    .text       start:0x020065d8 end:0x02006624
+
+src/auto/func_02008c04.c:
+    complete
+    .text       start:0x02008c04 end:0x02008c20
+
+src/auto/PM_Init.c:
+    complete
+    .text       start:0x0200f384 end:0x0200f41c
+
+src/auto/CARDi_SendtoPxi.c:
+    complete
+    .text       start:0x02012160 end:0x020121b0
+
+src/auto/CTRDGi_InitCommon.c:
+    complete
+    .text       start:0x02014f60 end:0x02014f98
+
+src/auto/CTRDGi_SendtoPxi.c:
+    complete
+    .text       start:0x020151e0 end:0x02015230
+
+src/auto/GetNextIndex_.c:
+    complete
+    .text       start:0x02030f2c end:0x02030f4c
+
+src/auto/WCM_Finish.c:
+    complete
+    .text       start:0x0204188c end:0x020418e4
+
+src/auto/writeDisable.c:
+    complete
+    .text       start:0x0205ab40 end:0x0205abac
+
+src/auto/gpiProfilesTableHash.c:
+    complete
+    .text       start:0x02067728 end:0x0206773c
+
+src/auto/gti2ConnectionHash.c:
+    complete
+    .text       start:0x0206f344 end:0x0206f364
+
+src/auto/func_0207bd70.c:
+    complete
+    .text       start:0x0207bd70 end:0x0207bd90
+
+src/auto/func_0207c65c.c:
+    complete
+    .text       start:0x0207c65c end:0x0207c6e4
+
+src/auto/func_0207de1c.c:
+    complete
+    .text       start:0x0207de1c end:0x0207df08
+
+src/auto/func_0207f3bc.c:
+    complete
+    .text       start:0x0207f3bc end:0x0207f424
+
+src/auto/func_0207f424.c:
+    complete
+    .text       start:0x0207f424 end:0x0207f494
+
+src/auto/func_0207f8b8.c:
+    complete
+    .text       start:0x0207f8b8 end:0x0207f8e8
+
+src/auto/func_02081990.c:
+    complete
+    .text       start:0x02081990 end:0x02081a8c
+
+src/auto/func_02098040.c:
+    complete
+    .text       start:0x02098040 end:0x02098094
+
+src/auto/func_02098138.c:
+    complete
+    .text       start:0x02098138 end:0x0209818c
+
+src/auto/func_020b1d30.c:
+    complete
+    .text       start:0x020b1d30 end:0x020b1df4
+
+src/auto/func_020b22a4.c:
+    complete
+    .text       start:0x020b22a4 end:0x020b22dc
+
+src/auto/func_020b2848.c:
+    complete
+    .text       start:0x020b2848 end:0x020b2880
+
+src/auto/func_020b5714.c:
+    complete
+    .text       start:0x020b5714 end:0x020b574c
+
+src/auto/func_020be070.c:
+    complete
+    .text       start:0x020be070 end:0x020be0a0
+
+src/auto/func_020be81c.c:
+    complete
+    .text       start:0x020be81c end:0x020be960
+
+src/auto/func_020bf130.c:
+    complete
+    .text       start:0x020bf130 end:0x020bf18c
+
+src/auto/func_020bf738.c:
+    complete
+    .text       start:0x020bf738 end:0x020bf78c
+
+src/auto/func_020c0794.c:
+    complete
+    .text       start:0x020c0794 end:0x020c0824
+
+src/auto/func_020c0824.c:
+    complete
+    .text       start:0x020c0824 end:0x020c0884
+
+src/auto/func_020c0884.c:
+    complete
+    .text       start:0x020c0884 end:0x020c0914
+
+src/auto/func_020c0914.c:
+    complete
+    .text       start:0x020c0914 end:0x020c0974
+
+src/auto/func_020c0974.c:
+    complete
+    .text       start:0x020c0974 end:0x020c09dc
+
+src/auto/func_020c09dc.c:
+    complete
+    .text       start:0x020c09dc end:0x020c0a5c
+
+src/auto/func_020c0a5c.c:
+    complete
+    .text       start:0x020c0a5c end:0x020c0ac4
+
+src/auto/func_020c0ac4.c:
+    complete
+    .text       start:0x020c0ac4 end:0x020c0b2c
+
+src/auto/func_020c0b2c.c:
+    complete
+    .text       start:0x020c0b2c end:0x020c0b94
+
+src/auto/func_020c0bf4.c:
+    complete
+    .text       start:0x020c0bf4 end:0x020c0c58
+
+src/auto/func_020c184c.c:
+    complete
+    .text       start:0x020c184c end:0x020c188c
+
+src/auto/func_020c3430.c:
+    complete
+    .text       start:0x020c3430 end:0x020c3490
+
+src/auto/func_020c3490.c:
+    complete
+    .text       start:0x020c3490 end:0x020c34f8
+
+src/auto/func_020c34f8.c:
+    complete
+    .text       start:0x020c34f8 end:0x020c3558
+
+src/auto/func_020c3b60.c:
+    complete
+    .text       start:0x020c3b60 end:0x020c3b90
+
+src/auto/func_020c3c84.c:
+    complete
+    .text       start:0x020c3c84 end:0x020c3ca4
+
+src/auto/func_020c4140.c:
+    complete
+    .text       start:0x020c4140 end:0x020c4178
+
+src/auto/func_020cf4dc.c:
+    complete
+    .text       start:0x020cf4dc end:0x020cf514
+
+src/auto/func_020d9a4c.c:
+    complete
+    .text       start:0x020d9a4c end:0x020d9a90
+
+src/auto/func_020d9c44.c:
+    complete
+    .text       start:0x020d9c44 end:0x020d9c6c
+
+src/auto/func_020044b8.c:
+    complete
+    .text       start:0x020044b8 end:0x020044ec
+
+src/auto/func_02004750.c:
+    complete
+    .text       start:0x02004750 end:0x02004784
+
+src/auto/OSi_RemoveThreadFromList.c:
+    complete
+    .text       start:0x02006adc end:0x02006b24
+
+src/auto/OS_DestroyThread.c:
+    complete
+    .text       start:0x02006f50 end:0x02006fcc
+
+src/auto/OS_UnlockMutex.c:
+    complete
+    .text       start:0x0200786c end:0x020078c8
+
+src/auto/OS_TryLockMutex.c:
+    complete
+    .text       start:0x02007904 end:0x02007978
+
+src/auto/DC_InvalidateAll.c:
+    complete
+    .text       start:0x020079c0 end:0x020079cc
+
+src/auto/IC_InvalidateAll.c:
+    complete
+    .text       start:0x02007a94 end:0x02007aa0
+
+src/auto/OS_GetInitArenaLo.c:
+    complete
+    .text       start:0x02007da0 end:0x02007e48
+
+src/auto/OS_SetProtectionRegion2.c:
+    complete
+    .text       start:0x02008230 end:0x02008238
+
+src/auto/OSi_CountUpTick.c:
+    complete
+    .text       start:0x020084f0 end:0x02008558
+
+src/auto/OSi_InsertAlarm.c:
+    complete
+    .text       start:0x020086f4 end:0x02008820
+
+src/auto/MI_WaitDma.c:
+    complete
+    .text       start:0x020092a8 end:0x02009310
+
+src/auto/MIi_DMAFastCallback.c:
+    complete
+    .text       start:0x02009748 end:0x02009774
+
+src/auto/MI_Copy64B.c:
+    complete
+    .text       start:0x0200994c end:0x02009978
+
+src/auto/SND_SetupCapture.c:
+    complete
+    .text       start:0x0200a038 end:0x0200a078
+
+src/auto/PXI_SetFifoRecvCallback.c:
+    complete
+    .text       start:0x0200b20c end:0x0200b258
+
+src/auto/PXI_IsCallbackReady.c:
+    complete
+    .text       start:0x0200b258 end:0x0200b27c
+
+src/auto/FSi_ReleaseCommand.c:
+    complete
+    .text       start:0x0200b41c end:0x0200b478
+
+src/auto/FSi_ReadTable.c:
+    complete
+    .text       start:0x0200b658 end:0x0200b718
+
+src/auto/FS_NotifyArchiveAsyncEnd.c:
+    complete
+    .text       start:0x0200ca94 end:0x0200cb18
+
+src/auto/TP_GetCalibratedResult.c:
+    complete
+    .text       start:0x0200ecf0 end:0x0200ed3c
+
+src/auto/CARDi_SetCardDma.c:
+    complete
+    .text       start:0x02011804 end:0x02011858
+
+src/auto/CARD_Init.c:
+    complete
+    .text       start:0x02011d90 end:0x02011df4
+
+src/auto/CTRDGi_LockByProcessor.c:
+    complete
+    .text       start:0x02015160 end:0x020151bc
+
+src/auto/memmove.c:
+    complete
+    .text       start:0x02017b54 end:0x02017ba0
+
+src/auto/long2str.c:
+    complete
+    .text       start:0x02018260 end:0x020184ac
+
+src/auto/strstr.c:
+    complete
+    .text       start:0x0201a44c end:0x0201a4b8
+
+src/auto/func_0201c300.c:
+    complete
+    .text       start:0x0201c300 end:0x0201c550
+
+src/auto/func_02020e4c.c:
+    complete
+    .text       start:0x02020e4c end:0x0202100c
+
+src/auto/func_02021c00.c:
+    complete
+    .text       start:0x02021c00 end:0x02021ce0
+
+src/auto/func_020267b0.c:
+    complete
+    .text       start:0x020267b0 end:0x02026834
+
+src/auto/__call_static_initializers.c:
+    complete
+    .text       start:0x02026be0 end:0x02026c0c
+
+src/auto/FindContainHeap.c:
+    complete
+    .text       start:0x0202741c end:0x02027484
+
+src/auto/InitMBlock.c:
+    complete
+    .text       start:0x020275c4 end:0x020275f0
+
+src/auto/AllocFromHead.c:
+    complete
+    .text       start:0x020277e4 end:0x02027898
+
+src/auto/func_02027c08.c:
+    complete
+    .text       start:0x02027c08 end:0x02027c64
+
+src/auto/func_02027c64.c:
+    complete
+    .text       start:0x02027c64 end:0x02027cbc
+
+src/auto/NNS_FndAllocFromUnitHeap.c:
+    complete
+    .text       start:0x02027e58 end:0x02027e98
+
+src/auto/AllocatorAllocForUnitHeap.c:
+    complete
+    .text       start:0x02027ee4 end:0x02027f04
+
+src/auto/addLink_.c:
+    complete
+    .text       start:0x020280e0 end:0x02028198
+
+src/auto/updateHintVec_.c:
+    complete
+    .text       start:0x02028198 end:0x02028200
+
+src/auto/removeLink_.c:
+    complete
+    .text       start:0x02028280 end:0x020282f4
+
+src/auto/func_02029988.c:
+    complete
+    .text       start:0x02029988 end:0x020299f0
+
+src/auto/NNS_G3dGetMdlSet.c:
+    complete
+    .text       start:0x0202d17c end:0x0202d18c
+
+src/auto/GetMatColAnmuAlphaValue_.c:
+    complete
+    .text       start:0x0202eab0 end:0x0202eb9c
+
+src/auto/GetTexSRTAnmSinCosVal_.c:
+    complete
+    .text       start:0x0202ee60 end:0x0202ef6c
+
+src/auto/NNSi_G3dAnmObjInitNsBva.c:
+    complete
+    .text       start:0x0202f414 end:0x0202f460
+
+src/auto/texmtxCalc_flagR_.c:
+    complete
+    .text       start:0x0202f940 end:0x0202f9bc
+
+src/auto/texmtxCalc_flagTR_.c:
+    complete
+    .text       start:0x0202fb9c end:0x0202fbe0
+
+src/auto/NNS_GfdRegisterNewVramTransferTask.c:
+    complete
+    .text       start:0x0203137c end:0x020313e4
+
+src/auto/NNSi_GfdInitLnkVramBlockPool.c:
+    complete
+    .text       start:0x020314d4 end:0x02031520
+
+src/auto/NNSi_GfdAllocLnkVram.c:
+    complete
+    .text       start:0x0203157c end:0x02031590
+
+src/auto/NNSi_GfdAllocLnkVramAligned.c:
+    complete
+    .text       start:0x02031590 end:0x020316d0
+
+src/auto/NNS_GfdAllocLnkTexVram.c:
+    complete
+    .text       start:0x02031844 end:0x020318d4
+
+src/auto/NNS_GfdAllocLnkPlttVram.c:
+    complete
+    .text       start:0x02031ba0 end:0x02031c6c
+
+src/auto/DWC_Realloc.c:
+    complete
+    .text       start:0x0204cbe4 end:0x0204cbf8
+
+src/donor/OS_GetIrqFunction.c:
+    complete
+    .text       start:0x02006304 end:0x02006390
+
+src/donor/OS_InitException.c:
+    complete
+    .text       start:0x02008238 end:0x020082a8
+
+src/donor/OSi_SetTimer.c:
+    complete
+    .text       start:0x02008608 end:0x02008694
+
+src/donor/OS_GetLowEntropyData.c:
+    complete
+    .text       start:0x02008ef4 end:0x02008fc4
+
+src/donor/MI_SendGXCommandAsync.c:
+    complete
+    .text       start:0x0200948c end:0x02009584
+
+src/donor/MIi_DMACallback.c:
+    complete
+    .text       start:0x02009630 end:0x02009690
+
+src/donor/func_020098f0.c:
+    complete
+    .text       start:0x020098f0 end:0x0200990c
+
+src/donor/SND_ReadPlayerInfo.c:
+    complete
+    .text       start:0x0200ab50 end:0x0200abf8
+
+src/donor/PXI_InitFifo.c:
+    complete
+    .text       start:0x0200b10c end:0x0200b20c
+
+src/donor/PXI_SendWordByFifo.c:
+    complete
+    .text       start:0x0200b27c end:0x0200b304
+
+src/donor/PXIi_HandlerRecvFifoNotEmpty.c:
+    complete
+    .text       start:0x0200b304 end:0x0200b41c
+
+src/donor/FSi_TranslateCommand.c:
+    complete
+    .text       start:0x0200b478 end:0x0200b608
+
+src/donor/FSi_NextCommand.c:
+    complete
+    .text       start:0x0200c054 end:0x0200c268
+
+src/donor/FSi_SendCommand.c:
+    complete
+    .text       start:0x0200c340 end:0x0200c4e4
+
+src/donor/FS_UnloadArchive.c:
+    complete
+    .text       start:0x0200c6f8 end:0x0200c7b8
+
+src/donor/FS_LoadArchiveTables.c:
+    complete
+    .text       start:0x0200c7b8 end:0x0200c8dc
+
+src/donor/FS_ResumeArchive.c:
+    complete
+    .text       start:0x0200ca04 end:0x0200ca74
+
+src/donor/FSi_FindPath.c:
+    complete
+    .text       start:0x0200cb68 end:0x0200ccac
+
+src/donor/FSi_InitRom.c:
+    complete
+    .text       start:0x0200d138 end:0x0200d280
+
+src/donor/FS_LoadOverlayImageAsync.c:
+    complete
+    .text       start:0x0200d4f4 end:0x0200d580
+
+src/donor/FS_LoadOverlayImage.c:
+    complete
+    .text       start:0x0200d580 end:0x0200d610
+
+src/donor/DGT_Hash2GetDigest.c:
+    complete
+    .text       start:0x0200e050 end:0x0200e24c
+
+src/donor/TP_SetCalibrateParam.c:
+    complete
+    .text       start:0x0200eb34 end:0x0200ec5c
+
+src/donor/TP_CalcCalibrateParam.c:
+    complete
+    .text       start:0x0200ef00 end:0x0200f0ec
+
+src/donor/PMi_SendSleepStart.c:
+    complete
+    .text       start:0x0200f570 end:0x0200f5fc
+
+src/donor/PM_SetBackLightAsync.c:
+    complete
+    .text       start:0x0200f75c end:0x0200f7e4
+
+src/donor/RtcCommonCallback.c:
+    complete
+    .text       start:0x020103a8 end:0x020108f8
+
+src/donor/CARDi_InitCommon.c:
+    complete
+    .text       start:0x02010d10 end:0x02010e20
+
+src/donor/CARDi_IdentifyBackupCore2.c:
+    complete
+    .text       start:0x02010f44 end:0x020112c8
+
+src/donor/CARDi_ReadFromCache.c:
+    complete
+    .text       start:0x02011718 end:0x020117a4
+
+src/donor/CARDi_OnReadCard.c:
+    complete
+    .text       start:0x02011858 end:0x02011928
+
+src/donor/CARDi_ReadRomIDCore.c:
+    complete
+    .text       start:0x02011ba4 end:0x02011c00
+
+src/donor/CARDi_ReadRomSyncCore.c:
+    complete
+    .text       start:0x02011c00 end:0x02011c98
+
+src/donor/CARDi_ReadRom.c:
+    complete
+    .text       start:0x02011c98 end:0x02011d90
+
+src/donor/CARDi_TaskThread.c:
+    complete
+    .text       start:0x02011e40 end:0x02011e90
+
+src/donor/WM_InitializeForListening.c:
+    complete
+    .text       start:0x02013370 end:0x02013388
+
+src/donor/WMi_StartMP.c:
+    complete
+    .text       start:0x02013af4 end:0x02013c64
+
+src/donor/WM_StartMPEx.c:
+    complete
+    .text       start:0x02013c64 end:0x02013d08
+
+src/donor/WM_StartMP.c:
+    complete
+    .text       start:0x02013d08 end:0x02013d70
+
+src/donor/WM_SetDCFData.c:
+    complete
+    .text       start:0x02013fb0 end:0x0201407c
+
+src/donor/MATH_CalcChecksum16.c:
+    complete
+    .text       start:0x02015998 end:0x02015a60
+
+src/donor/CTRDGi_IsAgbCartridge.c:
+    complete
+    .text       start:0x02015d50 end:0x02015de8
+
+src/donor/STDi_FillBitset.c:
+    complete
+    .text       start:0x02015ec0 end:0x02015f14
+
+src/donor/STD_ConvertStringSjisToUnicode.c:
+    complete
+    .text       start:0x02016f88 end:0x020171c0
+
+src/donor/StrNCaseCmp.c:
+    complete
+    .text       start:0x02017868 end:0x020178f0
+
+src/donor/parse_format.c:
+    complete
+    .text       start:0x02017cd0 end:0x02018260
+
+src/donor/raise.c:
+    complete
+    .text       start:0x0201a034 end:0x0201a164
+
+src/donor/__strtoul.c:
+    complete
+    .text       start:0x0201b7f4 end:0x0201bbdc
+
+src/donor/__FindExceptionTable.c:
+    complete
+    .text       start:0x0202716c end:0x0202718c
+
+src/donor/AllocUsedBlockFromFreeBlock.c:
+    complete
+    .text       start:0x02027664 end:0x020277e4
+
+src/donor/AllocFromTail.c:
+    complete
+    .text       start:0x02027898 end:0x02027948
+
+src/donor/RecycleRegion.c:
+    complete
+    .text       start:0x02027948 end:0x02027a38
+
+src/donor/NNS_FndGetAllocatableSizeForExpHeapEx.c:
+    complete
+    .text       start:0x02027b10 end:0x02027b94
+
+src/donor/NNS_G3dAnmObjCalcSizeRequired.c:
+    complete
+    .text       start:0x02027f8c end:0x02027fec
+
+src/donor/NNS_G3dAnmObjInit.c:
+    complete
+    .text       start:0x02027fec end:0x0202808c
+
+src/donor/bindMdlTex_Internal_.c:
+    complete
+    .text       start:0x0202851c end:0x0202864c
+
+src/donor/releaseMdlTex_Internal_.c:
+    complete
+    .text       start:0x0202864c end:0x02028704
+
+src/donor/NNS_G3dBindMdlTex.c:
+    complete
+    .text       start:0x02028704 end:0x02028804
+
+src/donor/NNS_G3dReleaseMdlTex.c:
+    complete
+    .text       start:0x02028804 end:0x02028890
+
+src/donor/bindMdlPltt_Internal_.c:
+    complete
+    .text       start:0x02028890 end:0x02028970
+
+src/donor/NNS_G3dBindMdlPltt.c:
+    complete
+    .text       start:0x02028970 end:0x02028a78
+
+src/donor/NNS_G3dReleaseMdlPltt.c:
+    complete
+    .text       start:0x02028a78 end:0x02028afc
+
+src/donor/NNS_G3dBindMdlSet.c:
+    complete
+    .text       start:0x02028afc end:0x02028bac
+
+src/donor/NNS_G3dReleaseMdlSet.c:
+    complete
+    .text       start:0x02028bac end:0x02028c40
+
+src/donor/mtx_inverse44.c:
+    complete
+    .text       start:0x02028e64 end:0x0202906c
+
+src/donor/NNSi_G3dAnmBlendVis.c:
+    complete
+    .text       start:0x0202971c end:0x020297a4
+
+src/donor/G3dDrawInternal_Loop_.c:
+    complete
+    .text       start:0x020297a4 end:0x020297ec
+
+src/donor/G3dDrawInternal_.c:
+    complete
+    .text       start:0x020297ec end:0x02029988
+
+src/donor/NNSi_G3dFuncSbc_NODE.c:
+    complete
+    .text       start:0x02029b1c end:0x02029c98
+
+src/donor/NNSi_G3dFuncSbc_MAT.c:
+    complete
+    .text       start:0x0202a1ec end:0x0202a29c
+
+src/donor/NNSi_G3dFuncSbc_SHP.c:
+    complete
+    .text       start:0x0202a370 end:0x0202a410
+
+src/donor/NNSi_G3dFuncSbc_POSSCALE.c:
+    complete
+    .text       start:0x0202b714 end:0x0202b784
+
+src/donor/NNS_G3dGeFlushBuffer.c:
+    complete
+    .text       start:0x0202c11c end:0x0202c178
+
+src/donor/NNS_G3dGeBufferOP_N.c:
+    complete
+    .text       start:0x0202c250 end:0x0202c334
+
+src/donor/NNS_G3dResDefaultRelease.c:
+    complete
+    .text       start:0x0202c3e8 end:0x0202c530
+
+src/donor/NNS_G3dWorldPosToScrPos.c:
+    complete
+    .text       start:0x0202c530 end:0x0202c6b8
+
+src/donor/NNS_G3dScrPosToWorldLine.c:
+    complete
+    .text       start:0x0202c6b8 end:0x0202c93c
+
+src/donor/NNS_G3dMdlSetMdlDiff.c:
+    complete
+    .text       start:0x0202c96c end:0x0202c9ec
+
+src/donor/NNS_G3dMdlSetMdlAmb.c:
+    complete
+    .text       start:0x0202c9ec end:0x0202ca6c
+
+src/donor/NNS_G3dMdlSetMdlSpec.c:
+    complete
+    .text       start:0x0202ca6c end:0x0202caec
+
+src/donor/NNS_G3dMdlSetMdlEmi.c:
+    complete
+    .text       start:0x0202caec end:0x0202cb6c
+
+src/donor/NNS_G3dMdlSetMdlPolygonID.c:
+    complete
+    .text       start:0x0202cb6c end:0x0202cbe4
+
+src/donor/NNS_G3dMdlSetMdlAlpha.c:
+    complete
+    .text       start:0x0202cbe4 end:0x0202cc5c
+
+src/donor/NNS_G3dMdlGetMdlDiff.c:
+    complete
+    .text       start:0x0202cc5c end:0x0202ccd8
+
+src/donor/NNS_G3dMdlGetMdlAmb.c:
+    complete
+    .text       start:0x0202ccd8 end:0x0202cd58
+
+src/donor/NNS_G3dMdlGetMdlSpec.c:
+    complete
+    .text       start:0x0202cd58 end:0x0202cdd4
+
+src/donor/NNS_G3dMdlGetMdlEmi.c:
+    complete
+    .text       start:0x0202cdd4 end:0x0202ce54
+
+src/donor/NNS_G3dGetResDataByName.c:
+    complete
+    .text       start:0x0202ce54 end:0x0202d014
+
+src/donor/NNS_G3dGetResDictIdxByName.c:
+    complete
+    .text       start:0x0202d014 end:0x0202d17c
+
+src/donor/NNS_G3dGetAnmByIdx.c:
+    complete
+    .text       start:0x0202d1cc end:0x0202d228
+
+src/donor/NNSi_G3dGetTexPatAnmFV.c:
+    complete
+    .text       start:0x0202d280 end:0x0202d2f4
+
+src/donor/NNSi_G3dGetTexPatAnmDataByIdx.c:
+    complete
+    .text       start:0x0202d2f4 end:0x0202d328
+
+src/donor/NNSi_G3dAnmObjInitNsBca.c:
+    complete
+    .text       start:0x0202d328 end:0x0202d3a4
+
+src/donor/getMdlTrans_.c:
+    complete
+    .text       start:0x0202d3e0 end:0x0202d478
+
+src/donor/getMdlScale_.c:
+    complete
+    .text       start:0x0202d478 end:0x0202d508
+
+src/donor/getJntSRTAnmResult_.c:
+    complete
+    .text       start:0x0202d688 end:0x0202da3c
+
+src/donor/getTransData_.c:
+    complete
+    .text       start:0x0202da3c end:0x0202db9c
+
+src/donor/getTransDataEx_.c:
+    complete
+    .text       start:0x0202db9c end:0x0202dcf8
+
+src/donor/getScaleData_.c:
+    complete
+    .text       start:0x0202dcf8 end:0x0202deec
+
+src/donor/getScaleDataEx_.c:
+    complete
+    .text       start:0x0202deec end:0x0202e080
+
+src/donor/getRotData_.c:
+    complete
+    .text       start:0x0202e080 end:0x0202e498
+
+src/donor/getRotDataEx_.c:
+    complete
+    .text       start:0x0202e498 end:0x0202e7dc
+
+src/donor/getRotDataByIdx_.c:
+    complete
+    .text       start:0x0202e7dc end:0x0202e948
+
+src/donor/GetMatColAnmValue_.c:
+    complete
+    .text       start:0x0202e948 end:0x0202eab0
+
+src/donor/func_0202eb9c.c:
+    complete
+    .text       start:0x0202eb9c end:0x0202ec70
+
+src/donor/NNSi_G3dAnmCalcNsBma.c:
+    complete
+    .text       start:0x0202ec70 end:0x0202ed60
+
+src/donor/GetTexSRTAnmVectorVal_.c:
+    complete
+    .text       start:0x0202ed60 end:0x0202ee60
+
+src/donor/GetTexSRTAnm_.c:
+    complete
+    .text       start:0x0202ef6c end:0x0202f06c
+
+src/donor/func_0202f06c.c:
+    complete
+    .text       start:0x0202f06c end:0x0202f140
+
+src/donor/NNSi_G3dAnmObjInitNsBtp.c:
+    complete
+    .text       start:0x0202f184 end:0x0202f260
+
+src/donor/SetTexParamaters_.c:
+    complete
+    .text       start:0x0202f260 end:0x0202f338
+
+src/donor/SetPlttParamaters_.c:
+    complete
+    .text       start:0x0202f338 end:0x0202f3a0
+
+src/donor/NNSi_G3dGetJointScaleMaya.c:
+    complete
+    .text       start:0x0202f618 end:0x0202f768
+
+src/donor/texmtxCalc_flag_.c:
+    complete
+    .text       start:0x0202f768 end:0x0202f870
+
+src/donor/texmtxCalc_flagS_.c:
+    complete
+    .text       start:0x0202f870 end:0x0202f940
+
+src/donor/texmtxCalc_flagT_.c:
+    complete
+    .text       start:0x0202fa04 end:0x0202fae4
+
+src/donor/texmtxCalc_flagTS_.c:
+    complete
+    .text       start:0x0202fae4 end:0x0202fb9c
+
+src/donor/func_0202fc04.c:
+    complete
+    .text       start:0x0202fc04 end:0x0202fd4c
+
+src/donor/NNSi_G3dSendJointSRTSi3d.c:
+    complete
+    .text       start:0x0202fd4c end:0x0202fe78
+
+src/donor/NNSi_G3dGetJointScaleSi3d.c:
+    complete
+    .text       start:0x0202fe78 end:0x02030094
+
+src/donor/NNSi_G3dSendTexSRTSi3d.c:
+    complete
+    .text       start:0x02030094 end:0x02030260
+
+src/donor/func_02030260.c:
+    complete
+    .text       start:0x02030260 end:0x02030368
+
+src/donor/func_02030368.c:
+    complete
+    .text       start:0x02030368 end:0x02030450
+
+src/donor/func_02030450.c:
+    complete
+    .text       start:0x02030450 end:0x020304d0
+
+src/donor/func_02030518.c:
+    complete
+    .text       start:0x02030518 end:0x02030610
+
+src/donor/func_02030610.c:
+    complete
+    .text       start:0x02030610 end:0x020306e8
+
+src/donor/func_0203075c.c:
+    complete
+    .text       start:0x0203075c end:0x020308a4
+
+src/donor/func_020308a4.c:
+    complete
+    .text       start:0x020308a4 end:0x020309f8
+
+src/donor/func_020309f8.c:
+    complete
+    .text       start:0x020309f8 end:0x02030ad8
+
+src/donor/func_02030ad8.c:
+    complete
+    .text       start:0x02030ad8 end:0x02030b5c
+
+src/donor/func_02030b5c.c:
+    complete
+    .text       start:0x02030b5c end:0x02030bb0
+
+src/donor/func_02030bb0.c:
+    complete
+    .text       start:0x02030bb0 end:0x02030c7c
+
+src/donor/NNSi_G3dSendTexSRTXsi.c:
+    complete
+    .text       start:0x02030d84 end:0x02030f0c
+
+src/donor/TryToMergeBlockRegion_.c:
+    complete
+    .text       start:0x020313e4 end:0x020314c8
+
+src/donor/NNSi_GfdMergeAllFreeBlocks.c:
+    complete
+    .text       start:0x020316d0 end:0x02031754
+
+src/donor/NNSi_GfdFreeLnkVram.c:
+    complete
+    .text       start:0x02031754 end:0x020317e4
+
+src/donor/NNS_GfdFreeLnkTexVram.c:
+    complete
+    .text       start:0x020318d4 end:0x02031948
+
+src/donor/func_020321ec.c:
+    complete
+    .text       start:0x020321ec end:0x02032200
+
+src/donor/NNS_SndPlayerMoveVolume.c:
+    complete
+    .text       start:0x02032214 end:0x02032240
+
+src/donor/func_02032260.c:
+    complete
+    .text       start:0x02032260 end:0x02032280
+
+src/donor/NNS_SndPlayerSetTrackVolume.c:
+    complete
+    .text       start:0x02032280 end:0x020322b0
+
+src/donor/func_020322b0.c:
+    complete
+    .text       start:0x020322b0 end:0x020322d0
+
+src/donor/NNS_SndPlayerSetTrackPan.c:
+    complete
+    .text       start:0x020322d0 end:0x020322f0
+
+src/donor/NNS_SndPlayerWriteVariable.c:
+    complete
+    .text       start:0x02032340 end:0x02032368
+
+src/donor/NNS_SndPlayerReadDriverPlayerInfo.c:
+    complete
+    .text       start:0x02032368 end:0x0203238c
+
+src/donor/NNSi_SndCaptureStart.c:
+    complete
+    .text       start:0x02032dac end:0x02033118
+
+src/donor/NNS_SndArcInit.c:
+    complete
+    .text       start:0x020333d8 end:0x02033458
+
+src/donor/NNS_SndArcInitOnMemory.c:
+    complete
+    .text       start:0x02033630 end:0x020336f4
+
+src/donor/NNS_SndArcGetSeqInfo.c:
+    complete
+    .text       start:0x0203371c end:0x02033780
+
+src/donor/NNS_SndArcGetSeqArcInfo.c:
+    complete
+    .text       start:0x02033780 end:0x020337e4
+
+src/donor/NNS_SndArcGetBankInfo.c:
+    complete
+    .text       start:0x020337e4 end:0x02033848
+
+src/donor/NNS_SndArcGetWaveArcInfo.c:
+    complete
+    .text       start:0x02033848 end:0x020338ac
+
+src/donor/NNS_SndArcGetPlayerInfo.c:
+    complete
+    .text       start:0x020338ac end:0x02033910
+
+src/donor/NNS_SndArcGetGroupInfo.c:
+    complete
+    .text       start:0x02033910 end:0x02033974
+
+src/donor/NNS_SndArcReadFile.c:
+    complete
+    .text       start:0x0203399c end:0x02033a64
+
+src/donor/calc_checksum_do.c:
+    complete
+    .text       start:0x020353ac end:0x02035460
+
+src/donor/calc_checksum.c:
+    complete
+    .text       start:0x0203547c end:0x02035498
+
+src/donor/check_tcpudpsum.c:
+    complete
+    .text       start:0x02035498 end:0x020354e8
+
+src/donor/send_ether.c:
+    complete
+    .text       start:0x02035d6c end:0x02035e3c
+
+src/donor/reply_icmp.c:
+    complete
+    .text       start:0x020367a8 end:0x0203688c
+
+src/donor/process_icmp_reply.c:
+    complete
+    .text       start:0x0203688c end:0x0203698c
+
+src/donor/dispatch_icmp.c:
+    complete
+    .text       start:0x020369ac end:0x02036a7c
+
+src/donor/check_listener.c:
+    complete
+    .text       start:0x02036a7c end:0x02036b50
+
+src/donor/check_socket.c:
+    complete
+    .text       start:0x02036b50 end:0x02036c04
+
+src/donor/find_socket.c:
+    complete
+    .text       start:0x02036c04 end:0x02036c68
+
+src/donor/parse_mss.c:
+    complete
+    .text       start:0x02036c68 end:0x02036cec
+
+src/donor/tcp_send_handshake.c:
+    complete
+    .text       start:0x02036d08 end:0x02036d7c
+
+src/donor/dt_syn_listen.c:
+    complete
+    .text       start:0x02036ee0 end:0x02036fcc
+
+src/donor/dt_syn.c:
+    complete
+    .text       start:0x02037054 end:0x0203712c
+
+src/donor/dt_synack.c:
+    complete
+    .text       start:0x0203712c end:0x02037224
+
+src/donor/dt_ack.c:
+    complete
+    .text       start:0x02037224 end:0x0203753c
+
+src/donor/dispatch_tcp.c:
+    complete
+    .text       start:0x02037644 end:0x02037764
+
+src/donor/dispatch_udp.c:
+    complete
+    .text       start:0x02037764 end:0x02037970
+
+src/donor/tcpip.c:
+    complete
+    .text       start:0x02037e00 end:0x02037e70
+
+src/donor/CPS_TcpConnect.c:
+    complete
+    .text       start:0x02038150 end:0x02038190
+
+src/donor/udp_read_raw.c:
+    complete
+    .text       start:0x020382a4 end:0x020382f8
+
+src/donor/CPSi_TcpReadRaw.c:
+    complete
+    .text       start:0x020382f8 end:0x02038374
+
+src/donor/CPS_SocRead.c:
+    complete
+    .text       start:0x02038374 end:0x020383d8
+
+src/donor/CPSi_SocConsumeRaw.c:
+    complete
+    .text       start:0x020383d8 end:0x02038468
+
+src/donor/CPS_SocConsume.c:
+    complete
+    .text       start:0x02038468 end:0x020384a0
+
+src/donor/CPSi_SocWrite2.c:
+    complete
+    .text       start:0x020387a8 end:0x0203887c
+
+src/donor/CPS_SocGetLength.c:
+    complete
+    .text       start:0x02038914 end:0x02038984
+
+src/donor/dns_skipname.c:
+    complete
+    .text       start:0x02039670 end:0x020396a0
+
+src/donor/rawip.c:
+    complete
+    .text       start:0x0203997c end:0x02039a18
+
+src/donor/resolve_sub.c:
+    complete
+    .text       start:0x02039a18 end:0x02039a7c
+
+src/donor/SOCLi_StartupCommandPacketQueue.c:
+    complete
+    .text       start:0x02039e28 end:0x02039ebc
+
+src/donor/SOCLi_ExecCommandPacket.c:
+    complete
+    .text       start:0x0203a004 end:0x0203a074
+
+src/donor/SOCLi_CreateSocketCallBack.c:
+    complete
+    .text       start:0x0203a198 end:0x0203a20c
+
+src/donor/SOCLi_GetSizeSocket.c:
+    complete
+    .text       start:0x0203a274 end:0x0203a2f4
+
+src/donor/SOCLi_InitSocket.c:
+    complete
+    .text       start:0x0203a31c end:0x0203a418
+
+src/donor/SOCL_Bind.c:
+    complete
+    .text       start:0x0203a4b4 end:0x0203a524
+
+src/donor/SOCL_Connect.c:
+    complete
+    .text       start:0x0203a524 end:0x0203a60c
+
+src/donor/SOCLi_ExecBindCommand.c:
+    complete
+    .text       start:0x0203a60c end:0x0203a664
+
+src/donor/SOCLi_BindCallBack.c:
+    complete
+    .text       start:0x0203a664 end:0x0203a6e8
+
+src/donor/SOCL_ReadFrom.c:
+    complete
+    .text       start:0x0203a6e8 end:0x0203a830
+
+src/donor/SOCLi_ReadAndConsumeBuffer.c:
+    complete
+    .text       start:0x0203a830 end:0x0203a8cc
+
+src/donor/SOCLi_ReadBuffer.c:
+    complete
+    .text       start:0x0203a8cc end:0x0203a940
+
+src/donor/SOCLi_CopyCPSBuffer.c:
+    complete
+    .text       start:0x0203a940 end:0x0203aa48
+
+src/donor/SOCLi_ReadCPSBuffer.c:
+    complete
+    .text       start:0x0203aa48 end:0x0203aabc
+
+src/donor/SOCLi_ExecReadCommand.c:
+    complete
+    .text       start:0x0203aabc end:0x0203ab08
+
+src/donor/SOCLi_ReadCallBack.c:
+    complete
+    .text       start:0x0203ab08 end:0x0203ac58
+
+src/donor/SOCLi_ConsumeBuffer.c:
+    complete
+    .text       start:0x0203ac58 end:0x0203aca4
+
+src/donor/SOCLi_ConsumeCPSBuffer.c:
+    complete
+    .text       start:0x0203acb4 end:0x0203acf0
+
+src/donor/SOCLi_ReadUdpBuffer.c:
+    complete
+    .text       start:0x0203acf0 end:0x0203ae34
+
+src/donor/SOCLi_UdpRecvCallback.c:
+    complete
+    .text       start:0x0203ae34 end:0x0203af48
+
+src/donor/SOCL_WriteTo.c:
+    complete
+    .text       start:0x0203af48 end:0x0203b05c
+
+src/donor/SOCLi_WriteBuffer.c:
+    complete
+    .text       start:0x0203b05c end:0x0203b160
+
+src/donor/SOCLi_AllocWriteBuffer.c:
+    complete
+    .text       start:0x0203b160 end:0x0203b1e4
+
+src/donor/SOCLi_GetWriteBufferFreeSize.c:
+    complete
+    .text       start:0x0203b1e4 end:0x0203b208
+
+src/donor/SOCLi_ExecWriteCommand.c:
+    complete
+    .text       start:0x0203b208 end:0x0203b37c
+
+src/donor/SOCLi_WriteCallBack.c:
+    complete
+    .text       start:0x0203b37c end:0x0203b4ac
+
+src/donor/SOCLi_GetOptimumSendBufLen.c:
+    complete
+    .text       start:0x0203b4ac end:0x0203b550
+
+src/donor/SOCL_Shutdown.c:
+    complete
+    .text       start:0x0203b5e8 end:0x0203b694
+
+src/donor/SOCL_Close.c:
+    complete
+    .text       start:0x0203b6f8 end:0x0203b7c8
+
+src/donor/SOCLi_CleanupSocket.c:
+    complete
+    .text       start:0x0203b860 end:0x0203b960
+
+src/donor/SOCL_CloseAll.c:
+    complete
+    .text       start:0x0203bae0 end:0x0203bb88
+
+src/donor/SOCL_Resolve.c:
+    complete
+    .text       start:0x0203bc04 end:0x0203bcb4
+
+src/donor/SOCL_GetStatus.c:
+    complete
+    .text       start:0x0203bd9c end:0x0203be6c
+
+src/donor/SOCLi_GetReadBufferOccpiedSize.c:
+    complete
+    .text       start:0x0203be6c end:0x0203beb4
+
+src/donor/SOCLi_SocketGetNextPtr.c:
+    complete
+    .text       start:0x0203bf34 end:0x0203bf60
+
+src/donor/SOCL_SocketIsInvalid.c:
+    complete
+    .text       start:0x0203bf78 end:0x0203bfac
+
+src/donor/SOC_RecvFrom.c:
+    complete
+    .text       start:0x0203c0a8 end:0x0203c138
+
+src/donor/SOC_SendTo.c:
+    complete
+    .text       start:0x0203c15c end:0x0203c1e0
+
+src/donor/SOC_GetSockName.c:
+    complete
+    .text       start:0x0203c2b8 end:0x0203c34c
+
+src/donor/SOC_Poll.c:
+    complete
+    .text       start:0x0203c73c end:0x0203c7f0
+
+src/donor/WCM_StartupAsync.c:
+    complete
+    .text       start:0x020418e4 end:0x02041ae8
+
+src/donor/WCM_CleanupAsync.c:
+    complete
+    .text       start:0x02041ae8 end:0x02041bd8
+
+src/donor/WCM_SearchAsync.c:
+    complete
+    .text       start:0x02041bd8 end:0x02041bf8
+
+src/donor/WCM_BeginSearchAsync.c:
+    complete
+    .text       start:0x02041bf8 end:0x02041d70
+
+src/donor/WCM_EndSearchAsync.c:
+    complete
+    .text       start:0x02041d70 end:0x02041e14
+
+src/donor/WCM_ConnectAsync.c:
+    complete
+    .text       start:0x02041e14 end:0x02042018
+
+src/donor/WCM_DisconnectAsync.c:
+    complete
+    .text       start:0x02042018 end:0x02042134
+
+src/donor/WCM_TerminateAsync.c:
+    complete
+    .text       start:0x02042134 end:0x02042344
+
+src/donor/WCM_UpdateOption.c:
+    complete
+    .text       start:0x02042374 end:0x02042410
+
+src/donor/WcmEditScanExParam.c:
+    complete
+    .text       start:0x02042540 end:0x020426d8
+
+src/donor/WcmGetNextScanChannel.c:
+    complete
+    .text       start:0x020426f8 end:0x02042788
+
+src/donor/WcmNotifyEx.c:
+    complete
+    .text       start:0x020427cc end:0x02042820
+
+src/donor/WcmSetPhase.c:
+    complete
+    .text       start:0x02042820 end:0x020428b8
+
+src/donor/WcmWmReset.c:
+    complete
+    .text       start:0x02042970 end:0x020429cc
+
+src/donor/WcmWmcbIndication.c:
+    complete
+    .text       start:0x020429cc end:0x02042a44
+
+src/donor/WcmWmcbCommon.c:
+    complete
+    .text       start:0x02042a44 end:0x02042d00
+
+src/donor/WcmWmcbScanEx.c:
+    complete
+    .text       start:0x02042d00 end:0x02042fe4
+
+src/donor/WcmWmcbEndScan.c:
+    complete
+    .text       start:0x02042fe4 end:0x0204305c
+
+src/donor/WcmWmcbConnect.c:
+    complete
+    .text       start:0x0204305c end:0x020432c0
+
+src/donor/WcmWmcbDisconnect.c:
+    complete
+    .text       start:0x020432c0 end:0x02043388
+
+src/donor/WcmWmcbStartDCF.c:
+    complete
+    .text       start:0x02043388 end:0x02043498
+
+src/donor/WcmWmcbEndDCF.c:
+    complete
+    .text       start:0x02043498 end:0x020435b4
+
+src/donor/WcmWmcbReset.c:
+    complete
+    .text       start:0x020435b4 end:0x020438e0
+
+src/donor/WCM_LockApList.c:
+    complete
+    .text       start:0x0204398c end:0x02043a08
+
+src/donor/WCM_PointApList.c:
+    complete
+    .text       start:0x02043a08 end:0x02043a60
+
+src/donor/WcmAllocApList.c:
+    complete
+    .text       start:0x02043aec end:0x02043bb8
+
+src/donor/WcmSearchIndexedApList.c:
+    complete
+    .text       start:0x02043c54 end:0x02043ca4
+
+src/donor/WcmAppendApList.c:
+    complete
+    .text       start:0x02043ca4 end:0x02043d60
+
+src/donor/WCM_GetApEssid.c:
+    complete
+    .text       start:0x02043e88 end:0x02043ee8
+
+src/donor/WCM_SendDCFDataEx.c:
+    complete
+    .text       start:0x02043f08 end:0x02044090
+
+src/donor/WCM_CompareBssID.c:
+    complete
+    .text       start:0x0204416c end:0x02044198
+
+src/donor/WCMi_GetRssiAverage.c:
+    complete
+    .text       start:0x020441dc end:0x0204425c
+
+src/donor/WCMi_ShelterRssi.c:
+    complete
+    .text       start:0x02044290 end:0x020442f0
+
+src/donor/DWCi_Acc_GetUserId.c:
+    complete
+    .text       start:0x02047e10 end:0x02047e30
+
+src/donor/DWCi_Acc_GetFriendKey.c:
+    complete
+    .text       start:0x02047e38 end:0x02047e4c
+
+src/donor/DWCi_Acc_SetFlag_DataType.c:
+    complete
+    .text       start:0x02047f7c end:0x02047fa0
+
+src/donor/DWCi_SetBuddyFriendData.c:
+    complete
+    .text       start:0x02047fa0 end:0x02047fcc
+
+src/donor/DWC_StringToFriendKey.c:
+    complete
+    .text       start:0x020481dc end:0x02048264
+
+src/donor/DWCi_Acc_CreateTempLoginId.c:
+    complete
+    .text       start:0x020483e0 end:0x020484a4
+
+src/donor/DWCi_Acc_CheckConsoleUserId.c:
+    complete
+    .text       start:0x020484a4 end:0x02048510
+
+src/donor/DWC_CheckValidConsole.c:
+    complete
+    .text       start:0x020485dc end:0x02048644
+
+src/donor/DWC_GetFriendKey.c:
+    complete
+    .text       start:0x02048710 end:0x02048738
+
+src/donor/DWC_CreateExchangeToken.c:
+    complete
+    .text       start:0x02048808 end:0x0204885c
+
+src/donor/DWC_LoginIdToUserName.c:
+    complete
+    .text       start:0x02048890 end:0x020488a8
+
+src/donor/DWC_IsEqualFriendData.c:
+    complete
+    .text       start:0x020488a8 end:0x0204898c
+
+src/donor/DWC_ReportFriendData.c:
+    complete
+    .text       start:0x0204898c end:0x02048a14
+
+src/donor/DWC_ReallocEx.c:
+    complete
+    .text       start:0x0204cbf8 end:0x0204cc64
+
+src/donor/DWCi_WStrLen.c:
+    complete
+    .text       start:0x0204d688 end:0x0204d6b4
+
+src/donor/DWCi_BM_GetWiFiInfo.c:
+    complete
+    .text       start:0x0205a0f8 end:0x0205a1d0
+
+src/donor/DWCi_BACKUPlConvMaskCidr.c:
+    complete
+    .text       start:0x0205a450 end:0x0205a494
+
+src/donor/DWC_BACKUPlCheckSsid.c:
+    complete
+    .text       start:0x0205a4c4 end:0x0205a4ec
+
+src/donor/DWCi_BACKUPlConvWifiInfo.c:
+    complete
+    .text       start:0x0205abdc end:0x0205ac9c
+
+src/donor/DWC_BM_Init.c:
+    complete
+    .text       start:0x0205aca8 end:0x0205afb0
+
+src/donor/init.c:
+    complete
+    .text       start:0x0205b0b0 end:0x0205b130
+
+src/donor/initPage.c:
+    complete
+    .text       start:0x0205b130 end:0x0205b15c
+
+src/donor/DWCi_Util_WiFiId_scrambleUid.c:
+    complete
+    .text       start:0x0205b15c end:0x0205b2e0
+
+src/donor/DWCi_AUTH_GetNewWiFiInfo.c:
+    complete
+    .text       start:0x0205b2e0 end:0x0205b4bc
+
+src/donor/DWCi_AUTH_UpDateWiFiID.c:
+    complete
+    .text       start:0x0205b500 end:0x0205b550
+
+src/donor/DWCi_AUTH_RemakeWiFiID.c:
+    complete
+    .text       start:0x0205b550 end:0x0205b6f0
+
+src/donor/DWC_Auth_GetId.c:
+    complete
+    .text       start:0x0205b6f0 end:0x0205b744
+
+src/donor/DWC_Auth_CheckWiFiIDNeedCreate.c:
+    complete
+    .text       start:0x0205b744 end:0x0205b794
+
+src/donor/FreeElement.c:
+    complete
+    .text       start:0x0205b794 end:0x0205b7b8
+
+src/donor/ArrayGrow.c:
+    complete
+    .text       start:0x0205b7b8 end:0x0205b7e8
+
+src/donor/ArraySearch.c:
+    complete
+    .text       start:0x0205ba94 end:0x0205bb4c
+
+src/donor/ArrayMapBackwards2.c:
+    complete
+    .text       start:0x0205bb88 end:0x0205bbd8
+
+src/donor/mylsearch.c:
+    complete
+    .text       start:0x0205bc04 end:0x0205bc5c
+
+src/donor/mybsearch.c:
+    complete
+    .text       start:0x0205bc5c end:0x0205bcc0
+
+src/donor/func_0205bf70.c:
+    complete
+    .text       start:0x0205bf70 end:0x0205bfb8
+
+src/donor/IsPrivateIP.c:
+    complete
+    .text       start:0x0205c4d0 end:0x0205c54c
+
+src/donor/_strlwr.c:
+    complete
+    .text       start:0x0205c5b4 end:0x0205c5f8
+
+src/donor/current_time.c:
+    complete
+    .text       start:0x0205c600 end:0x0205c628
+
+src/donor/nextlongrand.c:
+    complete
+    .text       start:0x0205c634 end:0x0205c680
+
+src/donor/Util_RandInt.c:
+    complete
+    .text       start:0x0205c6bc end:0x0205c6e0
+
+src/donor/QuartToTrip.c:
+    complete
+    .text       start:0x0205c6e0 end:0x0205c73c
+
+src/donor/TripToQuart.c:
+    complete
+    .text       start:0x0205c73c end:0x0205c7d4
+
+src/donor/B64Decode.c:
+    complete
+    .text       start:0x0205c7d4 end:0x0205c9c8
+
+src/donor/B64Encode.c:
+    complete
+    .text       start:0x0205c9c8 end:0x0205cb00
+
+src/donor/gsUdpSocketError.c:
+    complete
+    .text       start:0x0205cfb4 end:0x0205d028
+
+src/donor/gsUdpClosedRoutingCB.c:
+    complete
+    .text       start:0x0205d028 end:0x0205d140
+
+src/donor/gsUdpConnectedRoutingCB.c:
+    complete
+    .text       start:0x0205d140 end:0x0205d358
+
+src/donor/gsUdpPingRoutingCB.c:
+    complete
+    .text       start:0x0205d358 end:0x0205d418
+
+src/donor/gsUdpEngineGetPeerState.c:
+    complete
+    .text       start:0x0205d84c end:0x0205d8f0
+
+src/donor/gsUdpEngineNoApp.c:
+    complete
+    .text       start:0x0205dec8 end:0x0205df24
+
+src/donor/gsUdpEngineGetPeerOutBufferFreeSpace.c:
+    complete
+    .text       start:0x0205df24 end:0x0205dfa4
+
+src/donor/gpProcess.c:
+    complete
+    .text       start:0x0205dff0 end:0x0205e024
+
+src/donor/gpGetNumBuddies.c:
+    complete
+    .text       start:0x0205e624 end:0x0205e654
+
+src/donor/gpGetBuddyIndex.c:
+    complete
+    .text       start:0x0205e7e4 end:0x0205e884
+
+src/donor/gpIsBuddy.c:
+    complete
+    .text       start:0x0205e884 end:0x0205e8fc
+
+src/donor/gpiSendBuddyMessage.c:
+    complete
+    .text       start:0x02060b78 end:0x02060d00
+
+src/donor/gpiClipBufferToPosition.c:
+    complete
+    .text       start:0x02061de0 end:0x02061e38
+
+src/donor/gpiIsValidDate.c:
+    complete
+    .text       start:0x020639b4 end:0x02063b14
+
+src/donor/gpiSetInfoCache.c:
+    complete
+    .text       start:0x020655c4 end:0x0206569c
+
+src/donor/gpiOperationsAreBlocking.c:
+    complete
+    .text       start:0x02066284 end:0x020662c0
+
+src/donor/gpiPeerSendMessages.c:
+    complete
+    .text       start:0x020668a0 end:0x02066978
+
+src/donor/gpiCheckTimedOutPeerOperations.c:
+    complete
+    .text       start:0x02066cf4 end:0x02066dbc
+
+src/donor/gpiPeerRemoveOp.c:
+    complete
+    .text       start:0x02067694 end:0x02067728
+
+src/donor/gpiFindProfileByUser.c:
+    complete
+    .text       start:0x02067cbc end:0x02067d08
+
+src/donor/gpiProfileMap.c:
+    complete
+    .text       start:0x02067d24 end:0x02067d64
+
+src/donor/func_02067db4.c:
+    complete
+    .text       start:0x02067db4 end:0x02067de4
+
+src/donor/BucketAdd.c:
+    complete
+    .text       start:0x0206ae84 end:0x0206af18
+
+src/donor/BucketSub.c:
+    complete
+    .text       start:0x0206af18 end:0x0206af9c
+
+src/donor/BucketMult.c:
+    complete
+    .text       start:0x0206af9c end:0x0206b01c
+
+src/donor/BucketDiv.c:
+    complete
+    .text       start:0x0206b01c end:0x0206b0a0
+
+src/donor/BucketAvg.c:
+    complete
+    .text       start:0x0206b114 end:0x0206b1e8
+
+src/donor/stripchars.c:
+    complete
+    .text       start:0x0206b21c end:0x0206b24c
+
+src/donor/DoSet.c:
+    complete
+    .text       start:0x0206b24c end:0x0206b2c8
+
+src/donor/xcode_buf.c:
+    complete
+    .text       start:0x0206b4f8 end:0x0206b540
+
+src/donor/FindFinal.c:
+    complete
+    .text       start:0x0206b638 end:0x0206b6a0
+
+src/donor/ProcessInBuffer.c:
+    complete
+    .text       start:0x0206bac4 end:0x0206bb4c
+
+src/donor/gti2VerifyChallenge.c:
+    complete
+    .text       start:0x0206c108 end:0x0206c1a4
+
+src/donor/gti2GetResponse.c:
+    complete
+    .text       start:0x0206c29c end:0x0206c3a4
+
+src/donor/gti2CheckResponse.c:
+    complete
+    .text       start:0x0206c3a4 end:0x0206c3d8
+
+src/donor/gti2NewOutgoingConnection.c:
+    complete
+    .text       start:0x0206cbd4 end:0x0206cc04
+
+src/donor/gti2NewIncomingConnection.c:
+    complete
+    .text       start:0x0206cc04 end:0x0206cc34
+
+src/donor/gti2StartConnectionAttempt.c:
+    complete
+    .text       start:0x0206cc34 end:0x0206ccdc
+
+src/donor/gti2AcceptConnection.c:
+    complete
+    .text       start:0x0206ccdc end:0x0206cd38
+
+src/donor/gti2RejectConnection.c:
+    complete
+    .text       start:0x0206cd38 end:0x0206cd90
+
+src/donor/gti2CheckTimeout.c:
+    complete
+    .text       start:0x0206cdd8 end:0x0206ce7c
+
+src/donor/gti2SendRetries.c:
+    complete
+    .text       start:0x0206ce7c end:0x0206cee8
+
+src/donor/gti2CheckPendingAck.c:
+    complete
+    .text       start:0x0206cee8 end:0x0206cf24
+
+src/donor/gti2ConnectionClosed.c:
+    complete
+    .text       start:0x0206d010 end:0x0206d06c
+
+src/donor/gt2CreateSocket.c:
+    complete
+    .text       start:0x0206d0f0 end:0x0206d114
+
+src/donor/gt2Connect.c:
+    complete
+    .text       start:0x0206d180 end:0x0206d2fc
+
+src/donor/gt2GetConnectionState.c:
+    complete
+    .text       start:0x0206d464 end:0x0206d48c
+
+src/donor/gti2UShortFromBuffer.c:
+    complete
+    .text       start:0x0206d4e4 end:0x0206d504
+
+src/donor/gti2ConnectionError.c:
+    complete
+    .text       start:0x0206d528 end:0x0206d5bc
+
+src/donor/gti2HandleESN.c:
+    complete
+    .text       start:0x0206d5fc end:0x0206d6f8
+
+src/donor/gti2HandleAppReliable.c:
+    complete
+    .text       start:0x0206d788 end:0x0206d834
+
+src/donor/gti2HandleClientChallenge.c:
+    complete
+    .text       start:0x0206d834 end:0x0206d8cc
+
+src/donor/gti2HandleServerChallenge.c:
+    complete
+    .text       start:0x0206d8cc end:0x0206d9a8
+
+src/donor/gti2HandleClientResponse.c:
+    complete
+    .text       start:0x0206d9a8 end:0x0206dab8
+
+src/donor/gti2HandleClose.c:
+    complete
+    .text       start:0x0206db70 end:0x0206dbb4
+
+src/donor/gti2DeliverReliableMessage.c:
+    complete
+    .text       start:0x0206dbb4 end:0x0206dcb4
+
+src/donor/gti2BufferIncomingMessage.c:
+    complete
+    .text       start:0x0206dcc8 end:0x0206de7c
+
+src/donor/gti2RemoveHoldMessage.c:
+    complete
+    .text       start:0x0206de7c end:0x0206df00
+
+src/donor/gti2DeliverHoldMessages.c:
+    complete
+    .text       start:0x0206df00 end:0x0206df80
+
+src/donor/gti2HandleReliableMessage.c:
+    complete
+    .text       start:0x0206dfa8 end:0x0206e158
+
+src/donor/gti2HandleNack.c:
+    complete
+    .text       start:0x0206e1a4 end:0x0206e280
+
+src/donor/gti2HandleClosed.c:
+    complete
+    .text       start:0x0206e320 end:0x0206e358
+
+src/donor/gti2HandleUnreliableMessage.c:
+    complete
+    .text       start:0x0206e358 end:0x0206e41c
+
+src/donor/gti2HandleConnectionReset.c:
+    complete
+    .text       start:0x0206e718 end:0x0206e818
+
+src/donor/gti2SendServerChallenge.c:
+    complete
+    .text       start:0x0206ecc4 end:0x0206ed58
+
+src/donor/gti2ResendMessage.c:
+    complete
+    .text       start:0x0206f2a4 end:0x0206f328
+
+src/donor/gti2ConnectionCompare.c:
+    complete
+    .text       start:0x0206f364 end:0x0206f398
+
+src/donor/gti2FreeSocketConnection.c:
+    complete
+    .text       start:0x0206f890 end:0x0206f954
+
+src/donor/gti2SocketConnectionsThinkMap.c:
+    complete
+    .text       start:0x0206fb68 end:0x0206fbc0
+
+src/donor/GetLocalPort.c:
+    complete
+    .text       start:0x0206ff30 end:0x0206ff64
+
+src/donor/FindNegotiatorForCookie.c:
+    complete
+    .text       start:0x020704fc end:0x02070564
+
+src/donor/SendPacket.c:
+    complete
+    .text       start:0x020706ac end:0x02070700
+
+src/donor/func_02070764.c:
+    complete
+    .text       start:0x02070764 end:0x02070798
+
+src/donor/NNCancel.c:
+    complete
+    .text       start:0x0207102c end:0x02071064
+
+src/donor/ProcessConnectPacket.c:
+    complete
+    .text       start:0x02071464 end:0x02071514
+
+src/donor/qr2_keybuffer_add.c:
+    complete
+    .text       start:0x02071d50 end:0x02071d8c
+
+src/donor/qr2_buffer_addA.c:
+    complete
+    .text       start:0x02071dc0 end:0x02071e2c
+
+src/donor/encode_ct.c:
+    complete
+    .text       start:0x02071f5c end:0x02071fa4
+
+src/donor/gs_encode.c:
+    complete
+    .text       start:0x02071fa4 end:0x02072068
+
+src/donor/qr2_register_keyA.c:
+    complete
+    .text       start:0x02073500 end:0x02073520
+
+src/donor/keyrand.c:
+    complete
+    .text       start:0x02073520 end:0x020735d4
+
+src/donor/GOAHashInit.c:
+    complete
+    .text       start:0x020735d4 end:0x0207361c
+
+src/donor/GOACryptInit.c:
+    complete
+    .text       start:0x0207361c end:0x020736e4
+
+src/donor/GOADecryptByte.c:
+    complete
+    .text       start:0x020736e4 end:0x020737b0
+
+src/donor/FIFORemove.c:
+    complete
+    .text       start:0x0207387c end:0x020738e8
+
+src/donor/SBQueryEngineUpdateServer.c:
+    complete
+    .text       start:0x02073c88 end:0x02073d40
+
+src/donor/QueueNextQueries.c:
+    complete
+    .text       start:0x020741c8 end:0x02074208
+
+src/donor/SBServerAddKeyValue.c:
+    complete
+    .text       start:0x020743b0 end:0x020743f0
+
+src/donor/SBServerGetFloatValueA.c:
+    complete
+    .text       start:0x02074530 end:0x02074564
+
+src/donor/StringHash.c:
+    complete
+    .text       start:0x02074b84 end:0x02074bdc
+
+src/donor/KeyValCompareKey.c:
+    complete
+    .text       start:0x02074c10 end:0x02074c34
+
+src/donor/SBAllocServer.c:
+    complete
+    .text       start:0x02074c3c end:0x02074ce8
+
+src/donor/ServerBrowserLimitUpdateA.c:
+    complete
+    .text       start:0x02075208 end:0x0207523c
+
+src/donor/ServerBrowserRemoveServer.c:
+    complete
+    .text       start:0x020752dc end:0x02075308
+
+src/donor/ServerBrowserState.c:
+    complete
+    .text       start:0x02075354 end:0x02075388
+
+src/donor/SBServerListAppendServer.c:
+    complete
+    .text       start:0x02075964 end:0x020759a0
+
+src/donor/SBServerListFindServer.c:
+    complete
+    .text       start:0x020759a0 end:0x020759f4
+
+src/donor/SBServerListFindServerByIP.c:
+    complete
+    .text       start:0x020759f4 end:0x02075a64
+
+src/donor/SBServerListClear.c:
+    complete
+    .text       start:0x02075b60 end:0x02075bb8
+
+src/donor/SBRefStr.c:
+    complete
+    .text       start:0x02075be0 end:0x02075c50
+
+src/donor/NTSLengthSB.c:
+    complete
+    .text       start:0x02075ca4 end:0x02075cd4
+
+src/donor/func_02075e88.c:
+    complete
+    .text       start:0x02075e88 end:0x02075ee0
+
+src/donor/BufferAddIntLE.c:
+    complete
+    .text       start:0x020760d4 end:0x0207612c
+
+src/donor/SetupListChallenge.c:
+    complete
+    .text       start:0x02076160 end:0x0207624c
+
+src/donor/FreePopularValues.c:
+    complete
+    .text       start:0x0207652c end:0x02076570
+
+src/donor/SBServerListDisconnect.c:
+    complete
+    .text       start:0x020765d4 end:0x02076638
+
+src/donor/InitCryptKey.c:
+    complete
+    .text       start:0x02076670 end:0x0207670c
+
+src/donor/ServerSizeForFlags.c:
+    complete
+    .text       start:0x0207670c end:0x02076738
+
+src/donor/FullRulesPresent.c:
+    complete
+    .text       start:0x02076738 end:0x020767bc
+
+src/donor/ProcessPushKeyList.c:
+    complete
+    .text       start:0x02077140 end:0x0207721c
+
+src/donor/ProcessPushServer.c:
+    complete
+    .text       start:0x020775e8 end:0x020776e0
+
+src/donor/ProcessIncomingData.c:
+    complete
+    .text       start:0x02077860 end:0x02077944
+
+src/donor/SBListThink.c:
+    complete
+    .text       start:0x02077c48 end:0x02077c94
+
+src/donor/func_0209361c.c:
+    complete
+    .text       start:0x0209361c end:0x02093640
+
+src/donor/CRYPTO_RC4Init.c:
+    complete
+    .text       start:0x020ddb64 end:0x020ddbf4
+
+src/auto/func_0204e4b4.c:
+    complete
+    .text       start:0x0204e4b4 end:0x0204e4e0
+
+src/auto/func_0204e598.c:
+    complete
+    .text       start:0x0204e598 end:0x0204e5e0
+
+src/auto/DWCi_BACKUPlWriteAll.c:
+    complete
+    .text       start:0x0205a3a4 end:0x0205a438
+
+src/auto/gpiInitialize.c:
+    complete
+    .text       start:0x0205ecd8 end:0x0205ee04
+
+src/auto/func_02072d90.c:
+    complete
+    .text       start:0x02072d90 end:0x02072dd4
+
+src/auto/func_0207cd58.c:
+    complete
+    .text       start:0x0207cd58 end:0x0207cdc8
+
+src/auto/func_0207d38c.c:
+    complete
+    .text       start:0x0207d38c end:0x0207d418
+
+src/auto/func_020803c8.c:
+    complete
+    .text       start:0x020803c8 end:0x02080424
+
+src/auto/func_0208f524.c:
+    complete
+    .text       start:0x0208f524 end:0x0208f5a8
+
+src/auto/func_020900ac.c:
+    complete
+    .text       start:0x020900ac end:0x020900e4
+
+src/auto/func_02092e5c.c:
+    complete
+    .text       start:0x02092e5c end:0x02092f30
+
+src/auto/func_02092fc8.c:
+    complete
+    .text       start:0x02092fc8 end:0x0209304c
+
+src/auto/func_020930a0.c:
+    complete
+    .text       start:0x020930a0 end:0x02093124
+
+src/auto/func_020a9f20.c:
+    complete
+    .text       start:0x020a9f20 end:0x020a9f74
+
+src/auto/func_020b6538.c:
+    complete
+    .text       start:0x020b6538 end:0x020b6564
+
+src/auto/func_020b65cc.c:
+    complete
+    .text       start:0x020b65cc end:0x020b6600
+
+src/auto/func_020b7e84.c:
+    complete
+    .text       start:0x020b7e84 end:0x020b7ed0
+
+src/auto/func_020b7ed0.c:
+    complete
+    .text       start:0x020b7ed0 end:0x020b7f1c
+
+src/auto/func_020b8028.c:
+    complete
+    .text       start:0x020b8028 end:0x020b8068
+
+src/auto/func_020b8068.c:
+    complete
+    .text       start:0x020b8068 end:0x020b80a8
+
+src/auto/func_020b80a8.c:
+    complete
+    .text       start:0x020b80a8 end:0x020b80e0
+
+src/auto/func_020b80e0.c:
+    complete
+    .text       start:0x020b80e0 end:0x020b8118
+
+src/auto/func_020b8760.c:
+    complete
+    .text       start:0x020b8760 end:0x020b87a4
+
+src/auto/func_020b88f4.c:
+    complete
+    .text       start:0x020b88f4 end:0x020b8938
+
+src/auto/func_020c0050.c:
+    complete
+    .text       start:0x020c0050 end:0x020c007c
+
+src/auto/func_020d05b8.c:
+    complete
+    .text       start:0x020d05b8 end:0x020d05e4
+
+src/auto/func_020d05e4.c:
+    complete
+    .text       start:0x020d05e4 end:0x020d060c
+
+src/auto/func_020d060c.c:
+    complete
+    .text       start:0x020d060c end:0x020d063c
+
+src/auto/func_020d063c.c:
+    complete
+    .text       start:0x020d063c end:0x020d0670
+
+src/auto/func_020d0870.c:
+    complete
+    .text       start:0x020d0870 end:0x020d08b4
+
+src/auto/func_020ddce0.c:
+    complete
+    .text       start:0x020ddce0 end:0x020ddd2c
+
+src/auto/func_020dde08.c:
+    complete
+    .text       start:0x020dde08 end:0x020dde58
+
+src/auto/func_02044f50.c:
+    complete
+    .text       start:0x02044f50 end:0x02045018
+
+src/auto/func_02045018.c:
+    complete
+    .text       start:0x02045018 end:0x02045064
+
+src/auto/func_02045cfc.c:
+    complete
+    .text       start:0x02045cfc end:0x02045e04
+
+src/auto/func_0204663c.c:
+    complete
+    .text       start:0x0204663c end:0x02046700
+
+src/auto/func_0204ab70.c:
+    complete
+    .text       start:0x0204ab70 end:0x0204acc4
+
+src/auto/func_02057794.c:
+    complete
+    .text       start:0x02057794 end:0x020577ec
+
+src/auto/func_0205e274.c:
+    complete
+    .text       start:0x0205e274 end:0x0205e350
