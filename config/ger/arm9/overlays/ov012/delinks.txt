@@ -27,3 +27,15 @@ src/auto/func_ov012_021f9198.c:
 src/auto/func_ov012_021f91a0.c:
     complete
     .text       start:0x021f91a0 end:0x021f91a8
+
+src/data/ov012_data_021f9200.c:
+    complete
+    .data       start:0x021f9200 end:0x021f9208
+
+src/data/ov012_data_021f92c4.c:
+    complete
+    .data       start:0x021f92c4 end:0x021f92c8
+
+src/data/ov012_data_021f97ec.c:
+    complete
+    .data       start:0x021f97ec end:0x021f9814

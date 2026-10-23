@@ -35,3 +35,27 @@ src/auto/func_ov011_021fc67c.c:
 src/auto/func_ov011_021fc688.c:
     complete
     .text       start:0x021fc688 end:0x021fc690
+
+src/data/ov011_rodata_021fe138.c:
+    complete
+    .rodata     start:0x021fe138 end:0x021fe13c
+
+src/data/ov011_data_021fe25c.c:
+    complete
+    .data       start:0x021fe25c end:0x021fe26c
+
+src/data/ov011_data_021fe818.c:
+    complete
+    .data       start:0x021fe818 end:0x021fe820
+
+src/data/ov011_data_021fe884.c:
+    complete
+    .data       start:0x021fe884 end:0x021fe8a4
+
+src/data/ov011_data_021ff2c4.c:
+    complete
+    .data       start:0x021ff2c4 end:0x021ff2cc
+
+src/data/ov011_data_021ff2d8.c:
+    complete
+    .data       start:0x021ff2d8 end:0x021ff2dc

@@ -43,3 +43,11 @@ src/auto/func_ov005_021f7ea8.c:
 src/auto/func_ov005_021f88c8.c:
     complete
     .text       start:0x021f88c8 end:0x021f88d4
+
+src/data/ov005_data_02206448.c:
+    complete
+    .data       start:0x02206448 end:0x0220646c
+
+src/data/ov005_data_0220646c.c:
+    complete
+    .data       start:0x0220646c end:0x02206488

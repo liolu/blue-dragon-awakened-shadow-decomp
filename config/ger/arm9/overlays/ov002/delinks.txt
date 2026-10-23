@@ -35,3 +35,27 @@ src/auto/func_ov002_021fb3b4.c:
 src/auto/func_ov002_021fb3bc.c:
     complete
     .text       start:0x021fb3bc end:0x021fb3c8
+
+src/data/ov002_rodata_021fdc68.c:
+    complete
+    .rodata     start:0x021fdc68 end:0x021fdc6c
+
+src/data/ov002_data_021fdd80.c:
+    complete
+    .data       start:0x021fdd80 end:0x021fdd88
+
+src/data/ov002_data_021fde00.c:
+    complete
+    .data       start:0x021fde00 end:0x021fde18
+
+src/data/ov002_data_021fde18.c:
+    complete
+    .data       start:0x021fde18 end:0x021fde38
+
+src/data/ov002_data_021fdfb4.c:
+    complete
+    .data       start:0x021fdfb4 end:0x021fdfb8
+
+src/data/ov002_data_021fef14.c:
+    complete
+    .data       start:0x021fef14 end:0x021fef18
