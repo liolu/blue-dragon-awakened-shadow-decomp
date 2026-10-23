@@ -3,3 +3,43 @@
     .ctor       start:0x02206438 end:0x02206438 kind:rodata align:4
     .data       start:0x02206440 end:0x022064a0 kind:data align:32
     .bss        start:0x022064a0 end:0x02206540 kind:bss align:32
+
+src/auto/func_ov005_021f6a9c.c:
+    complete
+    .text       start:0x021f6a9c end:0x021f6aa8
+
+src/auto/func_ov005_021f6aa8.c:
+    complete
+    .text       start:0x021f6aa8 end:0x021f6ab4
+
+src/auto/func_ov005_021f7204.c:
+    complete
+    .text       start:0x021f7204 end:0x021f720c
+
+src/auto/func_ov005_021f720c.c:
+    complete
+    .text       start:0x021f720c end:0x021f7214
+
+src/auto/func_ov005_021f7214.c:
+    complete
+    .text       start:0x021f7214 end:0x021f721c
+
+src/auto/func_ov005_021f7714.c:
+    complete
+    .text       start:0x021f7714 end:0x021f7720
+
+src/auto/func_ov005_021f7720.c:
+    complete
+    .text       start:0x021f7720 end:0x021f772c
+
+src/auto/func_ov005_021f77b0.c:
+    complete
+    .text       start:0x021f77b0 end:0x021f7820
+
+src/auto/func_ov005_021f7ea8.c:
+    complete
+    .text       start:0x021f7ea8 end:0x021f7eb0
+
+src/auto/func_ov005_021f88c8.c:
+    complete
+    .text       start:0x021f88c8 end:0x021f88d4

@@ -1,0 +1,5 @@
+#include "m2c.h"
+
+s32 func_ov000_021b7a40(void) {
+    return 1;
+}

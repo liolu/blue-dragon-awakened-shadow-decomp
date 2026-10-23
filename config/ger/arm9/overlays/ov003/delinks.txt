@@ -4,3 +4,31 @@
     .ctor       start:0x0220bd74 end:0x0220bd78 kind:rodata align:4
     .data       start:0x0220bd80 end:0x02210ca0 kind:data align:32
     .bss        start:0x02210ca0 end:0x02211cc0 kind:bss align:32
+
+src/auto/func_ov003_021fb388.c:
+    complete
+    .text       start:0x021fb388 end:0x021fb390
+
+src/auto/func_ov003_02202b7c.c:
+    complete
+    .text       start:0x02202b7c end:0x02202b84
+
+src/auto/func_ov003_02202b88.c:
+    complete
+    .text       start:0x02202b88 end:0x02202b94
+
+src/auto/func_ov003_02202c34.c:
+    complete
+    .text       start:0x02202c34 end:0x02202c3c
+
+src/auto/func_ov003_02202c50.c:
+    complete
+    .text       start:0x02202c50 end:0x02202c58
+
+src/auto/func_ov003_02202c58.c:
+    complete
+    .text       start:0x02202c58 end:0x02202c60
+
+src/auto/func_ov003_02202c60.c:
+    complete
+    .text       start:0x02202c60 end:0x02202c68

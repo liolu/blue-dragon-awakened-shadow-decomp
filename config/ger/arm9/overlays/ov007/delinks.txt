@@ -4,3 +4,79 @@
     .ctor       start:0x021fe3cc end:0x021fe3d0 kind:rodata align:4
     .data       start:0x021fe3e0 end:0x021fef60 kind:data align:32
     .bss        start:0x021fef60 end:0x021ff800 kind:bss align:32
+
+src/auto/func_ov007_021f6878.c:
+    complete
+    .text       start:0x021f6878 end:0x021f6888
+
+src/auto/func_ov007_021f80b0.c:
+    complete
+    .text       start:0x021f80b0 end:0x021f80b8
+
+src/auto/func_ov007_021f83e4.c:
+    complete
+    .text       start:0x021f83e4 end:0x021f83ec
+
+src/auto/func_ov007_021f83ec.c:
+    complete
+    .text       start:0x021f83ec end:0x021f83f4
+
+src/auto/func_ov007_021f83f4.c:
+    complete
+    .text       start:0x021f83f4 end:0x021f83fc
+
+src/auto/func_ov007_021f83fc.c:
+    complete
+    .text       start:0x021f83fc end:0x021f8404
+
+src/auto/func_ov007_021f8404.c:
+    complete
+    .text       start:0x021f8404 end:0x021f840c
+
+src/auto/func_ov007_021fa0f0.c:
+    complete
+    .text       start:0x021fa0f0 end:0x021fa0f8
+
+src/auto/func_ov007_021fa10c.c:
+    complete
+    .text       start:0x021fa10c end:0x021fa114
+
+src/auto/func_ov007_021fa114.c:
+    complete
+    .text       start:0x021fa114 end:0x021fa11c
+
+src/auto/func_ov007_021fa11c.c:
+    complete
+    .text       start:0x021fa11c end:0x021fa124
+
+src/auto/func_ov007_021fa834.c:
+    complete
+    .text       start:0x021fa834 end:0x021fa83c
+
+src/auto/func_ov007_021fa83c.c:
+    complete
+    .text       start:0x021fa83c end:0x021fa848
+
+src/auto/func_ov007_021fa8a4.c:
+    complete
+    .text       start:0x021fa8a4 end:0x021fa8ac
+
+src/auto/func_ov007_021fa8ac.c:
+    complete
+    .text       start:0x021fa8ac end:0x021fa8b4
+
+src/auto/func_ov007_021fd368.c:
+    complete
+    .text       start:0x021fd368 end:0x021fd370
+
+src/auto/func_ov007_021fe320.c:
+    complete
+    .text       start:0x021fe320 end:0x021fe328
+
+src/auto/func_ov007_021fe328.c:
+    complete
+    .text       start:0x021fe328 end:0x021fe330
+
+src/auto/func_ov007_021fe330.c:
+    complete
+    .text       start:0x021fe330 end:0x021fe338

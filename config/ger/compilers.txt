@@ -800,3 +800,12 @@ src/auto/func_020d063c.c 2.0/sp1p5 -O4,s
 src/auto/func_020d0870.c 2.0/sp1p5 -O2
 src/auto/func_020ddce0.c 2.0/sp1p5 -O4,s
 src/auto/func_020dde08.c 2.0/sp1p5 -O4,s
+src/auto/func_ov001_021685e0.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_02169160.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_02169370.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_02169414.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_02169454.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_0216952c.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_0216b25c.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_0216b330.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_0216d704.c 2.0/sp1p5 -thumb
