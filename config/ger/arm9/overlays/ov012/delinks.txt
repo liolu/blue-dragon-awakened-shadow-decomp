@@ -39,3 +39,11 @@ src/data/ov012_data_021f92c4.c:
 src/data/ov012_data_021f97ec.c:
     complete
     .data       start:0x021f97ec end:0x021f9814
+
+src/auto/func_ov012_021f91ac.c:
+    complete
+    .text       start:0x021f91ac end:0x021f91c0
+
+src/auto/func_ov012_021f91c0.c:
+    complete
+    .text       start:0x021f91c0 end:0x021f91dc

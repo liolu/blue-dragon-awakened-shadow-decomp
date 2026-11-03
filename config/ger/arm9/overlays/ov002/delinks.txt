@@ -59,3 +59,7 @@ src/data/ov002_data_021fdfb4.c:
 src/data/ov002_data_021fef14.c:
     complete
     .data       start:0x021fef14 end:0x021fef18
+
+src/auto/func_ov002_021fa6a4.c:
+    complete
+    .text       start:0x021fa6a4 end:0x021fa6c0

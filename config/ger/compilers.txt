@@ -812,3 +812,47 @@ src/auto/func_ov001_0216d704.c 2.0/sp1p5 -thumb
 src/auto/func_0203d7d4.c 1.2/sp3
 src/auto/func_0203d958.c 1.2/sp3
 src/auto/CPS_SslReadRelease.c 1.2/sp3
+src/auto/func_ov000_021ad674.c 1.2/sp2p3
+src/auto/func_ov000_021b8584.c 1.2/sp2p3
+src/auto/func_ov000_021b85ac.c 1.2/sp2p3
+src/auto/func_ov000_021bdb90.c 1.2/sp2p3
+src/auto/func_ov000_021c24b0.c 1.2/sp2p3
+src/auto/func_ov001_02167e08.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_02168154.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_02168294.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_02168448.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_0216872c.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_02168aac.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_02168e18.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_02168e6c.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_02168f2c.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_02168fa8.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_02169030.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_02169094.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_021690c0.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_02169100.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_02169128.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_02169340.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_0216937c.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_021693e4.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_021693f8.c 1.2/sp3 -thumb
+src/auto/func_ov001_0216940c.c 1.2/sp3 -thumb
+src/auto/func_ov001_0216943c.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_0216947c.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_021695b8.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_02169af0.c 1.2/sp3 -thumb
+src/auto/func_ov001_02169e2c.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_0216a4dc.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_0216afbc.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_0216b01c.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_0216b08c.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_0216b0dc.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_0216b234.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_0216c0c0.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_0216ccf0.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_0216d604.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_0216d630.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_0216d65c.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_0216d674.c 2.0/sp1p5 -thumb
+src/auto/func_ov001_0216d68c.c 2.0/sp1p5 -thumb
+src/auto/func_ov007_021f83dc.c 2.0/sp1p5 -O2,p

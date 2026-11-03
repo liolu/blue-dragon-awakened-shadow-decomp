@@ -80,3 +80,23 @@ src/data/ov009_data_022062c8.c:
 src/data/ov009_data_0220630c.c:
     complete
     .data       start:0x0220630c end:0x02206310
+
+src/auto/func_ov009_021f77ac.c:
+    complete
+    .text       start:0x021f77ac end:0x021f77bc
+
+src/auto/func_ov009_021f860c.c:
+    complete
+    .text       start:0x021f860c end:0x021f8624
+
+src/auto/func_ov009_021fafc0.c:
+    complete
+    .text       start:0x021fafc0 end:0x021fafd0
+
+src/auto/func_ov009_022053c0.c:
+    complete
+    .text       start:0x022053c0 end:0x022053c8
+
+src/auto/func_ov009_02205718.c:
+    complete
+    .text       start:0x02205718 end:0x02205720

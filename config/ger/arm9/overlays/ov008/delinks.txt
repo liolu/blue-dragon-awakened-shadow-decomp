@@ -51,3 +51,19 @@ src/data/ov008_data_021fbde4.c:
 src/data/ov008_data_021fc9c4.c:
     complete
     .data       start:0x021fc9c4 end:0x021fc9ec
+
+src/auto/func_ov008_021fb068.c:
+    complete
+    .text       start:0x021fb068 end:0x021fb084
+
+src/auto/func_ov008_021fb08c.c:
+    complete
+    .text       start:0x021fb08c end:0x021fb0a0
+
+src/auto/func_ov008_021fbb14.c:
+    complete
+    .text       start:0x021fbb14 end:0x021fbb28
+
+src/auto/func_ov008_021fbb28.c:
+    complete
+    .text       start:0x021fbb28 end:0x021fbb44
