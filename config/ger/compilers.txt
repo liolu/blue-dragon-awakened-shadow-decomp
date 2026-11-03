@@ -809,3 +809,6 @@ src/auto/func_ov001_0216952c.c 2.0/sp1p5 -thumb
 src/auto/func_ov001_0216b25c.c 2.0/sp1p5 -thumb
 src/auto/func_ov001_0216b330.c 2.0/sp1p5 -thumb
 src/auto/func_ov001_0216d704.c 2.0/sp1p5 -thumb
+src/auto/func_0203d7d4.c 1.2/sp3
+src/auto/func_0203d958.c 1.2/sp3
+src/auto/CPS_SslReadRelease.c 1.2/sp3

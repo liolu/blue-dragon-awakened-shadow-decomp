@@ -20173,3 +20173,307 @@ src/data/main_rodata_020e38c8.c:
 src/data/main_rodata_020e4d4c.c:
     complete
     .rodata     start:0x020e4d4c end:0x020e4d50
+
+src/auto/func_0203cbb4.c:
+    complete
+    .text       start:0x0203cbb4 end:0x0203cc04
+
+src/auto/func_0203d46c.c:
+    complete
+    .text       start:0x0203d46c end:0x0203d490
+
+src/auto/func_0203d7d4.c:
+    complete
+    .text       start:0x0203d7d4 end:0x0203d820
+
+src/auto/func_0203d958.c:
+    complete
+    .text       start:0x0203d958 end:0x0203d9f4
+
+src/auto/CPS_SslReadRelease.c:
+    complete
+    .text       start:0x0203f44c end:0x0203f49c
+
+src/auto/Sha1ExpandWord.c:
+    complete
+    .text       start:0x0203ff28 end:0x0203ff6c
+
+src/auto/BigInti_GetLength.c:
+    complete
+    .text       start:0x02040904 end:0x0204092c
+
+src/auto/BigInti_Compare.c:
+    complete
+    .text       start:0x02040bac end:0x02040be4
+
+src/auto/func_0204170c.c:
+    complete
+    .text       start:0x0204170c end:0x02041750
+
+src/auto/func_0204465c.c:
+    complete
+    .text       start:0x0204465c end:0x02044698
+
+src/auto/func_02045388.c:
+    complete
+    .text       start:0x02045388 end:0x020454c4
+
+src/auto/func_02045784.c:
+    complete
+    .text       start:0x02045784 end:0x0204580c
+
+src/auto/func_0204580c.c:
+    complete
+    .text       start:0x0204580c end:0x0204589c
+
+src/auto/func_02045bb0.c:
+    complete
+    .text       start:0x02045bb0 end:0x02045c10
+
+src/auto/func_02045c10.c:
+    complete
+    .text       start:0x02045c10 end:0x02045cfc
+
+src/auto/func_02045e04.c:
+    complete
+    .text       start:0x02045e04 end:0x02045e94
+
+src/auto/func_020460ac.c:
+    complete
+    .text       start:0x020460ac end:0x02046114
+
+src/auto/func_02046114.c:
+    complete
+    .text       start:0x02046114 end:0x020461f4
+
+src/auto/func_02046330.c:
+    complete
+    .text       start:0x02046330 end:0x02046458
+
+src/auto/func_02046458.c:
+    complete
+    .text       start:0x02046458 end:0x02046578
+
+src/auto/func_02046578.c:
+    complete
+    .text       start:0x02046578 end:0x0204663c
+
+src/auto/func_02049e8c.c:
+    complete
+    .text       start:0x02049e8c end:0x02049fa8
+
+src/auto/func_0204a23c.c:
+    complete
+    .text       start:0x0204a23c end:0x0204a324
+
+src/auto/func_0204a640.c:
+    complete
+    .text       start:0x0204a640 end:0x0204a6f4
+
+src/auto/func_0204a7b4.c:
+    complete
+    .text       start:0x0204a7b4 end:0x0204a890
+
+src/auto/func_0204aa30.c:
+    complete
+    .text       start:0x0204aa30 end:0x0204aa88
+
+src/auto/func_0204aac8.c:
+    complete
+    .text       start:0x0204aac8 end:0x0204ab70
+
+src/auto/func_0204acc4.c:
+    complete
+    .text       start:0x0204acc4 end:0x0204ae18
+
+src/auto/func_0204b0b8.c:
+    complete
+    .text       start:0x0204b0b8 end:0x0204b110
+
+src/auto/DWC_SetCommonKeyValueString.c:
+    complete
+    .text       start:0x0204d3f4 end:0x0204d42c
+
+src/auto/DWC_GetCommonValueString.c:
+    complete
+    .text       start:0x0204d46c end:0x0204d568
+
+src/auto/func_0204e368.c:
+    complete
+    .text       start:0x0204e368 end:0x0204e430
+
+src/auto/func_0204e7cc.c:
+    complete
+    .text       start:0x0204e7cc end:0x0204e870
+
+src/auto/func_0205277c.c:
+    complete
+    .text       start:0x0205277c end:0x020529c4
+
+src/auto/func_02052c48.c:
+    complete
+    .text       start:0x02052c48 end:0x02052ccc
+
+src/auto/func_02052f9c.c:
+    complete
+    .text       start:0x02052f9c end:0x02053118
+
+src/auto/func_02053358.c:
+    complete
+    .text       start:0x02053358 end:0x020533ac
+
+src/auto/func_02055df0.c:
+    complete
+    .text       start:0x02055df0 end:0x02055ec8
+
+src/auto/func_020561f8.c:
+    complete
+    .text       start:0x020561f8 end:0x020562dc
+
+src/auto/func_02056e54.c:
+    complete
+    .text       start:0x02056e54 end:0x02056f90
+
+src/auto/func_02057080.c:
+    complete
+    .text       start:0x02057080 end:0x020572f0
+
+src/auto/func_02057594.c:
+    complete
+    .text       start:0x02057594 end:0x02057794
+
+src/auto/func_0205785c.c:
+    complete
+    .text       start:0x0205785c end:0x020578cc
+
+src/auto/func_020579a8.c:
+    complete
+    .text       start:0x020579a8 end:0x02057a0c
+
+src/auto/func_02057a98.c:
+    complete
+    .text       start:0x02057a98 end:0x02057b08
+
+src/auto/func_0205803c.c:
+    complete
+    .text       start:0x0205803c end:0x02058124
+
+src/auto/func_02058124.c:
+    complete
+    .text       start:0x02058124 end:0x02058180
+
+src/auto/func_020581e0.c:
+    complete
+    .text       start:0x020581e0 end:0x02058284
+
+src/auto/func_020589e4.c:
+    complete
+    .text       start:0x020589e4 end:0x02058b2c
+
+src/auto/func_02058b34.c:
+    complete
+    .text       start:0x02058b34 end:0x02058bd8
+
+src/auto/func_02058cc0.c:
+    complete
+    .text       start:0x02058cc0 end:0x02058dcc
+
+src/auto/func_020598d0.c:
+    complete
+    .text       start:0x020598d0 end:0x0205990c
+
+src/auto/func_0205990c.c:
+    complete
+    .text       start:0x0205990c end:0x0205992c
+
+src/auto/func_0205c108.c:
+    complete
+    .text       start:0x0205c108 end:0x0205c168
+
+src/auto/func_0205c168.c:
+    complete
+    .text       start:0x0205c168 end:0x0205c1b4
+
+src/auto/recvfrom.c:
+    complete
+    .text       start:0x0205c1c8 end:0x0205c1f8
+
+src/auto/GSISocketSelect.c:
+    complete
+    .text       start:0x0205c2bc end:0x0205c3b4
+
+src/auto/func_0205cb70.c:
+    complete
+    .text       start:0x0205cb70 end:0x0205cbe4
+
+src/auto/func_0205cd2c.c:
+    complete
+    .text       start:0x0205cd2c end:0x0205cde4
+
+src/auto/gpSetCallback.c:
+    complete
+    .text       start:0x0205e024 end:0x0205e074
+
+src/auto/func_0205e074.c:
+    complete
+    .text       start:0x0205e074 end:0x0205e178
+
+src/auto/func_0205e350.c:
+    complete
+    .text       start:0x0205e350 end:0x0205e3a0
+
+src/auto/func_020621fc.c:
+    complete
+    .text       start:0x020621fc end:0x020622e4
+
+src/auto/randomString.c:
+    complete
+    .text       start:0x020622e4 end:0x0206234c
+
+src/auto/gpiGetInfo.c:
+    complete
+    .text       start:0x02065420 end:0x020655c4
+
+src/auto/func_020678b8.c:
+    complete
+    .text       start:0x020678b8 end:0x02067a18
+
+src/auto/func_0206a7a4.c:
+    complete
+    .text       start:0x0206a7a4 end:0x0206a8a8
+
+src/auto/func_0206a8a8.c:
+    complete
+    .text       start:0x0206a8a8 end:0x0206a9ac
+
+src/auto/ProcessSetData.c:
+    complete
+    .text       start:0x0206b944 end:0x0206b9dc
+
+src/auto/gti2StoreOutgoingReliableMessageInfo.c:
+    complete
+    .text       start:0x0206ea38 end:0x0206eaac
+
+src/auto/gt2AddressToString.c:
+    complete
+    .text       start:0x0206fc70 end:0x0206fd20
+
+src/auto/func_02071ab0.c:
+    complete
+    .text       start:0x02071ab0 end:0x02071b5c
+
+src/auto/func_02071ccc.c:
+    complete
+    .text       start:0x02071ccc end:0x02071d50
+
+src/auto/func_02071ea0.c:
+    complete
+    .text       start:0x02071ea0 end:0x02071f48
+
+src/auto/func_02072b58.c:
+    complete
+    .text       start:0x02072b58 end:0x02072bbc
+
+src/auto/ParseSingleGOAReply.c:
+    complete
+    .text       start:0x02073f04 end:0x02073f9c
