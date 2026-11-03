@@ -47,3 +47,27 @@ src/auto/func_ov012_021f91ac.c:
 src/auto/func_ov012_021f91c0.c:
     complete
     .text       start:0x021f91c0 end:0x021f91dc
+
+src/data/ov012_data_021f927c.c:
+    complete
+    .data       start:0x021f927c end:0x021f9284
+
+src/data/ov012_data_021f9284.c:
+    complete
+    .data       start:0x021f9284 end:0x021f9288
+
+src/data/ov012_data_021f9290.c:
+    complete
+    .data       start:0x021f9290 end:0x021f9294
+
+src/data/ov012_data_021f9298.c:
+    complete
+    .data       start:0x021f9298 end:0x021f929c
+
+src/data/ov012_data_021f92bc.c:
+    complete
+    .data       start:0x021f92bc end:0x021f92c0
+
+src/data/ov012_data_021f9814.c:
+    complete
+    .data       start:0x021f9814 end:0x021f984c

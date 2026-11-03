@@ -140,3 +140,35 @@ src/auto/func_ov007_021fca40.c:
 src/auto/func_ov007_021fca4c.c:
     complete
     .text       start:0x021fca4c end:0x021fca58
+
+src/data/ov007_data_021fe3e8.c:
+    complete
+    .data       start:0x021fe3e8 end:0x021fe3f4
+
+src/data/ov007_data_021fe544.c:
+    complete
+    .data       start:0x021fe544 end:0x021fe548
+
+src/data/ov007_data_021fe548.c:
+    complete
+    .data       start:0x021fe548 end:0x021fe54c
+
+src/data/ov007_data_021fe58c.c:
+    complete
+    .data       start:0x021fe58c end:0x021fe590
+
+src/data/ov007_data_021fea98.c:
+    complete
+    .data       start:0x021fea98 end:0x021feaa0
+
+src/data/ov007_data_021feab0.c:
+    complete
+    .data       start:0x021feab0 end:0x021feae8
+
+src/data/ov007_data_021feb30.c:
+    complete
+    .data       start:0x021feb30 end:0x021feb44
+
+src/data/ov007_data_021feccc.c:
+    complete
+    .data       start:0x021feccc end:0x021fecd8

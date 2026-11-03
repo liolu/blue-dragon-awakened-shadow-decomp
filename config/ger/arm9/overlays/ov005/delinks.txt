@@ -71,3 +71,7 @@ src/auto/func_ov005_021f88b4.c:
 src/auto/func_ov005_021f8b6c.c:
     complete
     .text       start:0x021f8b6c end:0x021f8b80
+
+src/data/ov005_rodata_02205f90.c:
+    complete
+    .rodata     start:0x02205f90 end:0x02206110

@@ -100,3 +100,35 @@ src/auto/func_ov009_022053c0.c:
 src/auto/func_ov009_02205718.c:
     complete
     .text       start:0x02205718 end:0x02205720
+
+src/data/ov009_data_022058e0.c:
+    complete
+    .data       start:0x022058e0 end:0x02205908
+
+src/data/ov009_data_02205ec8.c:
+    complete
+    .data       start:0x02205ec8 end:0x02205ecc
+
+src/data/ov009_data_02205ecc.c:
+    complete
+    .data       start:0x02205ecc end:0x02205ed0
+
+src/data/ov009_data_02205ed0.c:
+    complete
+    .data       start:0x02205ed0 end:0x02205ed4
+
+src/data/ov009_data_02205f14.c:
+    complete
+    .data       start:0x02205f14 end:0x02205f18
+
+src/data/ov009_data_02206208.c:
+    complete
+    .data       start:0x02206208 end:0x02206238
+
+src/data/ov009_data_02206238.c:
+    complete
+    .data       start:0x02206238 end:0x02206268
+
+src/data/ov009_data_02206268.c:
+    complete
+    .data       start:0x02206268 end:0x02206298

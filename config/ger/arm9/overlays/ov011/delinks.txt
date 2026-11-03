@@ -63,3 +63,43 @@ src/data/ov011_data_021ff2d8.c:
 src/auto/func_ov011_021f7bc4.c:
     complete
     .text       start:0x021f7bc4 end:0x021f7be0
+
+src/data/ov011_data_021fe26c.c:
+    complete
+    .data       start:0x021fe26c end:0x021fe270
+
+src/data/ov011_data_021fe28c.c:
+    complete
+    .data       start:0x021fe28c end:0x021fe290
+
+src/data/ov011_data_021fe294.c:
+    complete
+    .data       start:0x021fe294 end:0x021fe298
+
+src/data/ov011_data_021fe7d4.c:
+    complete
+    .data       start:0x021fe7d4 end:0x021fe7d8
+
+src/data/ov011_data_021fe7d8.c:
+    complete
+    .data       start:0x021fe7d8 end:0x021fe7dc
+
+src/data/ov011_data_021fe8b0.c:
+    complete
+    .data       start:0x021fe8b0 end:0x021fe8b4
+
+src/data/ov011_data_021fe8dc.c:
+    complete
+    .data       start:0x021fe8dc end:0x021fe8e0
+
+src/data/ov011_data_021fe8f0.c:
+    complete
+    .data       start:0x021fe8f0 end:0x021fe8f4
+
+src/data/ov011_data_021ff240.c:
+    complete
+    .data       start:0x021ff240 end:0x021ff278
+
+src/data/ov011_data_021ff2dc.c:
+    complete
+    .data       start:0x021ff2dc end:0x021ff2e0

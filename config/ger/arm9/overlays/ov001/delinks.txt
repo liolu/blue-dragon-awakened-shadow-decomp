@@ -1779,3 +1779,87 @@ src/auto/func_ov001_0218f810.c:
 src/auto/func_ov001_0218f82c.c:
     complete
     .text       start:0x0218f82c end:0x0218f840
+
+src/data/ov001_rodata_0218fd18.c:
+    complete
+    .rodata     start:0x0218fd18 end:0x0218fd1c
+
+src/data/ov001_rodata_02193018.c:
+    complete
+    .rodata     start:0x02193018 end:0x02193024
+
+src/data/ov001_rodata_02193024.c:
+    complete
+    .rodata     start:0x02193024 end:0x02193030
+
+src/data/ov001_data_021930c4.c:
+    complete
+    .data       start:0x021930c4 end:0x021930cc
+
+src/data/ov001_data_02193900.c:
+    complete
+    .data       start:0x02193900 end:0x02193920
+
+src/data/ov001_data_02193f44.c:
+    complete
+    .data       start:0x02193f44 end:0x02193f58
+
+src/data/ov001_data_02193f58.c:
+    complete
+    .data       start:0x02193f58 end:0x02193f6c
+
+src/data/ov001_data_02193f6c.c:
+    complete
+    .data       start:0x02193f6c end:0x02193f84
+
+src/data/ov001_data_02193f84.c:
+    complete
+    .data       start:0x02193f84 end:0x02193f9c
+
+src/data/ov001_data_02194040.c:
+    complete
+    .data       start:0x02194040 end:0x0219405c
+
+src/data/ov001_data_02194078.c:
+    complete
+    .data       start:0x02194078 end:0x02194094
+
+src/data/ov001_data_021940cc.c:
+    complete
+    .data       start:0x021940cc end:0x021940e8
+
+src/data/ov001_data_021940e8.c:
+    complete
+    .data       start:0x021940e8 end:0x02194104
+
+src/data/ov001_data_02194104.c:
+    complete
+    .data       start:0x02194104 end:0x02194120
+
+src/data/ov001_data_0219413c.c:
+    complete
+    .data       start:0x0219413c end:0x02194158
+
+src/data/ov001_data_02194158.c:
+    complete
+    .data       start:0x02194158 end:0x02194174
+
+src/data/ov001_data_02194174.c:
+    complete
+    .data       start:0x02194174 end:0x02194190
+
+src/data/ov001_data_021941b0.c:
+    complete
+    .data       start:0x021941b0 end:0x021941d0
+
+src/data/ov001_data_021941d0.c:
+    complete
+    .data       start:0x021941d0 end:0x021941f0
+
+src/data/ov001_data_021941f0.c:
+    complete
+    .data       start:0x021941f0 end:0x02194210
+
+src/data/ov001_data_02194610.c:
+    complete
+    .data       start:0x02194610 end:0x02194620
